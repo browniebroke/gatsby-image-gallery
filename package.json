@@ -19,10 +19,10 @@
     "url": "git+https://github.com/browniebroke/gatsby-image-gallery.git"
   },
   "keywords": [
-    "gatsby",
     "gallery",
-    "image",
-    "gatsby-image"
+    "gatsby",
+    "gatsby-image",
+    "image"
   ],
   "bugs": {
     "url": "https://github.com/browniebroke/gatsby-image-gallery/issues"
@@ -33,6 +33,16 @@
     "eslint-config-prettier": "3.3.0",
     "eslint-plugin-prettier": "3.0.1",
     "eslint-plugin-react": "7.12.1",
-    "prettier": "1.15.3"
+    "gatsby-image": "2.0.25",
+    "prettier": "1.15.3",
+    "react": "16.7.0",
+    "react-dom": "16.7.0"
+  },
+  "dependencies": {
+    "react-image-lightbox": "5.1.0"
+  },
+  "peerDependencies": {
+    "gatsby-image": ">= 2.0",
+    "react": ">= 16.0"
   }
 }
