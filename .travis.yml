@@ -3,7 +3,7 @@ language: node_js
 matrix:
   include:
     - name: Build
-      script: yarn run build
+      script: yarn run build-dev
     - name: Bundle size
       script: yarn run bundlesize
     - name: Lint

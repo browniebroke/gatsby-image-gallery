@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     filename: 'index.js',
     library: 'Gallery',
-    libraryTarget: 'commonjs',
+    libraryTarget: 'umd',
   },
   externals: [nodeExternals()],
   module: {
@@ -19,6 +19,10 @@ module.exports = {
         options: {
           presets: ['@babel/preset-env', '@babel/preset-react'],
         },
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
