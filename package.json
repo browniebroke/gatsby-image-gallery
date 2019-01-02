@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "prettier --write \"**/*.+(js|jsx|json|css|scss)\""
+    "lint": "prettier --write \"**/*.+(js|jsx|json|css|scss)\""
   },
   "bundlesize": [
     {
