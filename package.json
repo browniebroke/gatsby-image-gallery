@@ -1,0 +1,38 @@
+{
+  "name": "@browniebroke/gatsby-image-gallery",
+  "description": "Very basic gallery grid based on gatsby-image.",
+  "version": "0.1.0",
+  "author": "Bruno Alla <alla.brunoo@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "prettier --write \"**/*.+(js|jsx|json|css|scss)\""
+  },
+  "bundlesize": [
+    {
+      "path": "./index.js",
+      "maxSize": "3 kB"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/browniebroke/gatsby-image-gallery.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gallery",
+    "image",
+    "gatsby-image"
+  ],
+  "bugs": {
+    "url": "https://github.com/browniebroke/gatsby-image-gallery/issues"
+  },
+  "homepage": "https://github.com/browniebroke/gatsby-image-gallery#readme",
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.1",
+    "prettier": "^1.15.3"
+  }
+}
