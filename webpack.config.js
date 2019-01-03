@@ -2,14 +2,14 @@ let path = require('path')
 var nodeExternals = require('webpack-node-externals')
 
 module.exports = {
-  entry: path.resolve(__dirname, 'src/index.js'),
+  entry: path.resolve(__dirname, 'src/index.jsx'),
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
     library: 'Gallery',
     libraryTarget: 'umd',
   },
-  externals: [nodeExternals({importType: 'umd'})],
+  externals: [nodeExternals({ importType: 'umd' })],
   module: {
     rules: [
       {
