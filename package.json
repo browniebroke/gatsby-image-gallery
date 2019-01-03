@@ -9,7 +9,7 @@
   "scripts": {
     "build-dev": "./node_modules/.bin/webpack --mode=development",
     "build": "./node_modules/.bin/webpack --mode=production",
-    "bundlesize": "bundlesize",
+    "bundlesize": "./node_modules/.bin/bundlesize",
     "prebundlesize": "yarn build",
     "lint": "prettier --write \"**/*.+(js|jsx|json|css|scss)\""
   },
