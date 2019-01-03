@@ -4,5 +4,6 @@
   "major": {
     "automerge": false
   },
+  "semanticCommits": true,
   "supportPolicy": ["current"]
 }
