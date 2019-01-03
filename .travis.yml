@@ -1,10 +1,23 @@
 language: node_js
 
-matrix:
+jobs:
   include:
-    - name: Build
+    - stage: test
+      name: Build
       script: yarn run build-dev
-    - name: Bundle size
+    - # Still on test stage
+      name: Bundle size
       script: yarn run bundlesize
-    - name: Lint
+    - # Still on test stage
+      name: Lint
       script: yarn run lint
+    # Define the release stage that runs semantic-release
+    - stage: deploy
+      # Advanced: optionally overwrite your default `script` step to skip the tests
+      # script: skip
+      if: branch = master
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release
