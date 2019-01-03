@@ -10,6 +10,9 @@
   <a href="https://www.npmjs.com/package/@browniebroke/gatsby-image-gallery">
     <img src="https://img.shields.io/npm/v/@browniebroke/gatsby-image-gallery.svg" alt="Current npm package version." />
   </a>
+  <a href="https://lgtm.com/projects/g/browniebroke/gatsby-image-gallery/alerts/">
+    <img alt="Total alerts" src="https://img.shields.io/lgtm/alerts/g/browniebroke/gatsby-image-gallery.svg?logo=lgtm&logoWidth=18"/>
+  </a>
 </p>
 
 Very basic gallery grid based on gatsby-image
