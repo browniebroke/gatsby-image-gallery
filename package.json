@@ -4,8 +4,8 @@
   "version": "0.2.0",
   "author": "Bruno Alla <alla.brunoo@gmail.com>",
   "license": "MIT",
-  "main": "./dist/lib/index.js",
-  "module": "src/index.js",
+  "main": "./dist/index.js",
+  "module": "./src/index.js",
   "scripts": {
     "build-dev": "webpack --mode=development",
     "build": "webpack --mode=production",
