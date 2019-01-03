@@ -1,7 +1,7 @@
 {
   "name": "@browniebroke/gatsby-image-gallery",
   "description": "Very basic gallery grid based on gatsby-image.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Bruno Alla <alla.brunoo@gmail.com>",
   "license": "MIT",
   "main": "./dist/index.js",
