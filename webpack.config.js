@@ -7,9 +7,9 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     filename: 'index.js',
     library: 'Gallery',
-    libraryTarget: 'commonjs',
+    libraryTarget: 'umd',
   },
-  externals: [nodeExternals()],
+  externals: [nodeExternals({importType: 'umd'})],
   module: {
     rules: [
       {

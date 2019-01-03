@@ -1,5 +1,14 @@
-exports["Gallery"] =
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory(require("gatsby-image"), require("react"), require("react-image-lightbox"), require("react-image-lightbox/style.css"));
+	else if(typeof define === 'function' && define.amd)
+		define(["gatsby-image", "react", "react-image-lightbox", "react-image-lightbox/style.css"], factory);
+	else if(typeof exports === 'object')
+		exports["Gallery"] = factory(require("gatsby-image"), require("react"), require("react-image-lightbox"), require("react-image-lightbox/style.css"));
+	else
+		root["Gallery"] = factory(root["gatsby-image"], root["react"], root["react-image-lightbox"], root["react-image-lightbox/style.css"]);
+})(window, function(__WEBPACK_EXTERNAL_MODULE_gatsby_image__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_image_lightbox__, __WEBPACK_EXTERNAL_MODULE_react_image_lightbox_style_css__) {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -118,7 +127,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Gal
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = require(\"gatsby-image\");\n\n//# sourceURL=webpack://Gallery/external_%22gatsby-image%22?");
+eval("module.exports = __WEBPACK_EXTERNAL_MODULE_gatsby_image__;\n\n//# sourceURL=webpack://Gallery/external_%22gatsby-image%22?");
 
 /***/ }),
 
@@ -129,7 +138,7 @@ eval("module.exports = require(\"gatsby-image\");\n\n//# sourceURL=webpack://Gal
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = require(\"react\");\n\n//# sourceURL=webpack://Gallery/external_%22react%22?");
+eval("module.exports = __WEBPACK_EXTERNAL_MODULE_react__;\n\n//# sourceURL=webpack://Gallery/external_%22react%22?");
 
 /***/ }),
 
@@ -140,7 +149,7 @@ eval("module.exports = require(\"react\");\n\n//# sourceURL=webpack://Gallery/ex
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = require(\"react-image-lightbox\");\n\n//# sourceURL=webpack://Gallery/external_%22react-image-lightbox%22?");
+eval("module.exports = __WEBPACK_EXTERNAL_MODULE_react_image_lightbox__;\n\n//# sourceURL=webpack://Gallery/external_%22react-image-lightbox%22?");
 
 /***/ }),
 
@@ -151,8 +160,9 @@ eval("module.exports = require(\"react-image-lightbox\");\n\n//# sourceURL=webpa
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = require(\"react-image-lightbox/style.css\");\n\n//# sourceURL=webpack://Gallery/external_%22react-image-lightbox/style.css%22?");
+eval("module.exports = __WEBPACK_EXTERNAL_MODULE_react_image_lightbox_style_css__;\n\n//# sourceURL=webpack://Gallery/external_%22react-image-lightbox/style.css%22?");
 
 /***/ })
 
 /******/ });
+});
