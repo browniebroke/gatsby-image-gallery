@@ -4,13 +4,18 @@
   "version": "0.2.0",
   "author": "Bruno Alla <alla.brunoo@gmail.com>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "./dist/lib/index.js",
+  "module": "src/index.js",
   "scripts": {
+    "build-dev": "./node_modules/.bin/webpack --mode=development",
+    "build": "./node_modules/.bin/webpack --mode=production",
+    "bundlesize": "bundlesize",
+    "prebundlesize": "yarn build",
     "lint": "prettier --write \"**/*.+(js|jsx|json|css|scss)\""
   },
   "bundlesize": [
     {
-      "path": "./index.js",
+      "path": "./dist/index.js",
       "maxSize": "3 kB"
     }
   ],
@@ -29,6 +34,10 @@
   },
   "homepage": "https://github.com/browniebroke/gatsby-image-gallery#readme",
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
     "eslint": "5.11.1",
     "eslint-config-prettier": "3.3.0",
     "eslint-plugin-prettier": "3.0.1",
@@ -36,7 +45,10 @@
     "gatsby-image": "2.0.25",
     "prettier": "1.15.3",
     "react": "16.7.0",
-    "react-dom": "16.7.0"
+    "react-dom": "16.7.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
     "react-image-lightbox": "5.1.0"
