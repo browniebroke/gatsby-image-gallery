@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["Gallery"] = factory();
-	else
-		root["Gallery"] = factory();
-})(window, function() {
-return /******/ (function(modules) { // webpackBootstrap
+exports["Gallery"] =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -165,4 +156,3 @@ eval("module.exports = require(\"react-image-lightbox/style.css\");\n\n//# sourc
 /***/ })
 
 /******/ });
-});
