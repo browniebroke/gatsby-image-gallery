@@ -5,7 +5,6 @@
   "author": "Bruno Alla <alla.brunoo@gmail.com>",
   "license": "MIT",
   "main": "./dist/index.js",
-  "module": "./src/index.jsx",
   "scripts": {
     "build-dev": "webpack --mode=development",
     "build": "webpack --mode=production",
