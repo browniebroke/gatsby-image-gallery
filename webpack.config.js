@@ -6,6 +6,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
+    // See https://github.com/webpack/webpack/issues/6522
+    globalObject: "typeof self !== 'undefined' ? self : this",
     library: 'Gallery',
     libraryTarget: 'umd',
   },

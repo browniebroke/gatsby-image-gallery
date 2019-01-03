@@ -7,7 +7,7 @@
 		exports["Gallery"] = factory(require("gatsby-image"), require("react"), require("react-image-lightbox"), require("react-image-lightbox/style.css"));
 	else
 		root["Gallery"] = factory(root["gatsby-image"], root["react"], root["react-image-lightbox"], root["react-image-lightbox/style.css"]);
-})(window, function(__WEBPACK_EXTERNAL_MODULE_gatsby_image__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_image_lightbox__, __WEBPACK_EXTERNAL_MODULE_react_image_lightbox_style_css__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_gatsby_image__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_image_lightbox__, __WEBPACK_EXTERNAL_MODULE_react_image_lightbox_style_css__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
