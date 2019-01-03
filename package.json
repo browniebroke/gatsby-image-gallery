@@ -8,6 +8,7 @@
   "scripts": {
     "build-dev": "webpack --mode=development",
     "build": "webpack --mode=production",
+    "test": "yarn run build",
     "bundlesize": "bundlesize",
     "prebundlesize": "yarn build",
     "lint": "prettier --write \"**/*.+(js|jsx|json|css|scss)\""
@@ -47,6 +48,7 @@
     "prettier": "1.15.3",
     "react": "16.7.0",
     "react-dom": "16.7.0",
+    "semantic-release": "15.13.2",
     "style-loader": "0.23.1",
     "webpack": "4.28.3",
     "webpack-cli": "3.2.0",
