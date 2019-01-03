@@ -8,6 +8,7 @@
   "scripts": {
     "build-dev": "webpack --mode=development",
     "build": "webpack --mode=production",
+    "test": "yarn run build",
     "bundlesize": "bundlesize",
     "prebundlesize": "yarn build",
     "lint": "prettier --write \"**/*.+(js|jsx|json|css|scss)\""
