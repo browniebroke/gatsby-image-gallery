@@ -16,3 +16,10 @@
 </p>
 
 Very basic gallery grid based on gatsby-image
+
+## Development
+
+### Releases
+
+Releases should be automated using [semantic release](https://github.com/semantic-release/semantic-release).
+This library parses the commit log to detect which version number should be bumped.
