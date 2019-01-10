@@ -50,7 +50,7 @@
     "react-dom": "16.7.0",
     "semantic-release": "15.13.2",
     "style-loader": "0.23.1",
-    "webpack": "4.28.3",
+    "webpack": "4.28.4",
     "webpack-cli": "3.2.1",
     "webpack-node-externals": "1.7.2"
   },
