@@ -72,4 +72,27 @@ describe('Gallery component', () => {
     let tree = component.toJSON()
     expect(tree).toMatchSnapshot()
   })
+
+  test('that it renders with a custom column class', () => {
+    const component = renderer.create(
+      <Gallery
+        colClass="col-md-3"
+        images={[
+          '/images/image001.jpg',
+          '/images/image002.jpg',
+          '/images/image003.jpg',
+          '/images/image004.jpg',
+        ]}
+        thumbs={[
+          { fluid: fluidShapeMock('/thumb/image001.jpg') },
+          { fluid: fluidShapeMock('/thumb/image002.jpg') },
+          { fluid: fluidShapeMock('/thumb/image003.jpg') },
+          { fluid: fluidShapeMock('/thumb/image004.jpg') },
+          { fluid: fluidShapeMock('/thumb/image005.jpg') },
+        ]}
+      />
+    )
+    let tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 })
