@@ -11,6 +11,9 @@ jobs:
     - # Still on test stage
       name: Lint
       script: yarn run lint
+    - # Still on test stage
+      name: Test
+      script: yarn test
     # Define the release stage that runs semantic-release
     - stage: deploy
       # Advanced: optionally overwrite your default `script` step to skip the tests
