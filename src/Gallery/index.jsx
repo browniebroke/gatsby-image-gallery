@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 import Lightbox from 'react-image-lightbox'
 import 'react-image-lightbox/style.css'
@@ -66,13 +67,14 @@ class Gallery extends Component {
   }
 
   render() {
+    const { colClass = 'col-md-3 col-sm-6' } = this.props
     return (
       <>
         <div className="row">
           {this.state.thumbs.map((thumbnail, index) => {
             return (
               <div
-                className="col-md-3 col-sm-6 px-0"
+                className={`${colClass} px-0`}
                 key={index}
                 onClick={() => this.openLightBox(index)}
               >
@@ -90,3 +92,9 @@ class Gallery extends Component {
 }
 
 export default Gallery
+
+Gallery.propTypes = {
+  images: PropTypes.array.isRequired,
+  thumbs: PropTypes.array.isRequired,
+  colClass: PropTypes.string,
+}

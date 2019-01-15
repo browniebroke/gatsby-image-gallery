@@ -54,6 +54,7 @@
     "gatsby-image": "2.0.26",
     "jest": "23.6.0",
     "prettier": "1.15.3",
+    "prop-types": "15.6.2",
     "react": "16.7.0",
     "react-dom": "16.7.0",
     "react-test-renderer": "16.7.0",
@@ -68,6 +69,7 @@
   },
   "peerDependencies": {
     "gatsby-image": ">= 2.0",
+    "prop-types": ">= 15.6",
     "react": ">= 16.0"
   }
 }
