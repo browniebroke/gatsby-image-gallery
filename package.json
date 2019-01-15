@@ -8,7 +8,7 @@
   "scripts": {
     "build-dev": "webpack --mode=development",
     "build": "webpack --mode=production",
-    "test": "yarn run build",
+    "test": "jest",
     "bundlesize": "bundlesize",
     "prebundlesize": "yarn build",
     "lint": "prettier --write \"**/*.+(js|jsx|json|css|scss)\""
@@ -19,6 +19,11 @@
       "maxSize": "3 kB"
     }
   ],
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/browniebroke/gatsby-image-gallery.git"
@@ -37,6 +42,8 @@
     "@babel/core": "7.2.2",
     "@babel/preset-env": "7.2.3",
     "@babel/preset-react": "7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "23.6.0",
     "babel-loader": "8.0.5",
     "bundlesize": "0.17.1",
     "css-loader": "2.1.0",
@@ -45,9 +52,11 @@
     "eslint-plugin-prettier": "3.0.1",
     "eslint-plugin-react": "7.12.3",
     "gatsby-image": "2.0.26",
+    "jest": "23.6.0",
     "prettier": "1.15.3",
     "react": "16.7.0",
     "react-dom": "16.7.0",
+    "react-test-renderer": "16.7.0",
     "semantic-release": "15.13.3",
     "style-loader": "0.23.1",
     "webpack": "4.28.4",

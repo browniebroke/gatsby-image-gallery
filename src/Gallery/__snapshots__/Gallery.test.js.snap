@@ -1,0 +1,567 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery component that it renders with data in images & thumbs 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-md-3 col-sm-6 px-0"
+    onClick={[Function]}
+  >
+    <div
+      className="m-1"
+    >
+      <div
+        className="rounded gatsby-image-wrapper"
+        style={
+          Object {
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "paddingBottom": "NaN%",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <source />
+          <img
+            alt=""
+            onLoad={[Function]}
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transition": "opacity 0.5s",
+                "width": "100%",
+              }
+            }
+          />
+        </picture>
+        <noscript
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-md-3 col-sm-6 px-0"
+    onClick={[Function]}
+  >
+    <div
+      className="m-1"
+    >
+      <div
+        className="rounded gatsby-image-wrapper"
+        style={
+          Object {
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "paddingBottom": "NaN%",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <source />
+          <img
+            alt=""
+            onLoad={[Function]}
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transition": "opacity 0.5s",
+                "width": "100%",
+              }
+            }
+          />
+        </picture>
+        <noscript
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-md-3 col-sm-6 px-0"
+    onClick={[Function]}
+  >
+    <div
+      className="m-1"
+    >
+      <div
+        className="rounded gatsby-image-wrapper"
+        style={
+          Object {
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "paddingBottom": "NaN%",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <source />
+          <img
+            alt=""
+            onLoad={[Function]}
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transition": "opacity 0.5s",
+                "width": "100%",
+              }
+            }
+          />
+        </picture>
+        <noscript
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-md-3 col-sm-6 px-0"
+    onClick={[Function]}
+  >
+    <div
+      className="m-1"
+    >
+      <div
+        className="rounded gatsby-image-wrapper"
+        style={
+          Object {
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "paddingBottom": "NaN%",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <source />
+          <img
+            alt=""
+            onLoad={[Function]}
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transition": "opacity 0.5s",
+                "width": "100%",
+              }
+            }
+          />
+        </picture>
+        <noscript
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-md-3 col-sm-6 px-0"
+    onClick={[Function]}
+  >
+    <div
+      className="m-1"
+    >
+      <div
+        className="rounded gatsby-image-wrapper"
+        style={
+          Object {
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "paddingBottom": "NaN%",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <source />
+          <img
+            alt=""
+            onLoad={[Function]}
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transition": "opacity 0.5s",
+                "width": "100%",
+              }
+            }
+          />
+        </picture>
+        <noscript
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Gallery component that it renders with data in images 1`] = `
+<div
+  className="row"
+/>
+`;
+
+exports[`Gallery component that it renders with data in thumbs 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-md-3 col-sm-6 px-0"
+    onClick={[Function]}
+  >
+    <div
+      className="m-1"
+    >
+      <div
+        className="rounded gatsby-image-wrapper"
+        style={
+          Object {
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "paddingBottom": "NaN%",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <source />
+          <img
+            alt=""
+            onLoad={[Function]}
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transition": "opacity 0.5s",
+                "width": "100%",
+              }
+            }
+          />
+        </picture>
+        <noscript
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-md-3 col-sm-6 px-0"
+    onClick={[Function]}
+  >
+    <div
+      className="m-1"
+    >
+      <div
+        className="rounded gatsby-image-wrapper"
+        style={
+          Object {
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "paddingBottom": "NaN%",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <source />
+          <img
+            alt=""
+            onLoad={[Function]}
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transition": "opacity 0.5s",
+                "width": "100%",
+              }
+            }
+          />
+        </picture>
+        <noscript
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-md-3 col-sm-6 px-0"
+    onClick={[Function]}
+  >
+    <div
+      className="m-1"
+    >
+      <div
+        className="rounded gatsby-image-wrapper"
+        style={
+          Object {
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "paddingBottom": "NaN%",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <source />
+          <img
+            alt=""
+            onLoad={[Function]}
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transition": "opacity 0.5s",
+                "width": "100%",
+              }
+            }
+          />
+        </picture>
+        <noscript
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-md-3 col-sm-6 px-0"
+    onClick={[Function]}
+  >
+    <div
+      className="m-1"
+    >
+      <div
+        className="rounded gatsby-image-wrapper"
+        style={
+          Object {
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "paddingBottom": "NaN%",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <source />
+          <img
+            alt=""
+            onLoad={[Function]}
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transition": "opacity 0.5s",
+                "width": "100%",
+              }
+            }
+          />
+        </picture>
+        <noscript
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-md-3 col-sm-6 px-0"
+    onClick={[Function]}
+  >
+    <div
+      className="m-1"
+    >
+      <div
+        className="rounded gatsby-image-wrapper"
+        style={
+          Object {
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "paddingBottom": "NaN%",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <source />
+          <img
+            alt=""
+            onLoad={[Function]}
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transition": "opacity 0.5s",
+                "width": "100%",
+              }
+            }
+          />
+        </picture>
+        <noscript
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Gallery component that it renders with empty props 1`] = `
+<div
+  className="row"
+/>
+`;
