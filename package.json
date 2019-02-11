@@ -54,7 +54,7 @@
     "gatsby-image": "2.0.29",
     "jest": "23.6.0",
     "prettier": "1.16.4",
-    "prop-types": "15.7.0",
+    "prop-types": "15.7.1",
     "react": "16.8.1",
     "react-dom": "16.8.1",
     "react-test-renderer": "16.8.1",
