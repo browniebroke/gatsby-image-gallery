@@ -46,7 +46,7 @@
     "babel-jest": "24.1.0",
     "babel-loader": "8.0.5",
     "bundlesize": "0.17.1",
-    "css-loader": "2.1.0",
+    "css-loader": "2.1.1",
     "eslint": "5.15.1",
     "eslint-config-prettier": "4.1.0",
     "eslint-plugin-prettier": "3.0.1",
