@@ -29,7 +29,6 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -83,7 +82,6 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -137,7 +135,6 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -191,7 +188,6 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -245,7 +241,6 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -306,7 +301,6 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -360,7 +354,6 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -414,7 +407,6 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -468,7 +460,6 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -522,7 +513,6 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -589,7 +579,6 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -643,7 +632,6 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -697,7 +685,6 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -751,7 +738,6 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
@@ -805,7 +791,6 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
         />
         <picture>
-          <source />
           <img
             alt=""
             onLoad={[Function]}
