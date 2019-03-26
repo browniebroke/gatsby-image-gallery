@@ -3690,12 +3690,13 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-image@2.0.34:
-  version "2.0.34"
-  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.0.34.tgz#b4f33c3b9391d55fe2648fb629fee9db2d524a86"
-  integrity sha512-nbqybNM9xsc81yaaPiQu6/pQHeNO/rcXI6RoADpUVKr3s5hRgddcf8xv4FQ2n/sTYJ6/2/bmu/X4nm70tBQCLQ==
+gatsby-image@2.0.35:
+  version "2.0.35"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.0.35.tgz#8c19b4920df9a33bb17c2db1d5c83cc062b96e39"
+  integrity sha512-rr1R1GoXEqLqT4pz9zaKLfCNBdgz8vi5MZU5Iu4yCwYc78dsx9M5Nd5ftwitHu4lc4y9eKyMcRFX/UOaOm5hvw==
   dependencies:
     "@babel/runtime" "^7.0.0"
+    object-fit-images "^3.2.4"
     prop-types "^15.6.1"
 
 gauge@~2.7.3:
@@ -6320,6 +6321,11 @@ object-copy@^0.1.0:
     copy-descriptor "^0.1.0"
     define-property "^0.2.5"
     kind-of "^3.0.3"
+
+object-fit-images@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/object-fit-images/-/object-fit-images-3.2.4.tgz#6c299d38fdf207746e5d2d46c2877f6f25d15b52"
+  integrity sha512-G+7LzpYfTfqUyrZlfrou/PLLLAPNC52FTy5y1CBywX+1/FkxIloOyQXBmZ3Zxa2AWO+lMF0JTuvqbr7G5e5CWg==
 
 object-keys@^1.0.12:
   version "1.0.12"
