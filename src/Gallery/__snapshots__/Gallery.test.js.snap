@@ -31,6 +31,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -41,7 +42,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -50,7 +51,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -84,6 +85,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -94,7 +96,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -103,7 +105,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -137,6 +139,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -147,7 +150,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -156,7 +159,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -190,6 +193,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -200,7 +204,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -209,7 +213,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -243,6 +247,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -253,7 +258,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -262,7 +267,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -303,6 +308,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -313,7 +319,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -322,7 +328,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -356,6 +362,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -366,7 +373,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -375,7 +382,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -409,6 +416,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -419,7 +427,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -428,7 +436,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -462,6 +470,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -472,7 +481,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -481,7 +490,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -515,6 +524,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -525,7 +535,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -534,7 +544,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -581,6 +591,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -591,7 +602,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -600,7 +611,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -634,6 +645,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -644,7 +656,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -653,7 +665,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -687,6 +699,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -697,7 +710,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -706,7 +719,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -740,6 +753,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -750,7 +764,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -759,7 +773,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -793,6 +807,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <picture>
           <img
             alt=""
+            loading="lazy"
             onLoad={[Function]}
             style={
               Object {
@@ -803,7 +818,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
                 "opacity": 0,
                 "position": "absolute",
                 "top": 0,
-                "transition": "opacity 0.5s",
+                "transition": "opacity 500ms",
                 "width": "100%",
               }
             }
@@ -812,7 +827,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;transition:opacity 0.5s;transition-delay:0.5s;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
