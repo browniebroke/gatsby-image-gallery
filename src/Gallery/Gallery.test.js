@@ -1,6 +1,6 @@
 import React from 'react'
 import Gallery from './index'
-import renderer from 'react-test-renderer'
+import ShallowRenderer from 'react-test-renderer/shallow'
 
 const fluidShapeMock = path => ({
   aspectRatio: 1.5,
@@ -13,13 +13,15 @@ const fluidShapeMock = path => ({
 
 describe('Gallery component', () => {
   test('that it renders with empty props', () => {
-    const component = renderer.create(<Gallery images={[]} thumbs={[]} />)
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    const renderer = new ShallowRenderer()
+    renderer.render(<Gallery images={[]} thumbs={[]} />)
+    const result = renderer.getRenderOutput()
+    expect(result).toMatchSnapshot()
   })
 
   test('that it renders with data in images', () => {
-    const component = renderer.create(
+    const renderer = new ShallowRenderer()
+    renderer.render(
       <Gallery
         images={[
           '/images/image001.jpg',
@@ -30,12 +32,13 @@ describe('Gallery component', () => {
         thumbs={[]}
       />
     )
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    const result = renderer.getRenderOutput()
+    expect(result).toMatchSnapshot()
   })
 
   test('that it renders with data in thumbs', () => {
-    const component = renderer.create(
+    const renderer = new ShallowRenderer()
+    renderer.render(
       <Gallery
         images={[]}
         thumbs={[
@@ -47,12 +50,13 @@ describe('Gallery component', () => {
         ]}
       />
     )
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    const result = renderer.getRenderOutput()
+    expect(result).toMatchSnapshot()
   })
 
   test('that it renders with data in images & thumbs', () => {
-    const component = renderer.create(
+    const renderer = new ShallowRenderer()
+    renderer.render(
       <Gallery
         images={[
           '/images/image001.jpg',
@@ -69,12 +73,13 @@ describe('Gallery component', () => {
         ]}
       />
     )
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    const result = renderer.getRenderOutput()
+    expect(result).toMatchSnapshot()
   })
 
   test('that it renders with a custom column class', () => {
-    const component = renderer.create(
+    const renderer = new ShallowRenderer()
+    renderer.render(
       <Gallery
         colClass="col-md-3"
         images={[
@@ -92,7 +97,7 @@ describe('Gallery component', () => {
         ]}
       />
     )
-    let tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
+    const result = renderer.getRenderOutput()
+    expect(result).toMatchSnapshot()
   })
 })

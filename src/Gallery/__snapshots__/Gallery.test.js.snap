@@ -1,859 +1,479 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Gallery component that it renders with a custom column class 1`] = `
-<div
-  className="row"
->
+<React.Fragment>
   <div
-    className="col-md-3 px-0"
-    onClick={[Function]}
+    className="row"
   >
     <div
-      className="m-1"
+      className="col-md-3 px-0"
+      onClick={[Function]}
     >
       <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
+        className="m-1"
       >
-        <div
-          style={
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
             Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image001.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
             }
           }
+          loading="lazy"
         />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
+      </div>
+    </div>
+    <div
+      className="col-md-3 px-0"
+      onClick={[Function]}
+    >
+      <div
+        className="m-1"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
             Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image002.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
             }
           }
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-3 px-0"
+      onClick={[Function]}
+    >
+      <div
+        className="m-1"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image003.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-3 px-0"
+      onClick={[Function]}
+    >
+      <div
+        className="m-1"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image004.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-3 px-0"
+      onClick={[Function]}
+    >
+      <div
+        className="m-1"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image005.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
         />
       </div>
     </div>
   </div>
-  <div
-    className="col-md-3 px-0"
-    onClick={[Function]}
-  >
-    <div
-      className="m-1"
-    >
-      <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
-            }
-          }
-        />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-            }
-          }
-        />
-      </div>
-    </div>
-  </div>
-  <div
-    className="col-md-3 px-0"
-    onClick={[Function]}
-  >
-    <div
-      className="m-1"
-    >
-      <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
-            }
-          }
-        />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-            }
-          }
-        />
-      </div>
-    </div>
-  </div>
-  <div
-    className="col-md-3 px-0"
-    onClick={[Function]}
-  >
-    <div
-      className="m-1"
-    >
-      <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
-            }
-          }
-        />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-            }
-          }
-        />
-      </div>
-    </div>
-  </div>
-  <div
-    className="col-md-3 px-0"
-    onClick={[Function]}
-  >
-    <div
-      className="m-1"
-    >
-      <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
-            }
-          }
-        />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-            }
-          }
-        />
-      </div>
-    </div>
-  </div>
-</div>
+</React.Fragment>
 `;
 
 exports[`Gallery component that it renders with data in images & thumbs 1`] = `
-<div
-  className="row"
->
+<React.Fragment>
   <div
-    className="col-md-3 col-sm-6 px-0"
-    onClick={[Function]}
+    className="row"
   >
     <div
-      className="m-1"
+      className="col-md-3 col-sm-6 px-0"
+      onClick={[Function]}
     >
       <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
+        className="m-1"
       >
-        <div
-          style={
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
             Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image001.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
             }
           }
+          loading="lazy"
         />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
+      </div>
+    </div>
+    <div
+      className="col-md-3 col-sm-6 px-0"
+      onClick={[Function]}
+    >
+      <div
+        className="m-1"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
             Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image002.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
             }
           }
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-3 col-sm-6 px-0"
+      onClick={[Function]}
+    >
+      <div
+        className="m-1"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image003.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-3 col-sm-6 px-0"
+      onClick={[Function]}
+    >
+      <div
+        className="m-1"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image004.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-3 col-sm-6 px-0"
+      onClick={[Function]}
+    >
+      <div
+        className="m-1"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image005.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
         />
       </div>
     </div>
   </div>
-  <div
-    className="col-md-3 col-sm-6 px-0"
-    onClick={[Function]}
-  >
-    <div
-      className="m-1"
-    >
-      <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
-            }
-          }
-        />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-            }
-          }
-        />
-      </div>
-    </div>
-  </div>
-  <div
-    className="col-md-3 col-sm-6 px-0"
-    onClick={[Function]}
-  >
-    <div
-      className="m-1"
-    >
-      <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
-            }
-          }
-        />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-            }
-          }
-        />
-      </div>
-    </div>
-  </div>
-  <div
-    className="col-md-3 col-sm-6 px-0"
-    onClick={[Function]}
-  >
-    <div
-      className="m-1"
-    >
-      <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
-            }
-          }
-        />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-            }
-          }
-        />
-      </div>
-    </div>
-  </div>
-  <div
-    className="col-md-3 col-sm-6 px-0"
-    onClick={[Function]}
-  >
-    <div
-      className="m-1"
-    >
-      <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
-            }
-          }
-        />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-            }
-          }
-        />
-      </div>
-    </div>
-  </div>
-</div>
+</React.Fragment>
 `;
 
 exports[`Gallery component that it renders with data in images 1`] = `
-<div
-  className="row"
-/>
+<React.Fragment>
+  <div
+    className="row"
+  />
+</React.Fragment>
 `;
 
 exports[`Gallery component that it renders with data in thumbs 1`] = `
-<div
-  className="row"
->
+<React.Fragment>
   <div
-    className="col-md-3 col-sm-6 px-0"
-    onClick={[Function]}
+    className="row"
   >
     <div
-      className="m-1"
+      className="col-md-3 col-sm-6 px-0"
+      onClick={[Function]}
     >
       <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
+        className="m-1"
       >
-        <div
-          style={
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
             Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image001.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
             }
           }
+          loading="lazy"
         />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
+      </div>
+    </div>
+    <div
+      className="col-md-3 col-sm-6 px-0"
+      onClick={[Function]}
+    >
+      <div
+        className="m-1"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
             Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image002.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
             }
           }
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-3 col-sm-6 px-0"
+      onClick={[Function]}
+    >
+      <div
+        className="m-1"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image003.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-3 col-sm-6 px-0"
+      onClick={[Function]}
+    >
+      <div
+        className="m-1"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image004.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-3 col-sm-6 px-0"
+      onClick={[Function]}
+    >
+      <div
+        className="m-1"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className="rounded"
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image005.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
         />
       </div>
     </div>
   </div>
-  <div
-    className="col-md-3 col-sm-6 px-0"
-    onClick={[Function]}
-  >
-    <div
-      className="m-1"
-    >
-      <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
-            }
-          }
-        />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-            }
-          }
-        />
-      </div>
-    </div>
-  </div>
-  <div
-    className="col-md-3 col-sm-6 px-0"
-    onClick={[Function]}
-  >
-    <div
-      className="m-1"
-    >
-      <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
-            }
-          }
-        />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-            }
-          }
-        />
-      </div>
-    </div>
-  </div>
-  <div
-    className="col-md-3 col-sm-6 px-0"
-    onClick={[Function]}
-  >
-    <div
-      className="m-1"
-    >
-      <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
-            }
-          }
-        />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-            }
-          }
-        />
-      </div>
-    </div>
-  </div>
-  <div
-    className="col-md-3 col-sm-6 px-0"
-    onClick={[Function]}
-  >
-    <div
-      className="m-1"
-    >
-      <div
-        className="rounded gatsby-image-wrapper"
-        style={
-          Object {
-            "overflow": "hidden",
-            "position": "relative",
-          }
-        }
-      >
-        <div
-          style={
-            Object {
-              "paddingBottom": "NaN%",
-              "width": "100%",
-            }
-          }
-        />
-        <picture>
-          <source />
-          <img
-            alt=""
-            loading="lazy"
-            onLoad={[Function]}
-            style={
-              Object {
-                "height": "100%",
-                "left": 0,
-                "objectFit": "cover",
-                "objectPosition": "center",
-                "opacity": 0,
-                "position": "absolute",
-                "top": 0,
-                "transition": "opacity 500ms",
-                "width": "100%",
-              }
-            }
-          />
-        </picture>
-        <noscript
-          dangerouslySetInnerHTML={
-            Object {
-              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
-            }
-          }
-        />
-      </div>
-    </div>
-  </div>
-</div>
+</React.Fragment>
 `;
 
 exports[`Gallery component that it renders with empty props 1`] = `
-<div
-  className="row"
-/>
+<React.Fragment>
+  <div
+    className="row"
+  />
+</React.Fragment>
 `;
