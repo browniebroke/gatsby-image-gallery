@@ -29,6 +29,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -51,7 +52,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -83,6 +84,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -105,7 +107,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -137,6 +139,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -159,7 +162,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -191,6 +194,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -213,7 +217,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -245,6 +249,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -267,7 +272,7 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -306,6 +311,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -328,7 +334,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -360,6 +366,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -382,7 +389,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -414,6 +421,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -436,7 +444,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -468,6 +476,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -490,7 +499,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -522,6 +531,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -544,7 +554,7 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -589,6 +599,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -611,7 +622,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -643,6 +654,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -665,7 +677,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -697,6 +709,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -719,7 +732,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -751,6 +764,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -773,7 +787,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
@@ -805,6 +819,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
         />
         <picture>
+          <source />
           <img
             alt=""
             loading="lazy"
@@ -827,7 +842,7 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
         <noscript
           dangerouslySetInnerHTML={
             Object {
-              "__html": "<picture><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              "__html": "<picture><source srcset=\\"undefined\\" /><img loading=\\"lazy\\" src=\\"\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
             }
           }
         />
