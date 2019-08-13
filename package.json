@@ -60,7 +60,7 @@
     "react-test-renderer": "16.9.0",
     "semantic-release": "15.13.19",
     "style-loader": "1.0.0",
-    "webpack": "4.39.1",
+    "webpack": "4.39.2",
     "webpack-cli": "3.3.6",
     "webpack-node-externals": "1.7.2"
   },
