@@ -3928,14 +3928,14 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-image@2.2.10:
-  version "2.2.10"
-  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.2.10.tgz#0375e273167221e3ccd1ae3b4e3dec52905376df"
-  integrity sha512-wvbxqYWxg7te7ui6RjCgohcVTvcI1b0PBZNor548Flg/0h+oSGnUXVDkz9HO8uS/vWlIbMpXonRxvnZCGu1Y8A==
+gatsby-image@2.2.11:
+  version "2.2.11"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.2.11.tgz#79d5760ea2594f29cfaaa9dd0e9782a74e075971"
+  integrity sha512-leO7NSIoTpyBCM78/aCDNm8qAf+SW3OGgR55v1UPk/wr2Z0Wp07oxk6IMz4ewT6JcUOwQH5+14cPlgA7ZBaUlA==
   dependencies:
     "@babel/runtime" "^7.0.0"
     object-fit-images "^3.2.4"
-    prop-types "^15.6.1"
+    prop-types "^15.7.2"
 
 gauge@~2.7.3:
   version "2.7.4"
@@ -7321,7 +7321,7 @@ prop-types@15.7.2, prop-types@^15.7.2:
     object-assign "^4.1.1"
     react-is "^16.8.1"
 
-prop-types@^15.5.10, prop-types@^15.6.1, prop-types@^15.6.2:
+prop-types@^15.5.10, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   integrity sha512-3pboPvLiWD7dkI3qf3KbUe6hKFKa52w+AE0VCqECtf+QHAKgOL37tTaNCnuX1nAAQ4ZhyP+kYVKf8rLmJ/feDQ==
