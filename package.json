@@ -51,7 +51,7 @@
     "eslint-config-prettier": "6.1.0",
     "eslint-plugin-prettier": "3.1.0",
     "eslint-plugin-react": "7.14.3",
-    "gatsby-image": "2.2.13",
+    "gatsby-image": "2.2.14",
     "jest": "24.9.0",
     "prettier": "1.18.2",
     "prop-types": "15.7.2",
