@@ -17,9 +17,35 @@
 
 Very basic gallery grid based on gatsby-image
 
+## Install
+
+```bash
+npm install --save @browniebroke/gatsby-image-gallery
+```
+
+## Usage
+
+```jsx
+import React, { Component } from 'react'
+
+import Gallery from '@browniebroke/gatsby-image-gallery'
+
+class Example extends Component {
+  render () {
+    return (
+      <Gallery />
+    )
+  }
+}
+```
+
 ## Development
 
 ### Releases
 
 Releases should be automated using [semantic release](https://github.com/semantic-release/semantic-release).
 This library parses the commit log to detect which version number should be bumped.
+
+## License
+
+MIT © [browniebroke](https://github.com/browniebroke)

@@ -75,7 +75,7 @@ class Gallery extends Component {
   render() {
     const { colClass = 'col-md-3 col-sm-6' } = this.props
     return (
-      <>
+      <React.Fragment>
         <div className="row">
           {this.state.thumbs.map((thumbnail, index) => {
             return (
@@ -92,7 +92,7 @@ class Gallery extends Component {
           })}
         </div>
         {this.state.isOpen && this.renderLightBox()}
-      </>
+      </React.Fragment>
     )
   }
 }

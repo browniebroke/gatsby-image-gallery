@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Gallery component that it renders with a custom column class 1`] = `
-<React.Fragment>
+<Unknown>
   <div
     className="row"
   >
@@ -151,11 +151,11 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
       </div>
     </div>
   </div>
-</React.Fragment>
+</Unknown>
 `;
 
 exports[`Gallery component that it renders with data in images & thumbs 1`] = `
-<React.Fragment>
+<Unknown>
   <div
     className="row"
   >
@@ -305,19 +305,21 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
       </div>
     </div>
   </div>
-</React.Fragment>
+</Unknown>
 `;
 
 exports[`Gallery component that it renders with data in images 1`] = `
-<React.Fragment>
+<Unknown>
   <div
     className="row"
-  />
-</React.Fragment>
+  >
+    
+  </div>
+</Unknown>
 `;
 
 exports[`Gallery component that it renders with data in thumbs 1`] = `
-<React.Fragment>
+<Unknown>
   <div
     className="row"
   >
@@ -467,13 +469,15 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
       </div>
     </div>
   </div>
-</React.Fragment>
+</Unknown>
 `;
 
 exports[`Gallery component that it renders with empty props 1`] = `
-<React.Fragment>
+<Unknown>
   <div
     className="row"
-  />
-</React.Fragment>
+  >
+    
+  </div>
+</Unknown>
 `;
