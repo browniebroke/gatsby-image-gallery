@@ -1,25 +1,14 @@
 language: node_js
 
+node_js:
+  - "12"
+  - "8"
+
+script:
+  - yarn test
+
 jobs:
   include:
-    - stage: test
-      name: Build
-      script: yarn run build-dev
-    - # Still on test stage
-      name: Bundle size
-      script: yarn run bundlesize
-    - # Still on test stage
-      name: Lint
-      script: yarn run lint
-    - # Still on test stage
-      name: Test
-      script: yarn test
-    # Define the release stage that runs semantic-release
     - stage: deploy
-      # Advanced: optionally overwrite your default `script` step to skip the tests
-      # script: skip
-      deploy:
-        provider: script
-        skip_cleanup: true
-        script:
-          - npx semantic-release
+      script:
+        - npx semantic-release
