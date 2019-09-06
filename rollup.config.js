@@ -31,7 +31,6 @@ export default {
     svgr(),
     babel({
       exclude: 'node_modules/**',
-      plugins: ['@babel/plugin-external-helpers'],
     }),
     resolve(),
     commonjs(),
