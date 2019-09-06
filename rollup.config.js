@@ -25,7 +25,7 @@ export default {
   plugins: [
     external(),
     postcss({
-      modules: true,
+      extract: './dist/style.css',
     }),
     url(),
     svgr(),

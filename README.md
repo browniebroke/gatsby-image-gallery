@@ -25,10 +25,13 @@ npm install --save @browniebroke/gatsby-image-gallery
 
 ## Usage
 
+This component is built on top `react-image-lightbox`, the CSS should be imported from there.
+
 ```jsx
 import React, { Component } from 'react'
 
 import Gallery from '@browniebroke/gatsby-image-gallery'
+import 'react-image-lightbox/style.css'
 
 class Example extends Component {
   render () {
