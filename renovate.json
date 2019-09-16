@@ -4,6 +4,7 @@
   "major": {
     "automerge": false
   },
+  "schedule": ["before 3am on Monday"],
   "semanticCommits": true,
   "supportPolicy": ["current"]
 }
