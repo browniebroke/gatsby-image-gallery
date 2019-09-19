@@ -19,11 +19,9 @@ const IndexPage = ({ data }) => {
   )
 }
 
-export default IndexPage
-
-export const pageQuery = graphql`
+export const query = graphql`
   query ImagesForGallery {
-    images: allFile(filter: { relativeDirectory: { eq: "gallery" } }) {
+    images: allFile(filter: {relativeDirectory: {eq: "gallery"}}, sort: {fields: name}) {
       edges {
         node {
           id
@@ -46,3 +44,5 @@ export const pageQuery = graphql`
     }
   }
 `
+
+export default IndexPage
