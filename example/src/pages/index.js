@@ -1,26 +1,25 @@
 import { graphql } from 'gatsby'
-import React from "react"
+import React from 'react'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from '../components/layout'
+import SEO from '../components/seo'
 import Gallery from '@browniebroke/gatsby-image-gallery'
 import '@browniebroke/gatsby-image-gallery/dist/style.css'
 
-const IndexPage = ({data}) => {
+const IndexPage = ({ data }) => {
   const fullSize = data.images.edges.map(edge => edge.node.full.fluid.src)
   const thumbs = data.images.edges.map(edge => edge.node.thumb.fluid)
   return (
     <Layout>
-      <SEO title="Example"/>
+      <SEO title="Example" />
       <h1>Gatsby image gallery demo</h1>
       <p>A very simple page to demo the gallery component.</p>
-      <Gallery images={fullSize} thumbs={thumbs}/>
+      <Gallery images={fullSize} thumbs={thumbs} />
     </Layout>
   )
 }
 
 export default IndexPage
-
 
 export const pageQuery = graphql`
   query ImagesForGallery {

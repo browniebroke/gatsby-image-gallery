@@ -34,10 +34,8 @@ import Gallery from '@browniebroke/gatsby-image-gallery'
 import 'react-image-lightbox/style.css'
 
 class Example extends Component {
-  render () {
-    return (
-      <Gallery />
-    )
+  render() {
+    return <Gallery />
   }
 }
 ```
