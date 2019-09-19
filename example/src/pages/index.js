@@ -23,7 +23,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query ImagesForGallery {
-    images: allFile(filter: { sourceInstanceName: { eq: "gallery" } }) {
+    images: allFile(filter: { relativeDirectory: { eq: "gallery" } }) {
       edges {
         node {
           id
