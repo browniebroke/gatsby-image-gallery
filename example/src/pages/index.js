@@ -21,7 +21,10 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   query ImagesForGallery {
-    images: allFile(filter: {relativeDirectory: {eq: "gallery"}}, sort: {fields: name}) {
+    images: allFile(
+      filter: { relativeDirectory: { eq: "gallery" } }
+      sort: { fields: name }
+    ) {
       edges {
         node {
           id
