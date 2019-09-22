@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Gallery from '@browniebroke/gatsby-image-gallery'
 import '@browniebroke/gatsby-image-gallery/dist/style.css'
+import './index.css'
 
 const IndexPage = ({ data }) => {
   const fullSize = data.images.edges.map(edge => edge.node.full.fluid.src)
@@ -21,7 +22,10 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   query ImagesForGallery {
-    images: allFile(filter: {relativeDirectory: {eq: "gallery"}}, sort: {fields: name}) {
+    images: allFile(
+      filter: { relativeDirectory: { eq: "gallery" } }
+      sort: { fields: name }
+    ) {
       edges {
         node {
           id
