@@ -51,7 +51,7 @@
     "@babel/preset-env": "7.6.0",
     "@babel/preset-react": "7.0.0",
     "@svgr/rollup": "4.3.2",
-    "cross-env": "5.2.1",
+    "cross-env": "6.0.0",
     "eslint-config-standard": "14.1.0",
     "eslint-config-standard-react": "9.2.0",
     "eslint-plugin-import": "2.18.2",
