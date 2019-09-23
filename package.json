@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/browniebroke/gatsby-image-gallery#readme",
   "devDependencies": {
-    "@babel/core": "7.6.0",
+    "@babel/core": "7.6.2",
     "@babel/plugin-proposal-class-properties": "7.5.5",
     "@babel/plugin-proposal-do-expressions": "7.6.0",
     "@babel/plugin-proposal-export-default-from": "7.5.2",
@@ -48,7 +48,7 @@
     "@babel/plugin-proposal-throw-expressions": "7.2.0",
     "@babel/plugin-syntax-dynamic-import": "7.2.0",
     "@babel/plugin-syntax-import-meta": "7.2.0",
-    "@babel/preset-env": "7.6.0",
+    "@babel/preset-env": "7.6.2",
     "@babel/preset-react": "7.0.0",
     "@svgr/rollup": "4.3.2",
     "cross-env": "6.0.0",
