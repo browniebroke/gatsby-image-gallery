@@ -31,7 +31,7 @@ This component is built on top `react-image-lightbox`, the CSS should be importe
 import React, { Component } from 'react'
 
 import Gallery from '@browniebroke/gatsby-image-gallery'
-import 'react-image-lightbox/style.css'
+import '@browniebroke/gatsby-image-gallery/dist/style.css'
 
 class Example extends Component {
   render() {
