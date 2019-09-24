@@ -770,9 +770,12 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@browniebroke/gatsby-image-gallery@link:..":
-  version "0.0.0"
-  uid ""
+"@browniebroke/gatsby-image-gallery@1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@browniebroke/gatsby-image-gallery/-/gatsby-image-gallery-1.2.4.tgz#48c66a5149140c7dd50e9852250c20a867d39d4c"
+  integrity sha512-aboOAbWFDs2nlHIhBRktM7v7arcj2ndJI/2jZ6iLrTEp8wHd4VHKgG0Sq8VJzZ4MYq/Sk54f8zrVVsmJZ+XY6A==
+  dependencies:
+    react-image-lightbox "5.1.0"
 
 "@gatsbyjs/relay-compiler@2.0.0-printer-fix.4":
   version "2.0.0-printer-fix.4"
@@ -5091,6 +5094,16 @@ gatsby-page-utils@^0.0.21:
     lodash "^4.17.15"
     micromatch "^3.1.10"
     slash "^3.0.0"
+
+gatsby-plugin-manifest@2.2.18:
+  version "2.2.18"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.18.tgz#96bea26e35a8d74ebb74dff8c5c1ae85e7b0c556"
+  integrity sha512-velK1ApsQ/mEUABwmduMHVZISll4q9bJMtW1tOp+qbNUfJUFl2u4x6Ya36z8mxROX0mIKPAhYMAfhWq209rbcg==
+  dependencies:
+    "@babel/runtime" "^7.6.0"
+    gatsby-core-utils "^1.0.10"
+    semver "^5.7.1"
+    sharp "^0.23.0"
 
 gatsby-plugin-page-creator@^2.1.21:
   version "2.1.21"
