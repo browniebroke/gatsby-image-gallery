@@ -59,7 +59,7 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.14.3",
     "eslint-plugin-standard": "4.0.1",
-    "gatsby-image": "2.2.20",
+    "gatsby-image": "2.2.21",
     "gh-pages": "2.1.1",
     "prettier": "1.18.2",
     "react": "16.9.0",
