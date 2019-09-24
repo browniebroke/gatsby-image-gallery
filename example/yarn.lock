@@ -772,8 +772,7 @@
 
 "@browniebroke/gatsby-image-gallery@link:..":
   version "0.0.0"
-  dependencies:
-    react-image-lightbox "5.1.0"
+  uid ""
 
 "@gatsbyjs/relay-compiler@2.0.0-printer-fix.4":
   version "2.0.0-printer-fix.4"
