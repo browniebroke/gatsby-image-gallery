@@ -3,7 +3,7 @@
   "homepage": "https://browniebroke.github.io/gatsby-image-gallery",
   "version": "0.0.0",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@browniebroke/gatsby-image-gallery": "link:..",
     "gatsby": "2.15.22",
