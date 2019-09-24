@@ -1,0 +1,4 @@
+[build]
+  publish = "example/public"
+  command = "yarn && cd example && yarn && yarn build"
+  environment = { GATSBY_CPU_COUNT = "1" }
