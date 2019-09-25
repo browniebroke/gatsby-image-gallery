@@ -2,20 +2,19 @@
 
 exports[`Gallery component that it renders with a custom column class 1`] = `
 <React.Fragment>
-  <div
-    className="row"
-  >
-    <div
-      className="col-md-3 px-0"
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -32,19 +31,20 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-    <div
-      className="col-md-3 px-0"
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -61,19 +61,20 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-    <div
-      className="col-md-3 px-0"
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -90,19 +91,20 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-    <div
-      className="col-md-3 px-0"
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -119,19 +121,20 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-    <div
-      className="col-md-3 px-0"
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -148,28 +151,27 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-  </div>
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.div)>
 </React.Fragment>
 `;
 
 exports[`Gallery component that it renders with data in images & thumbs 1`] = `
 <React.Fragment>
-  <div
-    className="row"
-  >
-    <div
-      className="col-md-3 col-sm-6 px-0"
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -186,19 +188,20 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-    <div
-      className="col-md-3 col-sm-6 px-0"
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -215,19 +218,20 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-    <div
-      className="col-md-3 col-sm-6 px-0"
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -244,19 +248,20 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-    <div
-      className="col-md-3 col-sm-6 px-0"
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -273,19 +278,20 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-    <div
-      className="col-md-3 col-sm-6 px-0"
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -302,36 +308,33 @@ exports[`Gallery component that it renders with data in images & thumbs 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-  </div>
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.div)>
 </React.Fragment>
 `;
 
 exports[`Gallery component that it renders with data in images 1`] = `
 <React.Fragment>
-  <div
-    className="row"
-  />
+  <ForwardRef(styled.div) />
 </React.Fragment>
 `;
 
 exports[`Gallery component that it renders with data in thumbs 1`] = `
 <React.Fragment>
-  <div
-    className="row"
-  >
-    <div
-      className="col-md-3 col-sm-6 px-0"
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -348,19 +351,20 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-    <div
-      className="col-md-3 col-sm-6 px-0"
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -377,19 +381,20 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-    <div
-      className="col-md-3 col-sm-6 px-0"
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -406,19 +411,20 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-    <div
-      className="col-md-3 col-sm-6 px-0"
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -435,19 +441,20 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-    <div
-      className="col-md-3 col-sm-6 px-0"
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
       onClick={[Function]}
+      width={33.333333333333336}
     >
-      <div
-        className="m-1"
+      <ForwardRef(styled.div)
+        margin="0.25rem"
       >
         <Image
           Tag="div"
           alt=""
-          className="rounded"
+          className=""
           durationFadeIn={500}
           fadeIn={true}
           fluid={
@@ -464,16 +471,14 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
           }
           loading="lazy"
         />
-      </div>
-    </div>
-  </div>
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.div)>
 </React.Fragment>
 `;
 
 exports[`Gallery component that it renders with empty props 1`] = `
 <React.Fragment>
-  <div
-    className="row"
-  />
+  <ForwardRef(styled.div) />
 </React.Fragment>
 `;

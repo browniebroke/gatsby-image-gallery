@@ -4,7 +4,6 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Gallery from '../../../src'
-import './index.css'
 
 const IndexPage = ({ data }) => {
   const fullSize = data.images.edges.map(edge => edge.node.full.fluid.src)

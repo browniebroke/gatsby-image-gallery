@@ -24,10 +24,12 @@
     "gatsby-image": ">= 2.0",
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "styled-components": ">= 4.0"
   },
   "dependencies": {
-    "react-image-lightbox": "5.1.0"
+    "react-image-lightbox": "5.1.0",
+    "styled-components": "^4.4.0"
   },
   "homepage": "https://github.com/browniebroke/gatsby-image-gallery#readme",
   "devDependencies": {
