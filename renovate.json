@@ -5,5 +5,11 @@
     "automerge": false
   },
   "semanticCommits": true,
+  "packageRules": [
+    {
+      "paths": ["example/**"],
+      "extends": [":semanticCommitTypeAll(chore)"]
+    }
+  ],
   "supportPolicy": ["current"]
 }
