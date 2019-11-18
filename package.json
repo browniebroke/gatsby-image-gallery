@@ -59,7 +59,7 @@
     "eslint-plugin-prettier": "3.1.1",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.16.0",
-    "gatsby-image": "2.2.31",
+    "gatsby-image": "2.2.33",
     "prettier": "1.19.1",
     "react": "16.11.0",
     "react-dom": "16.11.0",
