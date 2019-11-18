@@ -53,7 +53,7 @@
     "@svgr/rollup": "4.3.3",
     "cross-env": "6.0.3",
     "eslint": "6.6.0",
-    "eslint-config-prettier": "6.5.0",
+    "eslint-config-prettier": "6.6.0",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-node": "10.0.0",
     "eslint-plugin-prettier": "3.1.1",
