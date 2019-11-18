@@ -28,7 +28,7 @@
     "styled-components": ">= 4.0"
   },
   "dependencies": {
-    "react-image-lightbox": "5.1.0",
+    "react-image-lightbox": "5.1.1",
     "styled-components": "^4.4.0"
   },
   "homepage": "https://github.com/browniebroke/gatsby-image-gallery#readme",
