@@ -6105,10 +6105,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-image@2.2.31:
-  version "2.2.31"
-  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.2.31.tgz#b8eb4b578bd850523a98dcf573bcd9a01e14c37b"
-  integrity sha512-DRRDCsATxhvoG6NcO1zlbQFMVTWbmp2XtM+humcC7IPy+Uq5wP4NREV/ICBx3d/hcAabg0vyjHNjrGeDo0ZBbw==
+gatsby-image@2.2.33:
+  version "2.2.33"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.2.33.tgz#130f0dec89780bd8b367b7eebfe296eb2222286e"
+  integrity sha512-Mt8l7DXeXuqIwiYefcvOK1awzs4ofE5y3qW1Pmk/IA8AFTNqwDBsu2ZqxxCfbGoyUXVuXNvDArq1QGMJel7eqQ==
   dependencies:
     "@babel/runtime" "^7.7.2"
     object-fit-images "^3.2.4"
