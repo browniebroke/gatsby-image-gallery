@@ -11,7 +11,7 @@
     "gatsby-plugin-manifest": "2.2.37",
     "gatsby-plugin-react-helmet": "3.1.21",
     "gatsby-plugin-sharp": "2.3.13",
-    "gatsby-plugin-styled-components": "3.1.6",
+    "gatsby-plugin-styled-components": "3.1.17",
     "gatsby-source-filesystem": "2.1.46",
     "gatsby-transformer-sharp": "2.3.12",
     "prop-types": "15.7.2",
