@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "babel-plugin-styled-components": "1.10.6",
+    "babel-plugin-styled-components": "1.10.7",
     "gatsby": "2.18.25",
     "gatsby-image": "2.2.39",
     "gatsby-plugin-manifest": "2.2.37",
