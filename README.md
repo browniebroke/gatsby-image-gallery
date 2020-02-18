@@ -15,7 +15,7 @@
   </a>
 </p>
 
-Very basic gallery grid based on gatsby-image. Bootstrap 4 markup.
+Very basic gallery grid based on gatsby-image, styling powered by `styled-components`.
 
 ## Install
 
