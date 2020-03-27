@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 import Lightbox from 'react-image-lightbox'
@@ -7,100 +7,59 @@ import Row from './row'
 import Col from './column'
 import ImgWrapper from './img-wrapper'
 
-const prevIndex = (state) => (state.index - 1) % state.images.length
-const nextIndex = (state) =>
-  (state.index + state.images.length + 1) % state.images.length
+const Gallery = ({
+  images,
+  thumbs,
+  colWidth = 100 / 3,
+  mdColWidth = 100 / 4,
+  gutter = '0.25rem',
+  imgClass = '',
+}) => {
+  const [index, setIndex] = useState(0)
+  const [isOpen, setIsOpen] = useState(false)
 
-class Gallery extends Component {
-  constructor(props) {
-    super(props)
+  const prevIndex = index - (1 % images.length)
+  const nextIndex = (index + images.length + 1) % images.length
 
-    this.state = {
-      index: 0,
-      isOpen: false,
-      images: props.images,
-      thumbs: props.thumbs,
-    }
-
-    this.renderLightBox = this.renderLightBox.bind(this)
-    this.openLightBox = this.openLightBox.bind(this)
-    this.closeLightbox = this.closeLightbox.bind(this)
-    this.movePrev = this.movePrev.bind(this)
-    this.moveNext = this.moveNext.bind(this)
-  }
-
-  openLightBox(index) {
-    this.setState({
-      index: index,
-      isOpen: true,
-    })
-  }
-
-  renderLightBox() {
-    const { images } = this.state
-    return (
-      <Lightbox
-        mainSrc={images[this.state.index]}
-        nextSrc={images[nextIndex(this.state)]}
-        prevSrc={images[prevIndex(this.state)]}
-        onCloseRequest={this.closeLightbox}
-        onMovePrevRequest={this.movePrev}
-        onMoveNextRequest={this.moveNext}
-        imageLoadErrorMessage="Impossible de charger cette image"
-        nextLabel="Image suivante"
-        prevLabel="Image précédente"
-        zoomInLabel="Zoomer"
-        zoomOutLabel="Dézoomer"
-        closeLabel="Fermer"
-      />
-    )
-  }
-
-  closeLightbox() {
-    this.setState({ isOpen: false })
-  }
-
-  movePrev() {
-    this.setState((prevState) => ({
-      index: prevIndex(prevState),
-    }))
-  }
-
-  moveNext() {
-    this.setState((prevState) => ({
-      index: nextIndex(prevState),
-    }))
-  }
-
-  render() {
-    const {
-      colWidth = 100 / 3,
-      mdColWidth = 100 / 4,
-      gutter = '0.25rem',
-      imgClass = '',
-    } = this.props
-    return (
-      <React.Fragment>
-        <Row>
-          {this.state.thumbs.map((thumbnail, index) => {
-            return (
-              <Col
-                width={colWidth}
-                md={mdColWidth}
-                key={index}
-                onClick={() => this.openLightBox(index)}
-              >
-                <ImgWrapper margin={gutter}>
-                  <Img fluid={thumbnail} className={imgClass} />
-                </ImgWrapper>
-              </Col>
-            )
-          })}
-        </Row>
-        {this.state.isOpen && this.renderLightBox()}
-      </React.Fragment>
-    )
-  }
+  return (
+    <React.Fragment>
+      <Row>
+        {thumbs.map((thumbnail, thumbIndex) => {
+          return (
+            <Col
+              width={colWidth}
+              md={mdColWidth}
+              key={thumbIndex}
+              onClick={() => {
+                setIsOpen(false)
+                setIndex(thumbIndex)
+              }}
+            >
+              <ImgWrapper margin={gutter}>
+                <Img fluid={thumbnail} className={imgClass} />
+              </ImgWrapper>
+            </Col>
+          )
+        })}
+      </Row>
+      {isOpen && (
+        <Lightbox
+          mainSrc={images[index]}
+          nextSrc={images[nextIndex]}
+          prevSrc={images[prevIndex]}
+          onCloseRequest={() => setIsOpen(false)}
+          onMovePrevRequest={() => setIndex(prevIndex)}
+          onMoveNextRequest={() => setIndex(nextIndex)}
+          imageLoadErrorMessage="Impossible de charger cette image"
+          nextLabel="Image suivante"
+          prevLabel="Image précédente"
+          zoomInLabel="Zoomer"
+          zoomOutLabel="Dézoomer"
+          closeLabel="Fermer"
+        />
+      )}
+    </React.Fragment>
+  )
 }
 
 export default Gallery
