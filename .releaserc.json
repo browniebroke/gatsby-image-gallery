@@ -1,0 +1,9 @@
+{
+  "branches": [
+    "master",
+    {
+      "name": "hooks-gallery",
+      "prerelease": true
+    }
+  ]
+}
