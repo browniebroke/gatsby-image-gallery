@@ -31,7 +31,7 @@ const Gallery = ({
               md={mdColWidth}
               key={thumbIndex}
               onClick={() => {
-                setIsOpen(false)
+                setIsOpen(true)
                 setIndex(thumbIndex)
               }}
             >
