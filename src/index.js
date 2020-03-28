@@ -37,15 +37,12 @@ class Gallery extends Component {
   }
 
   renderLightBox() {
-    const { images, thumbs } = this.state
+    const { images } = this.state
     return (
       <Lightbox
         mainSrc={images[this.state.index]}
         nextSrc={images[nextIndex(this.state)]}
         prevSrc={images[prevIndex(this.state)]}
-        mainSrcThumbnail={thumbs[this.state.index]}
-        nextSrcThumbnail={thumbs[nextIndex(this.state)]}
-        prevSrcThumbnail={thumbs[prevIndex(this.state)]}
         onCloseRequest={this.closeLightbox}
         onMovePrevRequest={this.movePrev}
         onMoveNextRequest={this.moveNext}
