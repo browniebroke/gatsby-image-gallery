@@ -1,10 +1,10 @@
 language: node_js
 
-script:
-  - yarn test
-
 jobs:
   include:
+    - stage: test
+      script:
+        - yarn test
     - stage: deploy
       script:
         - npx semantic-release
