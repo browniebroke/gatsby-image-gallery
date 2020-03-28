@@ -76,6 +76,9 @@
     "rollup-plugin-url": "3.0.1",
     "semantic-release": "17.0.4"
   },
+  "resolutions": {
+    "**/optimist/minimist": "1.2.2"
+  },
   "files": [
     "dist"
   ]
