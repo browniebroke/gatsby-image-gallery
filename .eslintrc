@@ -1,6 +1,6 @@
 {
   "extends": ["prettier", "prettier/react"],
-  "plugins": ["react", "prettier"],
+  "plugins": ["react", "prettier", "react-hooks"],
   "parserOptions": {
     "ecmaVersion": 9,
     "sourceType": "module",
@@ -18,8 +18,11 @@
       {
         "trailingComma": "es5",
         "singleQuote": true,
-        "semi": false
+        "semi": false,
+        "arrowParens": "always"
       }
-    ]
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 }

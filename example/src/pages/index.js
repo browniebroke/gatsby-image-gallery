@@ -6,8 +6,8 @@ import SEO from '../components/seo'
 import Gallery from '../../../src'
 
 const IndexPage = ({ data }) => {
-  const fullSize = data.images.edges.map(edge => edge.node.full.fluid.src)
-  const thumbs = data.images.edges.map(edge => edge.node.thumb.fluid)
+  const fullSize = data.images.edges.map((edge) => edge.node.full.fluid.src)
+  const thumbs = data.images.edges.map((edge) => edge.node.thumb.fluid)
   return (
     <Layout>
       <SEO title="Example" />

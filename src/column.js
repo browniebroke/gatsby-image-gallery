@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const Col = styled.div`
   flex-grow: 0;
   flex-shrink: 0;
-  ${props => {
+  ${(props) => {
     return css`
       flex-basis: ${props.width}%;
       max-width: ${props.width}%;
@@ -12,7 +12,7 @@ const Col = styled.div`
   }}
 
   @media (min-width: 576px) {
-    ${props => {
+    ${(props) => {
       return css`
         flex-basis: ${props.md}%;
         max-width: ${props.md}%;

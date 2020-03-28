@@ -7,8 +7,8 @@ import Row from './row'
 import Col from './column'
 import ImgWrapper from './img-wrapper'
 
-const prevIndex = state => (state.index - 1) % state.images.length
-const nextIndex = state =>
+const prevIndex = (state) => (state.index - 1) % state.images.length
+const nextIndex = (state) =>
   (state.index + state.images.length + 1) % state.images.length
 
 class Gallery extends Component {
@@ -64,13 +64,13 @@ class Gallery extends Component {
   }
 
   movePrev() {
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       index: prevIndex(prevState),
     }))
   }
 
   moveNext() {
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       index: nextIndex(prevState),
     }))
   }
