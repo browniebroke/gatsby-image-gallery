@@ -26,11 +26,11 @@
     "prop-types": "^15.5.4",
     "react": "^16.8",
     "react-dom": "^16.8",
-    "styled-components": ">= 4.0"
+    "styled-components": ">= 5.0"
   },
   "dependencies": {
-    "react-image-lightbox": "5.1.1",
-    "styled-components": "^4.4.0"
+    "react-image-lightbox": "^5.1.1",
+    "styled-components": "^5.0.0"
   },
   "homepage": "https://github.com/browniebroke/gatsby-image-gallery#readme",
   "devDependencies": {
