@@ -7,7 +7,7 @@
   "dependencies": {
     "@browniebroke/gatsby-image-gallery": "3.2.0",
     "babel-plugin-styled-components": "1.10.7",
-    "gatsby": "2.20.8",
+    "gatsby": "2.20.9",
     "gatsby-image": "2.3.1",
     "gatsby-plugin-manifest": "2.3.3",
     "gatsby-plugin-react-helmet": "3.2.1",
