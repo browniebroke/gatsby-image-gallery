@@ -12,6 +12,7 @@
     "es6": true,
     "node": true
   },
+  "ignorePatterns": ["node_modules/", "dist/"],
   "rules": {
     "prettier/prettier": [
       "error",
