@@ -3,8 +3,17 @@ language: node_js
 jobs:
   include:
     - stage: test
+      name: Jest
       script:
-        - yarn test
+        - yarn workspace @browniebroke/gatsby-image-gallery test
+    - name: ESlint
+      script:
+        - yarn lint:eslint
+    - name: Prettier
+      script:
+        - yarn lint:prettier
     - stage: deploy
+      name: Semantic release
       script:
+        - cd gatsby-image-gallery
         - npx semantic-release
