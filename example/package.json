@@ -6,7 +6,7 @@
   "private": false,
   "dependencies": {
     "babel-plugin-styled-components": "1.10.7",
-    "gatsby": "2.20.26",
+    "gatsby": "2.20.27",
     "gatsby-image": "2.3.4",
     "gatsby-plugin-manifest": "2.3.5",
     "gatsby-plugin-react-helmet": "3.2.4",
