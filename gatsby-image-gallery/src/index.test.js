@@ -11,6 +11,15 @@ const fluidShapeMock = (path) => ({
   base64: `string_of_base64`,
 })
 
+const unifiedImageNodeShapeMock = (path) => ({
+  node: {
+    childImageSharp: {
+      thumb: fluidShapeMock(`/thumb${path}`),
+      fluid: fluidShapeMock(path),
+    },
+  },
+})
+
 describe('Gallery component', () => {
   test('that it renders with empty props', () => {
     const renderer = new ShallowRenderer()
@@ -70,6 +79,46 @@ describe('Gallery component', () => {
           { fluid: fluidShapeMock('/thumb/image003.jpg') },
           { fluid: fluidShapeMock('/thumb/image004.jpg') },
           { fluid: fluidShapeMock('/thumb/image005.jpg') },
+        ]}
+      />
+    )
+    const result = renderer.getRenderOutput()
+    expect(result).toMatchSnapshot()
+  })
+
+  test('that it renders with data in fullImages & thumbs', () => {
+    const renderer = new ShallowRenderer()
+    renderer.render(
+      <Gallery
+        fullImages={[
+          '/images/image001.jpg',
+          '/images/image002.jpg',
+          '/images/image003.jpg',
+          '/images/image004.jpg',
+        ]}
+        thumbs={[
+          { fluid: fluidShapeMock('/thumb/image001.jpg') },
+          { fluid: fluidShapeMock('/thumb/image002.jpg') },
+          { fluid: fluidShapeMock('/thumb/image003.jpg') },
+          { fluid: fluidShapeMock('/thumb/image004.jpg') },
+          { fluid: fluidShapeMock('/thumb/image005.jpg') },
+        ]}
+      />
+    )
+    const result = renderer.getRenderOutput()
+    expect(result).toMatchSnapshot()
+  })
+
+  test('that it renders with unified image prop', () => {
+    const renderer = new ShallowRenderer()
+    renderer.render(
+      <Gallery
+        images={[
+          unifiedImageNodeShapeMock('/images/image001.jpg'),
+          unifiedImageNodeShapeMock('/images/image002.jpg'),
+          unifiedImageNodeShapeMock('/images/image003.jpg'),
+          unifiedImageNodeShapeMock('/images/image004.jpg'),
+          unifiedImageNodeShapeMock('/images/image005.jpg'),
         ]}
       />
     )

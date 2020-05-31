@@ -6,14 +6,13 @@ import SEO from '../components/seo'
 import Gallery from '../../../gatsby-image-gallery/src'
 
 const IndexPage = ({ data }) => {
-  const fullSize = data.images.edges.map((edge) => edge.node.full.fluid.src)
-  const thumbs = data.images.edges.map((edge) => edge.node.thumb.fluid)
+  const images = data.images.edges
   return (
     <Layout>
       <SEO title="Example" />
       <h1>Gatsby image gallery demo</h1>
       <p>A very simple page to demo the gallery component.</p>
-      <Gallery images={fullSize} thumbs={thumbs} />
+      <Gallery images={images} />
     </Layout>
   )
 }
@@ -26,18 +25,11 @@ export const query = graphql`
     ) {
       edges {
         node {
-          id
-          thumb: childImageSharp {
-            fluid(maxWidth: 270, maxHeight: 270) {
+          childImageSharp {
+            thumb: fluid(maxWidth: 270, maxHeight: 270) {
               ...GatsbyImageSharpFluid
             }
-          }
-          full: childImageSharp {
-            fluid(
-              maxWidth: 1024
-              quality: 85
-              srcSetBreakpoints: [576, 768, 992, 1200]
-            ) {
+            fluid(maxWidth: 1024) {
               ...GatsbyImageSharpFluid
             }
           }
