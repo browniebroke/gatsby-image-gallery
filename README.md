@@ -35,10 +35,12 @@ import '@browniebroke/gatsby-image-gallery/dist/style.css'
 
 class Example extends Component {
   render() {
-    return <Gallery />
+    return <Gallery images={{images}/>
   }
 }
 ```
+
+For a full working example, there is one in [the example folder](https://github.com/browniebroke/gatsby-image-gallery/tree/master/example) which is [deployed to Netlify](https://gatsby-image-gallery.netlify.app/).
 
 ## Development
 

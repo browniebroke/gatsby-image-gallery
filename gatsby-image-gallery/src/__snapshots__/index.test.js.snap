@@ -157,6 +157,163 @@ exports[`Gallery component that it renders with a custom column class 1`] = `
 </React.Fragment>
 `;
 
+exports[`Gallery component that it renders with data in fullImages & thumbs 1`] = `
+<React.Fragment>
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image001.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image002.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image003.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image004.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "fluid": Object {
+                "aspectRatio": 1.5,
+                "base64": "string_of_base64",
+                "sizes": "(max-width: 600px) 100vw, 600px",
+                "src": "/thumb/image005.jpg",
+                "srcSet": "some srcSet",
+                "srcSetWebp": "some srcSetWebp",
+              },
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.div)>
+</React.Fragment>
+`;
+
 exports[`Gallery component that it renders with data in images & thumbs 1`] = `
 <React.Fragment>
   <ForwardRef(styled.div)>
@@ -480,5 +637,152 @@ exports[`Gallery component that it renders with data in thumbs 1`] = `
 exports[`Gallery component that it renders with empty props 1`] = `
 <React.Fragment>
   <ForwardRef(styled.div) />
+</React.Fragment>
+`;
+
+exports[`Gallery component that it renders with unified image prop 1`] = `
+<React.Fragment>
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image001.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image002.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image003.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image004.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image005.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.div)>
 </React.Fragment>
 `;
