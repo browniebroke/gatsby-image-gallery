@@ -15,7 +15,7 @@
   </a>
 </p>
 
-Very basic gallery grid based on gatsby-image, styling powered by `styled-components`.
+Very basic gallery grid based on `gatsby-image` and `react-image-lightbox`, styling powered by `styled-components`.
 
 ## Install
 
@@ -25,19 +25,41 @@ npm install --save @browniebroke/gatsby-image-gallery
 
 ## Usage
 
-This component is built on top `react-image-lightbox`, the CSS should be imported from there.
+This component is built on top `react-image-lightbox`, the CSS that ships with `react-image-lightbox` is included in this library for convenience, but you may import it from there.
 
 ```jsx
-import React, { Component } from 'react'
+import { graphql } from 'gatsby'
+import React from 'react'
 
 import Gallery from '@browniebroke/gatsby-image-gallery'
 import '@browniebroke/gatsby-image-gallery/dist/style.css'
 
-class Example extends Component {
-  render() {
-    return <Gallery images={images}/>
-  }
+const MyPage = ({ data }) => {
+  const images = data.allFile.edges.map(({ node }) => node.childImageSharp)
+  // `images` is an array of objects with `thumb` and `full`
+  return <Gallery images={images} />
 }
+
+export const query = graphql`
+  query ImagesForGallery {
+    allFile {
+      edges {
+        node {
+          childImageSharp {
+            thumb: fluid(maxWidth: 270, maxHeight: 270) {
+              ...GatsbyImageSharpFluid
+            }
+            full: fluid(maxWidth: 1024) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+  }
+`
+
+export default MyPage
 ```
 
 For a full working example, there is one in [the example folder](https://github.com/browniebroke/gatsby-image-gallery/tree/master/example) which is [deployed to Netlify](https://gatsby-image-gallery.netlify.app/).

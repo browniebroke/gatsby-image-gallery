@@ -11,13 +11,9 @@ const fluidShapeMock = (path) => ({
   base64: `string_of_base64`,
 })
 
-const unifiedImageNodeShapeMock = (path) => ({
-  node: {
-    childImageSharp: {
-      thumb: fluidShapeMock(`/thumb${path}`),
-      fluid: fluidShapeMock(path),
-    },
-  },
+const unifiedImageShapeMock = (path) => ({
+  thumb: fluidShapeMock(`/thumb${path}`),
+  full: fluidShapeMock(path),
 })
 
 describe('Gallery component', () => {
@@ -114,11 +110,11 @@ describe('Gallery component', () => {
     renderer.render(
       <Gallery
         images={[
-          unifiedImageNodeShapeMock('/images/image001.jpg'),
-          unifiedImageNodeShapeMock('/images/image002.jpg'),
-          unifiedImageNodeShapeMock('/images/image003.jpg'),
-          unifiedImageNodeShapeMock('/images/image004.jpg'),
-          unifiedImageNodeShapeMock('/images/image005.jpg'),
+          unifiedImageShapeMock('/images/image001.jpg'),
+          unifiedImageShapeMock('/images/image002.jpg'),
+          unifiedImageShapeMock('/images/image003.jpg'),
+          unifiedImageShapeMock('/images/image004.jpg'),
+          unifiedImageShapeMock('/images/image005.jpg'),
         ]}
       />
     )
