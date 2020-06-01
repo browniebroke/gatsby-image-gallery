@@ -35,7 +35,7 @@ import '@browniebroke/gatsby-image-gallery/dist/style.css'
 
 class Example extends Component {
   render() {
-    return <Gallery images={{images}/>
+    return <Gallery images={images}/>
   }
 }
 ```
