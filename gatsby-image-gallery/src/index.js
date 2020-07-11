@@ -18,11 +18,12 @@ const Gallery = ({
   gutter = '0.25rem',
   imgClass = '',
 }) => {
-  let thumbsArray, fullArray
+  let thumbsArray, fullArray, thumbAltArray
   if (thumbs === null && fullImages === null) {
     // New style with all images in one prop
     thumbsArray = images.map(({ thumb }) => thumb)
     fullArray = images.map(({ full }) => full.src)
+    thumbAltArray = images.map(({ thumbAlt }) => thumbAlt)
   } else {
     // Compat with old props
     thumbsArray = thumbs
@@ -64,7 +65,8 @@ const Gallery = ({
               }}
             >
               <ImgWrapper margin={gutter}>
-                <Img fluid={thumbnail} className={imgClass} />
+                <Img fluid={thumbnail} className={imgClass}
+                  alt={thumbAltArray ? thumbAltArray[thumbIndex] ? thumbAltArray[thumbIndex] : "" : ""} />
               </ImgWrapper>
             </Col>
           )
@@ -97,6 +99,7 @@ Gallery.propTypes = {
     PropTypes.shape({
       full: PropTypes.object,
       thumb: PropTypes.object,
+      thumbAlt: PropTypes.string
     })
   ),
   thumbs: PropTypes.array,
