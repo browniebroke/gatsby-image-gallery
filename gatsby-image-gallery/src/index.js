@@ -65,8 +65,17 @@ const Gallery = ({
               }}
             >
               <ImgWrapper margin={gutter}>
-                <Img fluid={thumbnail} className={imgClass}
-                  alt={thumbAltArray ? thumbAltArray[thumbIndex] ? thumbAltArray[thumbIndex] : "" : ""} />
+                <Img
+                  fluid={thumbnail}
+                  className={imgClass}
+                  alt={
+                    thumbAltArray
+                      ? thumbAltArray[thumbIndex]
+                        ? thumbAltArray[thumbIndex]
+                        : ''
+                      : ''
+                  }
+                />
               </ImgWrapper>
             </Col>
           )
@@ -99,7 +108,7 @@ Gallery.propTypes = {
     PropTypes.shape({
       full: PropTypes.object,
       thumb: PropTypes.object,
-      thumbAlt: PropTypes.string
+      thumbAlt: PropTypes.string,
     })
   ),
   thumbs: PropTypes.array,

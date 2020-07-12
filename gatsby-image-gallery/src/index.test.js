@@ -130,7 +130,7 @@ describe('Gallery component', () => {
     expect(result).toMatchSnapshot()
   })
 
-  describe('Unified image prop', ()=>{
+  describe('Unified image prop', () => {
     test('that it renders image prop when no alt property is used', () => {
       const renderer = new ShallowRenderer()
       renderer.render(
@@ -147,7 +147,7 @@ describe('Gallery component', () => {
       const result = renderer.getRenderOutput()
       expect(result).toMatchSnapshot()
     })
-  
+
     test('that it renders image prop when alt property is used', () => {
       const renderer = new ShallowRenderer()
       renderer.render(
