@@ -11,9 +11,10 @@ const fluidShapeMock = (path) => ({
   base64: `string_of_base64`,
 })
 
-const unifiedImageShapeMock = (path) => ({
+const unifiedImageShapeMock = (path, alt) => ({
   thumb: fluidShapeMock(`/thumb${path}`),
   full: fluidShapeMock(path),
+  thumbAlt: alt,
 })
 
 describe('Gallery component', () => {
@@ -105,23 +106,6 @@ describe('Gallery component', () => {
     expect(result).toMatchSnapshot()
   })
 
-  test('that it renders with unified image prop', () => {
-    const renderer = new ShallowRenderer()
-    renderer.render(
-      <Gallery
-        images={[
-          unifiedImageShapeMock('/images/image001.jpg'),
-          unifiedImageShapeMock('/images/image002.jpg'),
-          unifiedImageShapeMock('/images/image003.jpg'),
-          unifiedImageShapeMock('/images/image004.jpg'),
-          unifiedImageShapeMock('/images/image005.jpg'),
-        ]}
-      />
-    )
-    const result = renderer.getRenderOutput()
-    expect(result).toMatchSnapshot()
-  })
-
   test('that it renders with a custom column class', () => {
     const renderer = new ShallowRenderer()
     renderer.render(
@@ -144,5 +128,58 @@ describe('Gallery component', () => {
     )
     const result = renderer.getRenderOutput()
     expect(result).toMatchSnapshot()
+  })
+
+  describe('Unified image prop', () => {
+    test('that it renders image prop when no alt property is used', () => {
+      const renderer = new ShallowRenderer()
+      renderer.render(
+        <Gallery
+          images={[
+            unifiedImageShapeMock('/images/image001.jpg'),
+            unifiedImageShapeMock('/images/image002.jpg'),
+            unifiedImageShapeMock('/images/image003.jpg'),
+            unifiedImageShapeMock('/images/image004.jpg'),
+            unifiedImageShapeMock('/images/image005.jpg'),
+          ]}
+        />
+      )
+      const result = renderer.getRenderOutput()
+      expect(result).toMatchSnapshot()
+    })
+
+    test('that it renders image prop when alt property is used', () => {
+      const renderer = new ShallowRenderer()
+      renderer.render(
+        <Gallery
+          images={[
+            unifiedImageShapeMock('/images/image001.jpg', '001'),
+            unifiedImageShapeMock('/images/image002.jpg', '002'),
+            unifiedImageShapeMock('/images/image003.jpg', '003'),
+            unifiedImageShapeMock('/images/image004.jpg', '004'),
+            unifiedImageShapeMock('/images/image005.jpg', '005'),
+          ]}
+        />
+      )
+      const result = renderer.getRenderOutput()
+      expect(result).toMatchSnapshot()
+    })
+
+    test('that it renders image prop when only in some cases the alt property is used', () => {
+      const renderer = new ShallowRenderer()
+      renderer.render(
+        <Gallery
+          images={[
+            unifiedImageShapeMock('/images/image001.jpg', '001'),
+            unifiedImageShapeMock('/images/image002.jpg', '002'),
+            unifiedImageShapeMock('/images/image003.jpg'),
+            unifiedImageShapeMock('/images/image004.jpg'),
+            unifiedImageShapeMock('/images/image005.jpg', '005'),
+          ]}
+        />
+      )
+      const result = renderer.getRenderOutput()
+      expect(result).toMatchSnapshot()
+    })
   })
 })
