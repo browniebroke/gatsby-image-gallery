@@ -18,6 +18,7 @@
   "scripts": {
     "format": "prettier --write \"**/*.+(js|json|md)\"",
     "lint:eslint": "eslint --ext .js .",
-    "lint:prettier": "prettier --check \"**/*.+(js|json|md)\""
+    "lint:prettier": "prettier --check \"**/*.+(js|json|md)\"",
+    "test": "yarn workspace @browniebroke/gatsby-image-gallery test"
   }
 }

@@ -1,17 +1,17 @@
 # gatsby-image-gallery
 
 <p align="center">
-  <a href="https://github.com/browniebroke/gatsby-image-gallery/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Released under the MIT license." />
-  </a>
-  <a href="https://travis-ci.com/browniebroke/gatsby-image-gallery">
-    <img src="https://travis-ci.com/browniebroke/gatsby-image-gallery.svg?branch=master" alt="Build status." />
+  <a href="https://github.com/browniebroke/gatsby-image-gallery/actions?query=workflow%3ACI">
+    <img alt="Linting Workflow status" src="https://img.shields.io/github/workflow/status/browniebroke/gatsby-image-gallery/CI/master?label=CI&logo=github&logoColor=white&style=flat-square">
   </a>
   <a href="https://www.npmjs.com/package/@browniebroke/gatsby-image-gallery">
-    <img src="https://img.shields.io/npm/v/@browniebroke/gatsby-image-gallery.svg" alt="Current npm package version." />
+    <img src="https://img.shields.io/npm/v/@browniebroke/gatsby-image-gallery.svg?logo=npm&logoColor=white&style=flat-square" alt="Current npm package version." />
+  </a>
+  <a href="https://github.com/browniebroke/gatsby-image-gallery/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="Released under the MIT license." />
   </a>
   <a href="https://lgtm.com/projects/g/browniebroke/gatsby-image-gallery/alerts/">
-    <img alt="Total alerts" src="https://img.shields.io/lgtm/alerts/g/browniebroke/gatsby-image-gallery.svg?logo=lgtm&logoWidth=18"/>
+    <img src="https://img.shields.io/lgtm/alerts/github/browniebroke/gatsby-image-gallery?logo=lgtm&logoColor=white&style=flat-square" alt="Total alerts">
   </a>
 </p>
 
