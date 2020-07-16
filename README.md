@@ -62,6 +62,24 @@ export const query = graphql`
 export default MyPage
 ```
 
+### Details
+
+The `images` prop is an array of objects with 2 required properties: `thumb` and `full` that should each be a `GatsbyImage` compatible object.
+
+In addition, images may have the following properties:
+
+- `thumbAlt`: (string) used to set the `alt` attribute on the thumbnail image
+- `title`: (node) passed to the Lightbox component as [`imageTitle`](https://github.com/frontend-collective/react-image-lightbox#options).
+- `caption`: (node) passed to the Lightbox component as [`imageCaption`](https://github.com/frontend-collective/react-image-lightbox#options).
+
+### Passing options to Lightbox
+
+The `<Gallery>` component also accepts an object in the `lightboxOptions` props, which will be passed down directly [to `react-image-lightbox`](https://github.com/frontend-collective/react-image-lightbox).
+
+You can see the full list of options in [their documentation](https://github.com/frontend-collective/react-image-lightbox#options).
+
+### Example
+
 For a full working example, there is one in [the example folder](https://github.com/browniebroke/gatsby-image-gallery/tree/master/example) which is [deployed to Netlify](https://gatsby-image-gallery.netlify.app/).
 
 ## Development
