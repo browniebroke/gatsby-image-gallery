@@ -92,7 +92,6 @@ const Gallery = ({
           onMoveNextRequest={() => setIndex(nextIndex)}
           imageTitle={images[index].title}
           imageCaption={images[index].caption}
-          imageCrossOrigin={images[index].crossOrigin}
           {...lightBoxOptions}
         />
       )}
@@ -108,9 +107,8 @@ Gallery.propTypes = {
       full: PropTypes.object,
       thumb: PropTypes.object,
       thumbAlt: PropTypes.string,
-      title: PropTypes.string,
-      caption: PropTypes.string,
-      crossOrigin: PropTypes.string,
+      title: PropTypes.node,
+      caption: PropTypes.node,
     })
   ),
   thumbs: PropTypes.array,
