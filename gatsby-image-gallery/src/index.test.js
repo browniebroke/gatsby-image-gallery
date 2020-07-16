@@ -1,6 +1,7 @@
 import React from 'react'
 import Gallery from './index'
 import ShallowRenderer from 'react-test-renderer/shallow'
+import { act } from 'react-dom/test-utils'
 
 const fluidShapeMock = (path) => ({
   aspectRatio: 1.5,
@@ -178,6 +179,34 @@ describe('Gallery component', () => {
           ]}
         />
       )
+      const result = renderer.getRenderOutput()
+      expect(result).toMatchSnapshot()
+    })
+  })
+
+  describe('lightboxOptions props', () => {
+    const lightboxOptions = {
+      imageLoadErrorMessage: 'Impossible de charger cette image',
+      nextLabel: 'Image suivante',
+      prevLabel: 'Image précédente',
+      zoomInLabel: 'Zoomer',
+      zoomOutLabel: 'Dézoomer',
+      closeLabel: 'Fermer',
+    }
+
+    test('that the Lightbox options are accepted', () => {
+      const renderer = new ShallowRenderer()
+      renderer.render(
+        <Gallery
+          images={[
+            unifiedImageShapeMock('/images/image001.jpg'),
+            unifiedImageShapeMock('/images/image002.jpg'),
+            unifiedImageShapeMock('/images/image003.jpg'),
+          ]}
+          lightboxOptions={lightboxOptions}
+        />
+      )
+
       const result = renderer.getRenderOutput()
       expect(result).toMatchSnapshot()
     })

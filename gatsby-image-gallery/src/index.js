@@ -17,6 +17,7 @@ const Gallery = ({
   mdColWidth = 100 / 4,
   gutter = '0.25rem',
   imgClass = '',
+  lightBoxOptions = {},
 }) => {
   let thumbsArray, fullArray, thumbAltArray
   if (thumbs === null && fullImages === null) {
@@ -89,12 +90,10 @@ const Gallery = ({
           onCloseRequest={() => setIsOpen(false)}
           onMovePrevRequest={() => setIndex(prevIndex)}
           onMoveNextRequest={() => setIndex(nextIndex)}
-          imageLoadErrorMessage="Impossible de charger cette image"
-          nextLabel="Image suivante"
-          prevLabel="Image précédente"
-          zoomInLabel="Zoomer"
-          zoomOutLabel="Dézoomer"
-          closeLabel="Fermer"
+          imageTitle={images[index].title}
+          imageCaption={images[index].caption}
+          imageCrossOrigin={images[index].crossOrigin}
+          {...lightBoxOptions}
         />
       )}
     </React.Fragment>
@@ -109,6 +108,9 @@ Gallery.propTypes = {
       full: PropTypes.object,
       thumb: PropTypes.object,
       thumbAlt: PropTypes.string,
+      title: PropTypes.string,
+      caption: PropTypes.string,
+      crossOrigin: PropTypes.string,
     })
   ),
   thumbs: PropTypes.array,
@@ -117,4 +119,5 @@ Gallery.propTypes = {
   mdColWidth: PropTypes.number,
   gutter: PropTypes.string,
   imgClass: PropTypes.string,
+  lightboxOptions: PropTypes.object,
 }

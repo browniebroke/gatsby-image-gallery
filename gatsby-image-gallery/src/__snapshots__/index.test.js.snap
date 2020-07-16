@@ -441,6 +441,279 @@ exports[`Gallery component Unified image prop that it renders image prop when on
 </React.Fragment>
 `;
 
+exports[`Gallery component lightboxOptions props rendering of Lightbox opened with options 1`] = `
+<React.Fragment>
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image001.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image002.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image003.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.div)>
+</React.Fragment>
+`;
+
+exports[`Gallery component lightboxOptions props that the Lightbox options are accepted 1`] = `
+<React.Fragment>
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image001.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image002.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image003.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.div)>
+</React.Fragment>
+`;
+
+exports[`Gallery component lightboxOptions props that the Lightbox options are accepted 2`] = `
+<React.Fragment>
+  <ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image001.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image002.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+    <ForwardRef(styled.div)
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <ForwardRef(styled.div)
+        margin="0.25rem"
+      >
+        <Image
+          Tag="div"
+          alt=""
+          className=""
+          durationFadeIn={500}
+          fadeIn={true}
+          fluid={
+            Object {
+              "aspectRatio": 1.5,
+              "base64": "string_of_base64",
+              "sizes": "(max-width: 600px) 100vw, 600px",
+              "src": "/thumb/images/image003.jpg",
+              "srcSet": "some srcSet",
+              "srcSetWebp": "some srcSetWebp",
+            }
+          }
+          loading="lazy"
+        />
+      </ForwardRef(styled.div)>
+    </ForwardRef(styled.div)>
+  </ForwardRef(styled.div)>
+</React.Fragment>
+`;
+
 exports[`Gallery component that it renders with a custom column class 1`] = `
 <React.Fragment>
   <ForwardRef(styled.div)>
