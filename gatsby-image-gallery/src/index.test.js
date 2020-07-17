@@ -1,7 +1,6 @@
 import React from 'react'
 import Gallery from './index'
 import ShallowRenderer from 'react-test-renderer/shallow'
-import { act } from 'react-dom/test-utils'
 
 const fluidShapeMock = (path) => ({
   aspectRatio: 1.5,
