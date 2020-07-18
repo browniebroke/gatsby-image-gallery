@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => {
       <SEO title="Example" />
       <h1>Gatsby image gallery demo</h1>
       <p>A very simple page to demo the gallery component.</p>
-      <Gallery images={images} lightBoxOptions={lightboxOptions} />
+      <Gallery images={images} lightboxOptions={lightboxOptions} />
     </Layout>
   )
 }

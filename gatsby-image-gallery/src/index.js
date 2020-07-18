@@ -17,7 +17,7 @@ const Gallery = ({
   mdColWidth = 100 / 4,
   gutter = '0.25rem',
   imgClass = '',
-  lightBoxOptions = {},
+  lightboxOptions = {},
 }) => {
   let thumbsArray, fullArray, thumbAltArray
   if (thumbs === null && fullImages === null) {
@@ -92,7 +92,7 @@ const Gallery = ({
           onMoveNextRequest={() => setIndex(nextIndex)}
           imageTitle={images[index].title}
           imageCaption={images[index].caption}
-          {...lightBoxOptions}
+          {...lightboxOptions}
         />
       )}
     </React.Fragment>
