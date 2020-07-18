@@ -16,6 +16,7 @@
     "prettier": "2.0.5"
   },
   "scripts": {
+    "develop": "yarn workspace example develop",
     "format": "prettier --write \"**/*.+(js|json|md)\"",
     "lint:eslint": "eslint --ext .js .",
     "lint:prettier": "prettier --check \"**/*.+(js|json|md)\"",

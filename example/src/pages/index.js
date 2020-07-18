@@ -7,12 +7,21 @@ import Gallery from '../../../gatsby-image-gallery/src'
 
 const IndexPage = ({ data }) => {
   const images = data.images.edges.map(({ node }) => node.childImageSharp)
+  // Override some of Lightbox options to localise labels in French
+  const lightboxOptions = {
+    imageLoadErrorMessage: 'Impossible de charger cette image',
+    nextLabel: 'Image suivante',
+    prevLabel: 'Image précédente',
+    zoomInLabel: 'Zoomer',
+    zoomOutLabel: 'Dézoomer',
+    closeLabel: 'Fermer',
+  }
   return (
     <Layout>
       <SEO title="Example" />
       <h1>Gatsby image gallery demo</h1>
       <p>A very simple page to demo the gallery component.</p>
-      <Gallery images={images} />
+      <Gallery images={images} lightBoxOptions={lightboxOptions} />
     </Layout>
   )
 }
