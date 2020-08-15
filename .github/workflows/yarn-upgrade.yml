@@ -1,0 +1,33 @@
+name: Yarn Upgrader
+
+on:
+  schedule:
+  # On the 16th day of each month at midnight
+  - cron: "0 0 16 * *"
+
+  # Manual trigger
+  workflow_dispatch:
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    # Read node version from `.nvmrc` file
+    - id: nvmrc
+      uses: browniebroke/read-nvmrc-action@v1
+
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '${{ steps.nvmrc.outputs.node_version }}'
+
+    - uses: browniebroke/yarn-upgrade-action@v1
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v2
+      with:
+        token: ${{ secrets.CPR_GITHUB_TOKEN }}
+        branch: update/yarn-upgrade
+        title: Run yarn upgrade
+        commit-message: "chore(deps): Run yarn upgrade"
