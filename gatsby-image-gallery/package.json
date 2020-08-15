@@ -55,7 +55,7 @@
     "gatsby-image": "2.4.14",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "3.4.3",
     "react-test-renderer": "16.13.1",
     "rollup": "2.23.0",
     "rollup-plugin-babel": "4.4.0",
