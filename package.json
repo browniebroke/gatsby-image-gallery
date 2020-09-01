@@ -13,7 +13,7 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.20.6",
     "eslint-plugin-react-hooks": "4.1.0",
-    "prettier": "2.0.5"
+    "prettier": "2.1.1"
   },
   "scripts": {
     "develop": "yarn workspace example develop",
