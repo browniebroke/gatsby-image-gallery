@@ -6,7 +6,14 @@ import SEO from '../components/seo'
 import Gallery from '../../../gatsby-image-gallery/src'
 
 const IndexPage = ({ data }) => {
-  const images = data.images.edges.map(({ node }) => node.childImageSharp)
+  const images = data.images.edges.map(({ node }) => ({
+    ...node.childImageSharp,
+    // Use original name as caption.
+    // The `originalName` is queried inside the `thumb` field,
+    // but the `Gallery` component expects `caption` at the top level.
+    caption: node.childImageSharp.thumb.originalName,
+  }))
+
   // Override some of Lightbox options to localise labels in French
   const lightboxOptions = {
     imageLoadErrorMessage: 'Impossible de charger cette image',
@@ -37,6 +44,7 @@ export const query = graphql`
           childImageSharp {
             thumb: fluid(maxWidth: 270, maxHeight: 270) {
               ...GatsbyImageSharpFluid
+              originalName
             }
             full: fluid(maxWidth: 1024) {
               ...GatsbyImageSharpFluid
