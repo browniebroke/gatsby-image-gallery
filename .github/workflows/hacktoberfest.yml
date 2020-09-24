@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
     inputs:
       revert:
-        description: 'If label should be set or unset'
+        description: 'If true label will be removed'
         required: true
-        default: '1'
+        default: '0'
 
 jobs:
   example:
