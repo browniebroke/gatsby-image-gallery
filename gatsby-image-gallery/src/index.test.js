@@ -20,7 +20,7 @@ const unifiedImageShapeMock = (path, alt) => ({
 describe('Gallery component', () => {
   test('that it renders with empty props', () => {
     const renderer = new ShallowRenderer()
-    renderer.render(<Gallery images={[]} thumbs={[]} />)
+    renderer.render(<Gallery images={[]} />)
     const result = renderer.getRenderOutput()
     expect(result).toMatchSnapshot()
   })
@@ -34,95 +34,6 @@ describe('Gallery component', () => {
           '/images/image002.jpg',
           '/images/image003.jpg',
           '/images/image004.jpg',
-        ]}
-        thumbs={[]}
-      />
-    )
-    const result = renderer.getRenderOutput()
-    expect(result).toMatchSnapshot()
-  })
-
-  test('that it renders with data in thumbs', () => {
-    const renderer = new ShallowRenderer()
-    renderer.render(
-      <Gallery
-        images={[]}
-        thumbs={[
-          { fluid: fluidShapeMock('/thumb/image001.jpg') },
-          { fluid: fluidShapeMock('/thumb/image002.jpg') },
-          { fluid: fluidShapeMock('/thumb/image003.jpg') },
-          { fluid: fluidShapeMock('/thumb/image004.jpg') },
-          { fluid: fluidShapeMock('/thumb/image005.jpg') },
-        ]}
-      />
-    )
-    const result = renderer.getRenderOutput()
-    expect(result).toMatchSnapshot()
-  })
-
-  test('that it renders with data in images & thumbs', () => {
-    const renderer = new ShallowRenderer()
-    renderer.render(
-      <Gallery
-        images={[
-          '/images/image001.jpg',
-          '/images/image002.jpg',
-          '/images/image003.jpg',
-          '/images/image004.jpg',
-        ]}
-        thumbs={[
-          { fluid: fluidShapeMock('/thumb/image001.jpg') },
-          { fluid: fluidShapeMock('/thumb/image002.jpg') },
-          { fluid: fluidShapeMock('/thumb/image003.jpg') },
-          { fluid: fluidShapeMock('/thumb/image004.jpg') },
-          { fluid: fluidShapeMock('/thumb/image005.jpg') },
-        ]}
-      />
-    )
-    const result = renderer.getRenderOutput()
-    expect(result).toMatchSnapshot()
-  })
-
-  test('that it renders with data in fullImages & thumbs', () => {
-    const renderer = new ShallowRenderer()
-    renderer.render(
-      <Gallery
-        fullImages={[
-          '/images/image001.jpg',
-          '/images/image002.jpg',
-          '/images/image003.jpg',
-          '/images/image004.jpg',
-        ]}
-        thumbs={[
-          { fluid: fluidShapeMock('/thumb/image001.jpg') },
-          { fluid: fluidShapeMock('/thumb/image002.jpg') },
-          { fluid: fluidShapeMock('/thumb/image003.jpg') },
-          { fluid: fluidShapeMock('/thumb/image004.jpg') },
-          { fluid: fluidShapeMock('/thumb/image005.jpg') },
-        ]}
-      />
-    )
-    const result = renderer.getRenderOutput()
-    expect(result).toMatchSnapshot()
-  })
-
-  test('that it renders with a custom column class', () => {
-    const renderer = new ShallowRenderer()
-    renderer.render(
-      <Gallery
-        colClass="col-md-3"
-        images={[
-          '/images/image001.jpg',
-          '/images/image002.jpg',
-          '/images/image003.jpg',
-          '/images/image004.jpg',
-        ]}
-        thumbs={[
-          { fluid: fluidShapeMock('/thumb/image001.jpg') },
-          { fluid: fluidShapeMock('/thumb/image002.jpg') },
-          { fluid: fluidShapeMock('/thumb/image003.jpg') },
-          { fluid: fluidShapeMock('/thumb/image004.jpg') },
-          { fluid: fluidShapeMock('/thumb/image005.jpg') },
         ]}
       />
     )

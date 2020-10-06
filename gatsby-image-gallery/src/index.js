@@ -11,8 +11,6 @@ import 'react-image-lightbox/style.css'
 
 const Gallery = ({
   images = null,
-  thumbs = null,
-  fullImages = null,
   colWidth = 100 / 3,
   mdColWidth = 100 / 4,
   gutter = '0.25rem',
@@ -20,30 +18,15 @@ const Gallery = ({
   lightboxOptions = {},
 }) => {
   let thumbsArray, fullArray, thumbAltArray
-  if (thumbs === null && fullImages === null) {
-    // New style with all images in one prop
-    thumbsArray = images.map(({ thumb }) => thumb)
-    fullArray = images.map(({ full }) => full.src)
-    thumbAltArray = images.map(({ thumbAlt }) => thumbAlt)
-  } else {
-    // Compat with old props
-    thumbsArray = thumbs
-    if (fullImages === null && images !== null) {
-      console.warn(
-        `Using the images props with thumbs is deprecated and will not 
-        be supported in the next major version. 
-        
-        If you need to pass 2 arrays separately, use the new prop "fullImages" 
-        instead, which works exactly the same way as "images" used to. 
-        
-        It's recommended to pass all images as a single array in the "images"
-        prop instead.`
-      )
-      fullArray = images
-    } else {
-      fullArray = fullImages
-    }
-  }
+
+  // New style with all images in one prop
+  thumbsArray = images
+    .filter((thumb) => thumb !== undefined)
+    .map(({ thumb }) => thumb)
+  thumbAltArray = images.map(({ thumbAlt }) => thumbAlt)
+  fullArray = images
+    .filter((image) => image.full !== undefined)
+    .map(({ full }) => full.src)
 
   const [index, setIndex] = useState(0)
   const [isOpen, setIsOpen] = useState(false)
@@ -111,8 +94,6 @@ Gallery.propTypes = {
       caption: PropTypes.node,
     })
   ),
-  thumbs: PropTypes.array,
-  fullImages: PropTypes.array,
   colWidth: PropTypes.number,
   mdColWidth: PropTypes.number,
   gutter: PropTypes.string,
