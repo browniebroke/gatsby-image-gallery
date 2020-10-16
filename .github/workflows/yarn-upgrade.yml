@@ -30,4 +30,4 @@ jobs:
         token: ${{ secrets.CPR_GITHUB_TOKEN }}
         branch: update/yarn-upgrade
         title: Run yarn upgrade
-        commit-message: "chore(deps): Run yarn upgrade"
+        commit-message: "chore(deps): run yarn upgrade"
