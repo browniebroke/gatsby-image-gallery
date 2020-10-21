@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/browniebroke/gatsby-image-gallery/actions?query=workflow%3ACI">
-    <img alt="Linting Workflow status" src="https://img.shields.io/github/workflow/status/browniebroke/gatsby-image-gallery/CI/master?label=CI&logo=github&logoColor=white&style=flat-square">
+    <img alt="CI status" src="https://img.shields.io/github/workflow/status/browniebroke/gatsby-image-gallery/CI/main?label=CI&logo=github&logoColor=white&style=flat-square">
   </a>
   <a href="https://www.npmjs.com/package/@browniebroke/gatsby-image-gallery">
     <img src="https://img.shields.io/npm/v/@browniebroke/gatsby-image-gallery.svg?logo=npm&logoColor=white&style=flat-square" alt="Current npm package version." />
