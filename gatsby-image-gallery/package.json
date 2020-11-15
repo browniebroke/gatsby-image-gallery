@@ -50,7 +50,7 @@
     "@babel/plugin-syntax-import-meta": "7.10.4",
     "@babel/preset-env": "7.12.1",
     "@babel/preset-react": "7.12.5",
-    "@svgr/rollup": "5.4.0",
+    "@svgr/rollup": "5.5.0",
     "cross-env": "7.0.2",
     "gatsby-image": "2.5.0",
     "react": "17.0.1",
