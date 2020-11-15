@@ -41,6 +41,7 @@ jobs:
         node_version:
           - 10
           - 12
+          - 14
 
     steps:
       - uses: actions/checkout@v2
@@ -62,6 +63,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2.1.2
     - run: yarn
+    - run: cp README.md react-ui-components/
     - name: Run Sematic release
       working-directory: ./gatsby-image-gallery
       run: npx semantic-release
