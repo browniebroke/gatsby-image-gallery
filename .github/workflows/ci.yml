@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         linter:
           - eslint
@@ -20,8 +21,7 @@ jobs:
       - uses: actions/setup-node@v2.1.2
 
       - run: yarn
-      - run: |
-          yarn lint:${{ matrix.linter }}
+      - run: yarn lint:${{ matrix.linter }}
 
   commitlint:
     runs-on: ubuntu-latest
@@ -36,6 +36,7 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         node_version:
           - 10
