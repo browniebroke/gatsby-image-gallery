@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2.1.2
+      - uses: actions/setup-node@v2.1.4
 
       - run: yarn
       - run: yarn lint:${{ matrix.linter }}
@@ -45,7 +45,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2.1.2
+      - uses: actions/setup-node@v2.1.4
         with:
           node-version: ${{ matrix.node_version }}
 
@@ -61,7 +61,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2.1.2
+    - uses: actions/setup-node@v2.1.4
     - run: yarn
     - run: cp README.md gatsby-image-gallery/
     - name: Run Sematic release
