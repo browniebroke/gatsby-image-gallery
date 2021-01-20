@@ -55,7 +55,7 @@
     "@babel/preset-react": "7.12.10",
     "@svgr/rollup": "5.5.0",
     "cross-env": "7.0.3",
-    "gatsby-image": "2.9.0",
+    "gatsby-image": "2.10.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-scripts": "4.0.1",
