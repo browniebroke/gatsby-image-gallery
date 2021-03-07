@@ -16,6 +16,7 @@ const Gallery = ({
   gutter = '0.25rem',
   imgClass = '',
   lightboxOptions = {},
+  onClose = () => {},
 }) => {
   let thumbsArray, fullArray, thumbAltArray
 
@@ -33,6 +34,11 @@ const Gallery = ({
 
   const prevIndex = index - (1 % fullArray.length)
   const nextIndex = (index + fullArray.length + 1) % fullArray.length
+
+  const onCloseLightbox = () => {
+    setIsOpen(false)
+    onClose()
+  }
 
   return (
     <React.Fragment>
@@ -70,7 +76,7 @@ const Gallery = ({
           mainSrc={fullArray[index]}
           nextSrc={fullArray[nextIndex]}
           prevSrc={fullArray[prevIndex]}
-          onCloseRequest={() => setIsOpen(false)}
+          onCloseRequest={onCloseLightbox}
           onMovePrevRequest={() => setIndex(prevIndex)}
           onMoveNextRequest={() => setIndex(nextIndex)}
           imageTitle={images[index].title}
@@ -99,4 +105,5 @@ Gallery.propTypes = {
   gutter: PropTypes.string,
   imgClass: PropTypes.string,
   lightboxOptions: PropTypes.object,
+  onClose: PropTypes.func,
 }

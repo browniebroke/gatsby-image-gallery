@@ -121,4 +121,27 @@ describe('Gallery component', () => {
       expect(result).toMatchSnapshot()
     })
   })
+
+  describe('onClose prop', () => {
+    const onClose = () => {
+      console.log('test onClose')
+    }
+
+    test('onClose prop is accepted', () => {
+      const renderer = new ShallowRenderer()
+      renderer.render(
+        <Gallery
+          images={[
+            unifiedImageShapeMock('/images/image001.jpg'),
+            unifiedImageShapeMock('/images/image002.jpg'),
+            unifiedImageShapeMock('/images/image003.jpg'),
+          ]}
+          onClose={onClose}
+        />
+      )
+
+      const result = renderer.getRenderOutput()
+      expect(result).toMatchSnapshot()
+    })
+  })
 })

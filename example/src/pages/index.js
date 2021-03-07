@@ -23,12 +23,22 @@ const IndexPage = ({ data }) => {
     zoomOutLabel: 'Dézoomer',
     closeLabel: 'Fermer',
   }
+
+  //Add callback to Lightbox onCloseRequest
+  const onClose = () => {
+    console.log('Lightbox was closed')
+  }
+
   return (
     <Layout>
       <SEO title="Example" />
       <h1>Gatsby image gallery demo</h1>
       <p>A very simple page to demo the gallery component.</p>
-      <Gallery images={images} lightboxOptions={lightboxOptions} />
+      <Gallery
+        images={images}
+        lightboxOptions={lightboxOptions}
+        onClose={onClose}
+      />
     </Layout>
   )
 }
