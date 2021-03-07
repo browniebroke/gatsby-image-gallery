@@ -78,6 +78,10 @@ The `<Gallery>` component also accepts an object in the `lightboxOptions` props,
 
 You can see the full list of options in [their documentation](https://github.com/frontend-collective/react-image-lightbox#options).
 
+### Passing onClose callback to Lightbox
+
+The `<Gallery>` component also accepts a function in the `onClose` prop, which will be called when [`react-image-lightbox`](https://github.com/frontend-collective/react-image-lightbox) is closed by the user.
+
 ### Example
 
 For a full working example, there is one in [the example folder](https://github.com/browniebroke/gatsby-image-gallery/tree/master/example) which is [deployed to Netlify](https://gatsby-image-gallery.netlify.app/).
