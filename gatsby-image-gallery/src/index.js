@@ -10,7 +10,7 @@ import ImgWrapper from './img-wrapper'
 import 'react-image-lightbox/style.css'
 
 const Gallery = ({
-  images = null,
+  images = [],
   colWidth = 100 / 3,
   mdColWidth = 100 / 4,
   gutter = '0.25rem',
@@ -18,22 +18,11 @@ const Gallery = ({
   lightboxOptions = {},
   onClose = () => {},
 }) => {
-  let thumbsArray, fullArray, thumbAltArray
-
-  // New style with all images in one prop
-  thumbsArray = images
-    .filter((thumb) => thumb !== undefined)
-    .map(({ thumb }) => thumb)
-  thumbAltArray = images.map(({ thumbAlt }) => thumbAlt)
-  fullArray = images
-    .filter((image) => image.full !== undefined)
-    .map(({ full }) => full.src)
-
   const [index, setIndex] = useState(0)
   const [isOpen, setIsOpen] = useState(false)
 
-  const prevIndex = index - (1 % fullArray.length)
-  const nextIndex = (index + fullArray.length + 1) % fullArray.length
+  const prevIndex = (index + images.length - 1) % images.length
+  const nextIndex = (index + images.length + 1) % images.length
 
   const onCloseLightbox = () => {
     onClose()
@@ -43,28 +32,22 @@ const Gallery = ({
   return (
     <React.Fragment>
       <Row>
-        {thumbsArray.map((thumbnail, thumbIndex) => {
+        {images.map((img, imgIndex) => {
           return (
             <Col
               width={colWidth}
               md={mdColWidth}
-              key={thumbIndex}
+              key={imgIndex}
               onClick={() => {
                 setIsOpen(true)
-                setIndex(thumbIndex)
+                setIndex(imgIndex)
               }}
             >
               <ImgWrapper margin={gutter}>
                 <Img
-                  fluid={thumbnail}
+                  fluid={img.thumb}
                   className={imgClass}
-                  alt={
-                    thumbAltArray
-                      ? thumbAltArray[thumbIndex]
-                        ? thumbAltArray[thumbIndex]
-                        : ''
-                      : ''
-                  }
+                  alt={img.thumbAlt}
                 />
               </ImgWrapper>
             </Col>
@@ -73,9 +56,9 @@ const Gallery = ({
       </Row>
       {isOpen && (
         <Lightbox
-          mainSrc={fullArray[index]}
-          nextSrc={fullArray[nextIndex]}
-          prevSrc={fullArray[prevIndex]}
+          mainSrc={images[index].full.src}
+          nextSrc={images[nextIndex].full.src}
+          prevSrc={images[prevIndex].full.src}
           onCloseRequest={onCloseLightbox}
           onMovePrevRequest={() => setIndex(prevIndex)}
           onMoveNextRequest={() => setIndex(nextIndex)}

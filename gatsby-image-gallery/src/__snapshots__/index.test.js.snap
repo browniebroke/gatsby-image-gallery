@@ -532,91 +532,6 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
 </React.Fragment>
 `;
 
-exports[`Gallery component that it renders with data in images 1`] = `
-<React.Fragment>
-  <styled.div>
-    <styled.div
-      md={25}
-      onClick={[Function]}
-      width={33.333333333333336}
-    >
-      <styled.div
-        margin="0.25rem"
-      >
-        <Image
-          Tag="div"
-          alt=""
-          className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          loading="lazy"
-        />
-      </styled.div>
-    </styled.div>
-    <styled.div
-      md={25}
-      onClick={[Function]}
-      width={33.333333333333336}
-    >
-      <styled.div
-        margin="0.25rem"
-      >
-        <Image
-          Tag="div"
-          alt=""
-          className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          loading="lazy"
-        />
-      </styled.div>
-    </styled.div>
-    <styled.div
-      md={25}
-      onClick={[Function]}
-      width={33.333333333333336}
-    >
-      <styled.div
-        margin="0.25rem"
-      >
-        <Image
-          Tag="div"
-          alt=""
-          className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          loading="lazy"
-        />
-      </styled.div>
-    </styled.div>
-    <styled.div
-      md={25}
-      onClick={[Function]}
-      width={33.333333333333336}
-    >
-      <styled.div
-        margin="0.25rem"
-      >
-        <Image
-          Tag="div"
-          alt=""
-          className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          loading="lazy"
-        />
-      </styled.div>
-    </styled.div>
-  </styled.div>
-</React.Fragment>
-`;
-
-exports[`Gallery component that it renders with empty props 1`] = `
-<React.Fragment>
-  <styled.div />
-</React.Fragment>
-`;
-
 exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
 <React.Fragment>
   <styled.div>
@@ -705,5 +620,11 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
       </styled.div>
     </styled.div>
   </styled.div>
+</React.Fragment>
+`;
+
+exports[`Gallery component that it renders with empty props 1`] = `
+<React.Fragment>
+  <styled.div />
 </React.Fragment>
 `;
