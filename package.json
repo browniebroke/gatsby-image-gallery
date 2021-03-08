@@ -20,6 +20,7 @@
     "format": "prettier --write \"**/*.+(js|json|md)\"",
     "lint:eslint": "eslint --ext .js .",
     "lint:prettier": "prettier --check \"**/*.+(js|json|md)\"",
+    "build": "yarn workspace @browniebroke/gatsby-image-gallery build",
     "test": "yarn workspace @browniebroke/gatsby-image-gallery test"
   }
 }
