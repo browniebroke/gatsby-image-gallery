@@ -36,8 +36,8 @@ const Gallery = ({
   const nextIndex = (index + fullArray.length + 1) % fullArray.length
 
   const onCloseLightbox = () => {
-    setIsOpen(false)
     onClose()
+    setIsOpen(false)
   }
 
   return (
