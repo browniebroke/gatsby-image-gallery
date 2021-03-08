@@ -56,6 +56,7 @@
     "@svgr/rollup": "5.5.0",
     "cross-env": "7.0.3",
     "gatsby-image": "2.11.0",
+    "postcss": "7.0.35",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-scripts": "4.0.3",
@@ -65,7 +66,7 @@
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-peer-deps-external": "2.2.4",
-    "rollup-plugin-postcss": "4.0.0",
+    "rollup-plugin-postcss": "3.1.8",
     "rollup-plugin-url": "3.0.1"
   },
   "files": [
