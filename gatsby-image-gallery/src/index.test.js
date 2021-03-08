@@ -25,22 +25,6 @@ describe('Gallery component', () => {
     expect(result).toMatchSnapshot()
   })
 
-  test('that it renders with data in images', () => {
-    const renderer = new ShallowRenderer()
-    renderer.render(
-      <Gallery
-        images={[
-          '/images/image001.jpg',
-          '/images/image002.jpg',
-          '/images/image003.jpg',
-          '/images/image004.jpg',
-        ]}
-      />
-    )
-    const result = renderer.getRenderOutput()
-    expect(result).toMatchSnapshot()
-  })
-
   describe('Unified image prop', () => {
     test('that it renders image prop when no alt property is used', () => {
       const renderer = new ShallowRenderer()
