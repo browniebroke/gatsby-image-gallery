@@ -1,8 +1,8 @@
 import React from 'react'
-import Gallery from './index'
-import ShallowRenderer from 'react-test-renderer/shallow'
+import Gallery from '../src/index'
+import { createRenderer } from 'react-test-renderer/shallow'
 
-const fluidShapeMock = (path) => ({
+const fluidShapeMock = (path: string) => ({
   aspectRatio: 1.5,
   src: path,
   srcSet: `some srcSet`,
@@ -11,15 +11,15 @@ const fluidShapeMock = (path) => ({
   base64: `string_of_base64`,
 })
 
-const unifiedImageShapeMock = (path, alt) => ({
+const unifiedImageShapeMock = (path: string, alt?: string) => ({
   thumb: fluidShapeMock(`/thumb${path}`),
   full: fluidShapeMock(path),
-  thumbAlt: alt,
+  thumbAlt: alt || '',
 })
 
 describe('Gallery component', () => {
   test('that it renders with empty props', () => {
-    const renderer = new ShallowRenderer()
+    const renderer = createRenderer()
     renderer.render(<Gallery images={[]} />)
     const result = renderer.getRenderOutput()
     expect(result).toMatchSnapshot()
@@ -27,7 +27,7 @@ describe('Gallery component', () => {
 
   describe('Unified image prop', () => {
     test('that it renders image prop when no alt property is used', () => {
-      const renderer = new ShallowRenderer()
+      const renderer = createRenderer()
       renderer.render(
         <Gallery
           images={[
@@ -44,7 +44,7 @@ describe('Gallery component', () => {
     })
 
     test('that it renders image prop when alt property is used', () => {
-      const renderer = new ShallowRenderer()
+      const renderer = createRenderer()
       renderer.render(
         <Gallery
           images={[
@@ -61,7 +61,7 @@ describe('Gallery component', () => {
     })
 
     test('that it renders image prop when only in some cases the alt property is used', () => {
-      const renderer = new ShallowRenderer()
+      const renderer = createRenderer()
       renderer.render(
         <Gallery
           images={[
@@ -89,7 +89,7 @@ describe('Gallery component', () => {
     }
 
     test('that the Lightbox options are accepted', () => {
-      const renderer = new ShallowRenderer()
+      const renderer = createRenderer()
       renderer.render(
         <Gallery
           images={[
@@ -112,7 +112,7 @@ describe('Gallery component', () => {
     }
 
     test('onClose prop is accepted', () => {
-      const renderer = new ShallowRenderer()
+      const renderer = createRenderer()
       renderer.render(
         <Gallery
           images={[

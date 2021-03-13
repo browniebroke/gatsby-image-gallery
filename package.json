@@ -5,22 +5,16 @@
     "example"
   ],
   "devDependencies": {
-    "eslint": "7.21.0",
-    "eslint-config-prettier": "8.1.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prettier": "3.3.1",
-    "eslint-plugin-promise": "4.3.1",
-    "eslint-plugin-react": "7.22.0",
-    "eslint-plugin-react-hooks": "4.2.0",
     "prettier": "2.2.1"
   },
   "scripts": {
-    "develop": "yarn workspace example develop",
-    "format": "prettier --write \"**/*.+(js|json|md)\"",
-    "lint:eslint": "eslint --ext .js .",
-    "lint:prettier": "prettier --check \"**/*.+(js|json|md)\"",
-    "build": "yarn workspace @browniebroke/gatsby-image-gallery build",
-    "test": "yarn workspace @browniebroke/gatsby-image-gallery test"
+    "format": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|md|mdx|yml|yaml)\"",
+    "lint": "prettier --check \"**/*.+(js|jsx|ts|tsx|json|md|mdx|yml|yaml)\""
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "arrowParens": "always"
   }
 }

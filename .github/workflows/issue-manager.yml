@@ -15,7 +15,7 @@ name: Issue Manager
 on:
   # Every day at 2:36am
   schedule:
-    - cron: "36 2 * * *"
+    - cron: '36 2 * * *'
 
 jobs:
   issue-manager:

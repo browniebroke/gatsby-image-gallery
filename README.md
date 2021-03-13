@@ -25,14 +25,13 @@ npm install --save @browniebroke/gatsby-image-gallery
 
 ## Usage
 
-This component is built on top `react-image-lightbox`, the CSS that ships with `react-image-lightbox` is included in this library for convenience, but you may import it from there.
+This library provides a `Gallery` component, rendering as a grid of images that can be clicked to open in full size inside a lightbox. See below for a minimal example:
 
 ```jsx
 import { graphql } from 'gatsby'
 import React from 'react'
 
 import Gallery from '@browniebroke/gatsby-image-gallery'
-import '@browniebroke/gatsby-image-gallery/dist/style.css'
 
 const MyPage = ({ data }) => {
   const images = data.allFile.edges.map(({ node }) => node.childImageSharp)
@@ -40,7 +39,7 @@ const MyPage = ({ data }) => {
   return <Gallery images={images} />
 }
 
-export const query = graphql`
+export const pageQuery = graphql`
   query ImagesForGallery {
     allFile {
       edges {

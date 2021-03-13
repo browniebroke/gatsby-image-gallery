@@ -1,11 +1,33 @@
 import { graphql } from 'gatsby'
-import React from 'react'
+import * as React from 'react'
+import { FluidObject } from 'gatsby-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Gallery from '../../../gatsby-image-gallery/src'
 
-const IndexPage = ({ data }) => {
+interface WithOriginalName {
+  originalName: string
+}
+
+interface ImageSharpEdge {
+  node: {
+    childImageSharp: {
+      thumb: FluidObject & WithOriginalName
+      full: FluidObject
+    }
+  }
+}
+
+interface PageProps {
+  data: {
+    images: {
+      edges: ImageSharpEdge[]
+    }
+  }
+}
+
+const IndexPage: React.FC<PageProps> = ({ data }) => {
   const images = data.images.edges.map(({ node }) => ({
     ...node.childImageSharp,
     // Use original name as caption.
@@ -43,7 +65,7 @@ const IndexPage = ({ data }) => {
   )
 }
 
-export const query = graphql`
+export const pageQuery = graphql`
   query ImagesForGallery {
     images: allFile(
       filter: { relativeDirectory: { eq: "gallery" } }

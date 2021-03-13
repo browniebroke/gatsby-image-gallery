@@ -2,26 +2,23 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+      - beta
   pull_request:
 
 jobs:
   lint:
     runs-on: ubuntu-latest
 
-    strategy:
-      fail-fast: false
-      matrix:
-        linter:
-          - eslint
-          - prettier
-
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2.1.5
 
       - run: yarn
-      - run: yarn lint:${{ matrix.linter }}
+      - run: yarn lint
+      - run: yarn lint
+        working-directory: ./gatsby-image-gallery
 
   commitlint:
     runs-on: ubuntu-latest
@@ -51,23 +48,25 @@ jobs:
 
       - run: yarn
       - run: yarn build
-      - run: yarn test
+        working-directory: ./gatsby-image-gallery
+      - run: yarn test --ci --coverage --maxWorkers=2
+        working-directory: ./gatsby-image-gallery
 
   publish:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' }}
     needs:
-    - lint
-    - test
+      - lint
+      - test
 
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2.1.5
-    - run: yarn
-    - run: cp README.md gatsby-image-gallery/
-    - name: Run Sematic release
-      working-directory: ./gatsby-image-gallery
-      run: npx semantic-release
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2.1.5
+      - run: yarn
+      - run: cp README.md gatsby-image-gallery/
+      - name: Run Sematic release
+        working-directory: ./gatsby-image-gallery
+        run: npx semantic-release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

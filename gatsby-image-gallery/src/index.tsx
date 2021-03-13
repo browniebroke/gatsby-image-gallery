@@ -1,15 +1,37 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-import Img from 'gatsby-image'
+import React, { FC, useState } from 'react'
+import Img, { FluidObject } from 'gatsby-image'
 import Lightbox from 'react-image-lightbox'
 
 import Row from './row'
 import Col from './column'
 import ImgWrapper from './img-wrapper'
+import styled from 'styled-components'
 
-import 'react-image-lightbox/style.css'
+import LightboxCSS from 'react-image-lightbox/style.css'
 
-const Gallery = ({
+interface ImageProp {
+  full: FluidObject
+  thumb: FluidObject
+  thumbAlt?: string
+  title?: string
+  caption?: string
+}
+
+interface GalleryProps {
+  images: ImageProp[]
+  colWidth?: number
+  mdColWidth?: number
+  gutter?: string
+  imgClass?: string
+  lightboxOptions?: object
+  onClose?: () => void
+}
+
+const StyledLightbox = styled(Lightbox)`
+  ${LightboxCSS}
+`
+
+const Gallery: FC<GalleryProps> = ({
   images = [],
   colWidth = 100 / 3,
   mdColWidth = 100 / 4,
@@ -47,7 +69,7 @@ const Gallery = ({
                 <Img
                   fluid={img.thumb}
                   className={imgClass}
-                  alt={img.thumbAlt}
+                  alt={img.thumbAlt || ''}
                 />
               </ImgWrapper>
             </Col>
@@ -55,7 +77,7 @@ const Gallery = ({
         })}
       </Row>
       {isOpen && (
-        <Lightbox
+        <StyledLightbox
           mainSrc={images[index].full.src}
           nextSrc={images[nextIndex].full.src}
           prevSrc={images[prevIndex].full.src}
@@ -72,21 +94,3 @@ const Gallery = ({
 }
 
 export default Gallery
-
-Gallery.propTypes = {
-  images: PropTypes.arrayOf(
-    PropTypes.shape({
-      full: PropTypes.object,
-      thumb: PropTypes.object,
-      thumbAlt: PropTypes.string,
-      title: PropTypes.node,
-      caption: PropTypes.node,
-    })
-  ),
-  colWidth: PropTypes.number,
-  mdColWidth: PropTypes.number,
-  gutter: PropTypes.string,
-  imgClass: PropTypes.string,
-  lightboxOptions: PropTypes.object,
-  onClose: PropTypes.func,
-}
