@@ -1,7 +1,11 @@
 import styled, { css } from 'styled-components'
-import PropTypes from 'prop-types'
 
-const Col = styled.div`
+interface ColProps {
+  md: number
+  width: number
+}
+
+const Col = styled.div<ColProps>`
   flex-grow: 0;
   flex-shrink: 0;
   ${(props) => {
@@ -20,10 +24,5 @@ const Col = styled.div`
     }}
   }
 `
-
-Col.propTypes = {
-  width: PropTypes.number.isRequired,
-  md: PropTypes.number.isRequired,
-}
 
 export default Col

@@ -1,26 +1,69 @@
 {
-  "private": true,
-  "workspaces": [
-    "gatsby-image-gallery",
-    "example"
+  "name": "@browniebroke/gatsby-image-gallery",
+  "version": "0.0.0",
+  "description": "Very basic gallery grid based on gatsby-image.",
+  "author": "browniebroke",
+  "license": "MIT",
+  "repository": "browniebroke/gatsby-image-gallery",
+  "homepage": "https://gatsby-image-gallery.netlify.app",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/gatsby-image-gallery.esm.js",
+  "files": [
+    "dist",
+    "src"
   ],
-  "devDependencies": {
-    "eslint": "7.21.0",
-    "eslint-config-prettier": "8.1.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prettier": "3.3.1",
-    "eslint-plugin-promise": "4.3.1",
-    "eslint-plugin-react": "7.22.0",
-    "eslint-plugin-react-hooks": "4.2.0",
-    "prettier": "2.2.1"
+  "engines": {
+    "node": ">=10"
   },
   "scripts": {
-    "develop": "yarn workspace example develop",
-    "format": "prettier --write \"**/*.+(js|json|md)\"",
-    "lint:eslint": "eslint --ext .js .",
-    "lint:prettier": "prettier --check \"**/*.+(js|json|md)\"",
-    "build": "yarn workspace @browniebroke/gatsby-image-gallery build",
-    "test": "yarn workspace @browniebroke/gatsby-image-gallery test"
-  }
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "gatsby-image": ">= 2.0",
+    "react": ">=16",
+    "styled-components": ">= 5.0"
+  },
+  "dependencies": {
+    "react-image-lightbox": "5.1.1",
+    "styled-components": "5.0.0"
+  },
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "4.10.1",
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.2",
+    "@types/react-test-renderer": "17.0.1",
+    "@types/styled-components": "5.1.8",
+    "babel-jest": "^26.6.3",
+    "gatsby-image": "2.11.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-test-renderer": "17.0.1",
+    "rollup-plugin-postcss": "3.1.8",
+    "size-limit": "4.10.1",
+    "tsdx": "0.14.1",
+    "tslib": "2.1.0",
+    "typescript": "4.2.3"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "size-limit": [
+    {
+      "path": "dist/gatsby-image-gallery.cjs.production.min.js",
+      "limit": "60 KB"
+    },
+    {
+      "path": "dist/gatsby-image-gallery.esm.js",
+      "limit": "60 KB"
+    }
+  ]
 }
