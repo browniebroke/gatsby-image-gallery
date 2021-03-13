@@ -65,7 +65,7 @@ const IndexPage: React.FC<PageProps> = ({ data }) => {
   )
 }
 
-export const query = graphql`
+export const pageQuery = graphql`
   query ImagesForGallery {
     images: allFile(
       filter: { relativeDirectory: { eq: "gallery" } }
