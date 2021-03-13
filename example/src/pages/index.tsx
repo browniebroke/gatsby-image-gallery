@@ -4,9 +4,7 @@ import { FluidObject } from 'gatsby-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Gallery from '../../../dist'
-
-import '../../../dist/style.css'
+import Gallery from '../../../gatsby-image-gallery/dist'
 
 interface WithOriginalName {
   originalName: string

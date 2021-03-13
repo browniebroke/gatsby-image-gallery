@@ -5,9 +5,9 @@ import Lightbox from 'react-image-lightbox'
 import Row from './row'
 import Col from './column'
 import ImgWrapper from './img-wrapper'
+import styled from 'styled-components'
 
-// FIXME
-export * as styles from 'react-image-lightbox/style.css'
+import LightboxCSS from 'react-image-lightbox/style.css'
 
 interface ImageProp {
   full: FluidObject
@@ -26,6 +26,10 @@ interface GalleryProps {
   lightboxOptions?: object
   onClose?: () => void
 }
+
+const StyledLightbox = styled(Lightbox)`
+  ${LightboxCSS}
+`
 
 const Gallery: FC<GalleryProps> = ({
   images = [],
@@ -73,7 +77,7 @@ const Gallery: FC<GalleryProps> = ({
         })}
       </Row>
       {isOpen && (
-        <Lightbox
+        <StyledLightbox
           mainSrc={images[index].full.src}
           nextSrc={images[nextIndex].full.src}
           prevSrc={images[prevIndex].full.src}
