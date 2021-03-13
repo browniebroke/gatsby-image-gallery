@@ -45,7 +45,6 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-test-renderer": "17.0.1",
-    "rollup-plugin-postcss": "3.1.8",
     "size-limit": "4.10.1",
     "tsdx": "0.14.1",
     "tslib": "2.1.0",
