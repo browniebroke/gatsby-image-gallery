@@ -7,7 +7,7 @@ import Col from './column'
 import ImgWrapper from './img-wrapper'
 
 // FIXME
-// import 'react-image-lightbox/style.css'
+export * as styles from 'react-image-lightbox/style.css'
 
 interface ImageProp {
   full: FluidObject
