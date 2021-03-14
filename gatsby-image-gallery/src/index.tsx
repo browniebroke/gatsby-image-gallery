@@ -1,5 +1,5 @@
 import React, { FC, useState } from 'react'
-import Img, { FluidObject } from 'gatsby-image'
+import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
 import Lightbox from 'react-image-lightbox'
 
 import Row from './row'
@@ -10,8 +10,8 @@ import styled from 'styled-components'
 import LightboxCSS from 'react-image-lightbox/style.css'
 
 interface ImageProp {
-  full: FluidObject
-  thumb: FluidObject
+  full: IGatsbyImageData
+  thumb: IGatsbyImageData
   thumbAlt?: string
   title?: string
   caption?: string
@@ -46,6 +46,11 @@ const Gallery: FC<GalleryProps> = ({
   const prevIndex = (index + images.length - 1) % images.length
   const nextIndex = (index + images.length + 1) % images.length
 
+  // URLs for full width images
+  const mainSrc = images[index]?.full?.images?.fallback?.src
+  const nextSrc = images[nextIndex]?.full?.images?.fallback?.src
+  const prevSrc = images[prevIndex]?.full?.images?.fallback?.src
+
   const onCloseLightbox = () => {
     onClose()
     setIsOpen(false)
@@ -55,6 +60,10 @@ const Gallery: FC<GalleryProps> = ({
     <React.Fragment>
       <Row>
         {images.map((img, imgIndex) => {
+          const thumbImage = getImage(img.thumb)
+          if (!thumbImage) {
+            return null
+          }
           return (
             <Col
               width={colWidth}
@@ -66,8 +75,8 @@ const Gallery: FC<GalleryProps> = ({
               }}
             >
               <ImgWrapper margin={gutter}>
-                <Img
-                  fluid={img.thumb}
+                <GatsbyImage
+                  image={thumbImage}
                   className={imgClass}
                   alt={img.thumbAlt || ''}
                 />
@@ -78,9 +87,9 @@ const Gallery: FC<GalleryProps> = ({
       </Row>
       {isOpen && (
         <StyledLightbox
-          mainSrc={images[index].full.src}
-          nextSrc={images[nextIndex].full.src}
-          prevSrc={images[prevIndex].full.src}
+          mainSrc={mainSrc || ''}
+          nextSrc={nextSrc || ''}
+          prevSrc={prevSrc || ''}
           onCloseRequest={onCloseLightbox}
           onMovePrevRequest={() => setIndex(prevIndex)}
           onMoveNextRequest={() => setIndex(nextIndex)}

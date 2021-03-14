@@ -11,23 +11,30 @@ exports[`Gallery component Unified image prop that it renders image prop when al
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt="001"
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image001.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image001.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image001.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image001.jpg",
+                    "srcSet": "/thumb/images/image001.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -39,23 +46,30 @@ exports[`Gallery component Unified image prop that it renders image prop when al
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt="002"
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image002.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image002.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image002.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image002.jpg",
+                    "srcSet": "/thumb/images/image002.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -67,23 +81,30 @@ exports[`Gallery component Unified image prop that it renders image prop when al
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt="003"
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image003.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image003.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image003.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image003.jpg",
+                    "srcSet": "/thumb/images/image003.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -95,23 +116,30 @@ exports[`Gallery component Unified image prop that it renders image prop when al
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt="004"
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image004.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image004.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image004.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image004.jpg",
+                    "srcSet": "/thumb/images/image004.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -123,23 +151,30 @@ exports[`Gallery component Unified image prop that it renders image prop when al
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt="005"
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image005.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image005.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image005.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image005.jpg",
+                    "srcSet": "/thumb/images/image005.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -158,23 +193,30 @@ exports[`Gallery component Unified image prop that it renders image prop when no
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt=""
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image001.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image001.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image001.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image001.jpg",
+                    "srcSet": "/thumb/images/image001.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -186,23 +228,30 @@ exports[`Gallery component Unified image prop that it renders image prop when no
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt=""
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image002.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image002.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image002.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image002.jpg",
+                    "srcSet": "/thumb/images/image002.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -214,23 +263,30 @@ exports[`Gallery component Unified image prop that it renders image prop when no
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt=""
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image003.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image003.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image003.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image003.jpg",
+                    "srcSet": "/thumb/images/image003.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -242,23 +298,30 @@ exports[`Gallery component Unified image prop that it renders image prop when no
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt=""
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image004.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image004.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image004.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image004.jpg",
+                    "srcSet": "/thumb/images/image004.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -270,23 +333,30 @@ exports[`Gallery component Unified image prop that it renders image prop when no
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt=""
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image005.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image005.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image005.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image005.jpg",
+                    "srcSet": "/thumb/images/image005.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -305,23 +375,30 @@ exports[`Gallery component Unified image prop that it renders image prop when on
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt="001"
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image001.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image001.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image001.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image001.jpg",
+                    "srcSet": "/thumb/images/image001.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -333,23 +410,30 @@ exports[`Gallery component Unified image prop that it renders image prop when on
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt="002"
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image002.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image002.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image002.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image002.jpg",
+                    "srcSet": "/thumb/images/image002.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -361,23 +445,30 @@ exports[`Gallery component Unified image prop that it renders image prop when on
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt=""
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image003.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image003.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image003.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image003.jpg",
+                    "srcSet": "/thumb/images/image003.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -389,23 +480,30 @@ exports[`Gallery component Unified image prop that it renders image prop when on
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt=""
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image004.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image004.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image004.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image004.jpg",
+                    "srcSet": "/thumb/images/image004.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -417,23 +515,30 @@ exports[`Gallery component Unified image prop that it renders image prop when on
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt="005"
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image005.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image005.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image005.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image005.jpg",
+                    "srcSet": "/thumb/images/image005.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -452,23 +557,30 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt=""
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image001.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image001.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image001.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image001.jpg",
+                    "srcSet": "/thumb/images/image001.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -480,23 +592,30 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt=""
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image002.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image002.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image002.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image002.jpg",
+                    "srcSet": "/thumb/images/image002.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -508,23 +627,30 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt=""
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image003.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image003.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image003.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image003.jpg",
+                    "srcSet": "/thumb/images/image003.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -543,23 +669,30 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt=""
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image001.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image001.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image001.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image001.jpg",
+                    "srcSet": "/thumb/images/image001.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -571,23 +704,30 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt=""
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image002.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image002.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image002.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image002.jpg",
+                    "srcSet": "/thumb/images/image002.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>
@@ -599,23 +739,30 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
       <styled.div
         margin="0.25rem"
       >
-        <Image
-          Tag="div"
+        <A
           alt=""
           className=""
-          durationFadeIn={500}
-          fadeIn={true}
-          fluid={
+          image={
             Object {
-              "aspectRatio": 1.5,
-              "base64": "string_of_base64",
-              "sizes": "(max-width: 600px) 100vw, 600px",
-              "src": "/thumb/images/image003.jpg",
-              "srcSet": "some srcSet",
-              "srcSetWebp": "some srcSetWebp",
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image003.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image003.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image003.jpg",
+                    "srcSet": "/thumb/images/image003.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
             }
           }
-          loading="lazy"
         />
       </styled.div>
     </styled.div>

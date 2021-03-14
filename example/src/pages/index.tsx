@@ -1,20 +1,19 @@
 import { graphql } from 'gatsby'
 import * as React from 'react'
-import { FluidObject } from 'gatsby-image'
+import { IGatsbyImageData } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Gallery from '../../../gatsby-image-gallery/src'
 
-interface WithOriginalName {
-  originalName: string
-}
-
 interface ImageSharpEdge {
   node: {
     childImageSharp: {
-      thumb: FluidObject & WithOriginalName
-      full: FluidObject
+      thumb: IGatsbyImageData
+      full: IGatsbyImageData
+      meta: {
+        originalName: string
+      }
     }
   }
 }
@@ -31,9 +30,9 @@ const IndexPage: React.FC<PageProps> = ({ data }) => {
   const images = data.images.edges.map(({ node }) => ({
     ...node.childImageSharp,
     // Use original name as caption.
-    // The `originalName` is queried inside the `thumb` field,
+    // The `originalName` is queried in a nested field,
     // but the `Gallery` component expects `caption` at the top level.
-    caption: node.childImageSharp.thumb.originalName,
+    caption: node.childImageSharp.meta.originalName,
   }))
 
   // Override some of Lightbox options to localise labels in French
@@ -74,12 +73,14 @@ export const pageQuery = graphql`
       edges {
         node {
           childImageSharp {
-            thumb: fluid(maxWidth: 270, maxHeight: 270) {
-              ...GatsbyImageSharpFluid
+            thumb: gatsbyImageData(
+              width: 270
+              height: 270
+              placeholder: BLURRED
+            )
+            full: gatsbyImageData(layout: FULL_WIDTH)
+            meta: fixed {
               originalName
-            }
-            full: fluid(maxWidth: 1024) {
-              ...GatsbyImageSharpFluid
             }
           }
         }
