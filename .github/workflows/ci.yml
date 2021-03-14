@@ -36,7 +36,6 @@ jobs:
       fail-fast: false
       matrix:
         node_version:
-          - 10
           - 12
           - 14
 
