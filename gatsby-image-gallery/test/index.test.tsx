@@ -1,19 +1,34 @@
-import React from 'react'
+import * as React from 'react'
 import Gallery from '../src/index'
 import { createRenderer } from 'react-test-renderer/shallow'
+import { Layout } from 'gatsby-plugin-image'
 
-const fluidShapeMock = (path: string) => ({
-  aspectRatio: 1.5,
-  src: path,
-  srcSet: `some srcSet`,
-  srcSetWebp: `some srcSetWebp`,
-  sizes: `(max-width: 600px) 100vw, 600px`,
-  base64: `string_of_base64`,
-})
+const constrainedLayout: Layout = 'constrained'
+const gatsbyImageShapeMock = (path: string) => {
+  return {
+    layout: constrainedLayout,
+    width: 100,
+    height: 100,
+    backgroundColor: 'red',
+    images: {
+      sources: [
+        {
+          media: path,
+          type: 'JPG',
+          srcSet: path,
+        },
+      ],
+      fallback: {
+        src: path,
+      },
+      alt: path,
+    },
+  }
+}
 
 const unifiedImageShapeMock = (path: string, alt?: string) => ({
-  thumb: fluidShapeMock(`/thumb${path}`),
-  full: fluidShapeMock(path),
+  thumb: gatsbyImageShapeMock(`/thumb${path}`),
+  full: gatsbyImageShapeMock(path),
   thumbAlt: alt || '',
 })
 

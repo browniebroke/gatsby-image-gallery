@@ -15,13 +15,16 @@
   </a>
 </p>
 
-Very basic gallery grid based on `gatsby-image` and `react-image-lightbox`, styling powered by `styled-components`.
+Very basic gallery grid based on `gatsby-plugin-image` and `react-image-lightbox`, styling powered by `styled-components`.
 
 ## Install
 
 ```bash
 npm install --save @browniebroke/gatsby-image-gallery
 ```
+
+Note: this library is compatible with Gatbsy v3 and `gatsby-plugin-image` as of version 6.
+If you want to use it with Gastby v2 and the `gatsby-image` plugin, please stick to version 5 or earlier.
 
 ## Usage
 
@@ -45,12 +48,12 @@ export const pageQuery = graphql`
       edges {
         node {
           childImageSharp {
-            thumb: fluid(maxWidth: 270, maxHeight: 270) {
-              ...GatsbyImageSharpFluid
-            }
-            full: fluid(maxWidth: 1024) {
-              ...GatsbyImageSharpFluid
-            }
+            thumb: gatsbyImageData(
+              width: 270
+              height: 270
+              placeholder: BLURRED
+            )
+            full: gatsbyImageData(layout: FULL_WIDTH)
           }
         }
       }
@@ -89,7 +92,7 @@ For a full working example, there is one in [the example folder](https://github.
 
 ### Releases
 
-Releases should be automated using [semantic release](https://github.com/semantic-release/semantic-release).
+Releases are automated using [semantic release](https://github.com/semantic-release/semantic-release).
 This library parses the commit log to detect which version number should be bumped.
 
 ## License
