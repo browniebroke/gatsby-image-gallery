@@ -8,13 +8,18 @@
     "prettier": "2.2.1"
   },
   "scripts": {
-    "format": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|md|mdx|yml|yaml)\"",
-    "lint": "prettier --check \"**/*.+(js|jsx|ts|tsx|json|md|mdx|yml|yaml)\""
+    "format": "prettier --write .",
+    "lint": "prettier --check ."
   },
   "prettier": {
     "semi": false,
     "singleQuote": true,
     "trailingComma": "es5",
     "arrowParens": "always"
+  },
+  "renovate": {
+    "extends": [
+      "github>browniebroke/renovate-configs:js-lib"
+    ]
   }
 }

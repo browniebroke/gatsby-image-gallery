@@ -1,3 +1,0 @@
-{
-  "extends": ["github>browniebroke/renovate-configs:js-lib"]
-}
