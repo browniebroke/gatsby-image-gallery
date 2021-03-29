@@ -8,6 +8,9 @@ interface ColProps {
 const Col = styled.div<ColProps>`
   flex-grow: 0;
   flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   ${(props) => {
     return css`
       flex-basis: ${props.width}%;
