@@ -9,8 +9,8 @@ const Row = styled.div<RowProps>`
   flex-wrap: wrap;
   ${(props) => {
     return css`
-      margin-right: ${props.margin || -15}px;
-      margin-left: ${props.margin || -15}px;
+      margin-right: ${props.margin}px;
+      margin-left: ${props.margin}px;
     `
   }}
 `
