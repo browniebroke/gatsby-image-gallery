@@ -35,7 +35,7 @@
     "styled-components": "5.2.1"
   },
   "devDependencies": {
-    "@size-limit/preset-small-lib": "4.10.1",
+    "@size-limit/preset-small-lib": "4.10.2",
     "@types/react": "17.0.3",
     "@types/react-dom": "17.0.3",
     "@types/react-test-renderer": "17.0.1",
