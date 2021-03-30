@@ -2,7 +2,9 @@
 
 exports[`Gallery component Unified image prop that it renders image prop when alt property is used 1`] = `
 <React.Fragment>
-  <styled.div>
+  <styled.div
+    margin={-15}
+  >
     <styled.div
       md={25}
       onClick={[Function]}
@@ -184,7 +186,9 @@ exports[`Gallery component Unified image prop that it renders image prop when al
 
 exports[`Gallery component Unified image prop that it renders image prop when no alt property is used 1`] = `
 <React.Fragment>
-  <styled.div>
+  <styled.div
+    margin={-15}
+  >
     <styled.div
       md={25}
       onClick={[Function]}
@@ -366,7 +370,9 @@ exports[`Gallery component Unified image prop that it renders image prop when no
 
 exports[`Gallery component Unified image prop that it renders image prop when only in some cases the alt property is used 1`] = `
 <React.Fragment>
-  <styled.div>
+  <styled.div
+    margin={-15}
+  >
     <styled.div
       md={25}
       onClick={[Function]}
@@ -548,7 +554,9 @@ exports[`Gallery component Unified image prop that it renders image prop when on
 
 exports[`Gallery component lightboxOptions props that the Lightbox options are accepted 1`] = `
 <React.Fragment>
-  <styled.div>
+  <styled.div
+    margin={-15}
+  >
     <styled.div
       md={25}
       onClick={[Function]}
@@ -660,7 +668,123 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
 
 exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
 <React.Fragment>
-  <styled.div>
+  <styled.div
+    margin={-15}
+  >
+    <styled.div
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <styled.div
+        margin="0.25rem"
+      >
+        <A
+          alt=""
+          className=""
+          image={
+            Object {
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image001.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image001.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image001.jpg",
+                    "srcSet": "/thumb/images/image001.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
+            }
+          }
+        />
+      </styled.div>
+    </styled.div>
+    <styled.div
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <styled.div
+        margin="0.25rem"
+      >
+        <A
+          alt=""
+          className=""
+          image={
+            Object {
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image002.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image002.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image002.jpg",
+                    "srcSet": "/thumb/images/image002.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
+            }
+          }
+        />
+      </styled.div>
+    </styled.div>
+    <styled.div
+      md={25}
+      onClick={[Function]}
+      width={33.333333333333336}
+    >
+      <styled.div
+        margin="0.25rem"
+      >
+        <A
+          alt=""
+          className=""
+          image={
+            Object {
+              "backgroundColor": "red",
+              "height": 100,
+              "images": Object {
+                "alt": "/thumb/images/image003.jpg",
+                "fallback": Object {
+                  "src": "/thumb/images/image003.jpg",
+                },
+                "sources": Array [
+                  Object {
+                    "media": "/thumb/images/image003.jpg",
+                    "srcSet": "/thumb/images/image003.jpg",
+                    "type": "JPG",
+                  },
+                ],
+              },
+              "layout": "constrained",
+              "width": 100,
+            }
+          }
+        />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</React.Fragment>
+`;
+
+exports[`Gallery component rowMargin prop that the rowMargin prop is accepted 1`] = `
+<React.Fragment>
+  <styled.div
+    margin={0}
+  >
     <styled.div
       md={25}
       onClick={[Function]}
@@ -772,6 +896,8 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
 
 exports[`Gallery component that it renders with empty props 1`] = `
 <React.Fragment>
-  <styled.div />
+  <styled.div
+    margin={-15}
+  />
 </React.Fragment>
 `;
