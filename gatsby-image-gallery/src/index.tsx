@@ -21,6 +21,7 @@ interface GalleryProps {
   images: ImageProp[]
   colWidth?: number
   mdColWidth?: number
+  rowMargin?: number
   gutter?: string
   imgClass?: string
   lightboxOptions?: object
@@ -36,6 +37,7 @@ const Gallery: FC<GalleryProps> = ({
   colWidth = 100 / 3,
   mdColWidth = 100 / 4,
   gutter = '0.25rem',
+  rowMargin = -15,
   imgClass = '',
   lightboxOptions = {},
   onClose = () => {},
@@ -58,7 +60,7 @@ const Gallery: FC<GalleryProps> = ({
 
   return (
     <React.Fragment>
-      <Row>
+      <Row margin={rowMargin}>
         {images.map((img, imgIndex) => {
           const thumbImage = getImage(img.thumb)
           if (!thumbImage) {

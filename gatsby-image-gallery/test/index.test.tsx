@@ -121,6 +121,27 @@ describe('Gallery component', () => {
     })
   })
 
+  describe('rowMargin prop', () => {
+    const rowMargin = 0
+
+    test('that the rowMargin prop is accepted', () => {
+      const renderer = createRenderer()
+      renderer.render(
+        <Gallery
+          images={[
+            unifiedImageShapeMock('/images/image001.jpg'),
+            unifiedImageShapeMock('/images/image002.jpg'),
+            unifiedImageShapeMock('/images/image003.jpg'),
+          ]}
+          rowMargin={rowMargin}
+        />
+      )
+
+      const result = renderer.getRenderOutput()
+      expect(result).toMatchSnapshot()
+    })
+  })
+
   describe('onClose prop', () => {
     const onClose = () => {
       console.log('test onClose')

@@ -1,9 +1,17 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-const Row = styled.div`
+interface RowProps {
+  margin: number
+}
+
+const Row = styled.div<RowProps>`
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  ${(props) => {
+    return css`
+      margin-right: ${props.margin}px;
+      margin-left: ${props.margin}px;
+    `
+  }}
 `
 export default Row
