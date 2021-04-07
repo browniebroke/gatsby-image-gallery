@@ -31,8 +31,8 @@
     "styled-components": ">= 5.0"
   },
   "dependencies": {
-    "react-image-lightbox": "5.1.1",
-    "styled-components": "5.2.3"
+    "react-image-lightbox": "^5.1.1",
+    "styled-components": "^5.0"
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "4.10.2",
