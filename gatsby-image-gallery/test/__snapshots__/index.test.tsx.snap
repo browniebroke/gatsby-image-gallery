@@ -9,6 +9,7 @@ exports[`Gallery component Unified image prop that it renders image prop when al
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt="001"
@@ -34,13 +35,13 @@ exports[`Gallery component Unified image prop that it renders image prop when al
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt="002"
@@ -66,13 +67,13 @@ exports[`Gallery component Unified image prop that it renders image prop when al
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt="003"
@@ -98,13 +99,13 @@ exports[`Gallery component Unified image prop that it renders image prop when al
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt="004"
@@ -130,13 +131,13 @@ exports[`Gallery component Unified image prop that it renders image prop when al
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt="005"
@@ -162,7 +163,6 @@ exports[`Gallery component Unified image prop that it renders image prop when al
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
   </styled.div>
@@ -178,6 +178,7 @@ exports[`Gallery component Unified image prop that it renders image prop when no
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -203,13 +204,13 @@ exports[`Gallery component Unified image prop that it renders image prop when no
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -235,13 +236,13 @@ exports[`Gallery component Unified image prop that it renders image prop when no
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -267,13 +268,13 @@ exports[`Gallery component Unified image prop that it renders image prop when no
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -299,13 +300,13 @@ exports[`Gallery component Unified image prop that it renders image prop when no
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -331,7 +332,6 @@ exports[`Gallery component Unified image prop that it renders image prop when no
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
   </styled.div>
@@ -347,6 +347,7 @@ exports[`Gallery component Unified image prop that it renders image prop when on
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt="001"
@@ -372,13 +373,13 @@ exports[`Gallery component Unified image prop that it renders image prop when on
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt="002"
@@ -404,13 +405,13 @@ exports[`Gallery component Unified image prop that it renders image prop when on
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -436,13 +437,13 @@ exports[`Gallery component Unified image prop that it renders image prop when on
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -468,13 +469,13 @@ exports[`Gallery component Unified image prop that it renders image prop when on
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt="005"
@@ -500,7 +501,6 @@ exports[`Gallery component Unified image prop that it renders image prop when on
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
   </styled.div>
@@ -516,6 +516,7 @@ exports[`Gallery component custom wrapper render with custom wrapper 1`] = `
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -541,13 +542,13 @@ exports[`Gallery component custom wrapper render with custom wrapper 1`] = `
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </CustomWrapper>
     <CustomWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -573,13 +574,13 @@ exports[`Gallery component custom wrapper render with custom wrapper 1`] = `
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </CustomWrapper>
     <CustomWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -605,7 +606,6 @@ exports[`Gallery component custom wrapper render with custom wrapper 1`] = `
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </CustomWrapper>
   </styled.div>
@@ -621,6 +621,7 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -646,13 +647,13 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -678,13 +679,13 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -710,7 +711,6 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
   </styled.div>
@@ -726,6 +726,7 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -751,13 +752,13 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -783,13 +784,13 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -815,7 +816,6 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
   </styled.div>
@@ -831,6 +831,7 @@ exports[`Gallery component rowMargin prop that the rowMargin prop is accepted 1`
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -856,13 +857,13 @@ exports[`Gallery component rowMargin prop that the rowMargin prop is accepted 1`
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -888,13 +889,13 @@ exports[`Gallery component rowMargin prop that the rowMargin prop is accepted 1`
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
     <ImageColWrapper
       colWidth={33.333333333333336}
       gutter="0.25rem"
       mdColWidth={25}
+      onClick={[Function]}
     >
       <L
         alt=""
@@ -920,7 +921,6 @@ exports[`Gallery component rowMargin prop that the rowMargin prop is accepted 1`
             "width": 100,
           }
         }
-        onClick={[Function]}
       />
     </ImageColWrapper>
   </styled.div>

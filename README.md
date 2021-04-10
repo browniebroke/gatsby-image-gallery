@@ -95,7 +95,12 @@ To customise the number of columns and the space between the images, you have se
 
 ### Customise image styles
 
-You may also inject your own image styles by passing a component as `customWrapper` prop. The given component will be passed a single `GatbsyImage` as `children` prop, that you should render inside your custom component:
+You may also inject your own image styles by passing a component as `customWrapper` prop. The given component will be passed a few props that you should handle:
+
+- a `GatbsyImage` as `children`, this is the small image
+- a callback as `onClick`, opening the Lightbox when the small image is clicked
+
+A minimal example may look like this, but you're free to bind the `onClick` to another element or render the image otherwise:
 
 ```jsx
 const CustomWrapper = ({ children, onClick }) => (

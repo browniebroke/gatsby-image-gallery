@@ -73,16 +73,16 @@ const Gallery: FC<GalleryProps> = ({
               colWidth={colWidth}
               mdColWidth={mdColWidth}
               key={imgIndex}
+              onClick={() => {
+                setIsOpen(true)
+                setIndex(imgIndex)
+              }}
               gutter={gutter}
             >
               <GatsbyImage
                 image={thumbImage}
                 className={imgClass}
                 alt={img.thumbAlt || ''}
-                onClick={() => {
-                  setIsOpen(true)
-                  setIndex(imgIndex)
-                }}
               />
             </ImgColWrapper>
           )
