@@ -1,11 +1,10 @@
 import React, { FC, useState } from 'react'
 import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image'
 import Lightbox from 'react-image-lightbox'
+import styled from 'styled-components'
 
 import Row from './row'
-import Col from './column'
-import ImgWrapper from './img-wrapper'
-import styled from 'styled-components'
+import ImageColWrapper from './image-col-wrapper'
 
 import LightboxCSS from 'react-image-lightbox/style.css'
 
@@ -67,23 +66,22 @@ const Gallery: FC<GalleryProps> = ({
             return null
           }
           return (
-            <Col
-              width={colWidth}
-              md={mdColWidth}
+            <ImageColWrapper
+              colWidth={colWidth}
+              mdColWidth={mdColWidth}
               key={imgIndex}
               onClick={() => {
                 setIsOpen(true)
                 setIndex(imgIndex)
               }}
+              gutter={gutter}
             >
-              <ImgWrapper margin={gutter}>
-                <GatsbyImage
-                  image={thumbImage}
-                  className={imgClass}
-                  alt={img.thumbAlt || ''}
-                />
-              </ImgWrapper>
-            </Col>
+              <GatsbyImage
+                image={thumbImage}
+                className={imgClass}
+                alt={img.thumbAlt || ''}
+              />
+            </ImageColWrapper>
           )
         })}
       </Row>
