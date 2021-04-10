@@ -25,6 +25,7 @@ interface GalleryProps {
   imgClass?: string
   lightboxOptions?: object
   onClose?: () => void
+  customWrapper?: React.FC
 }
 
 const StyledLightbox = styled(Lightbox)`
@@ -40,12 +41,14 @@ const Gallery: FC<GalleryProps> = ({
   imgClass = '',
   lightboxOptions = {},
   onClose = () => {},
+  customWrapper = ImageColWrapper,
 }) => {
   const [index, setIndex] = useState(0)
   const [isOpen, setIsOpen] = useState(false)
 
   const prevIndex = (index + images.length - 1) % images.length
   const nextIndex = (index + images.length + 1) % images.length
+  const ImgColWrapper = customWrapper
 
   // URLs for full width images
   const mainSrc = images[index]?.full?.images?.fallback?.src
@@ -66,22 +69,22 @@ const Gallery: FC<GalleryProps> = ({
             return null
           }
           return (
-            <ImageColWrapper
+            <ImgColWrapper
               colWidth={colWidth}
               mdColWidth={mdColWidth}
               key={imgIndex}
-              onClick={() => {
-                setIsOpen(true)
-                setIndex(imgIndex)
-              }}
               gutter={gutter}
             >
               <GatsbyImage
                 image={thumbImage}
                 className={imgClass}
                 alt={img.thumbAlt || ''}
+                onClick={() => {
+                  setIsOpen(true)
+                  setIndex(imgIndex)
+                }}
               />
-            </ImageColWrapper>
+            </ImgColWrapper>
           )
         })}
       </Row>

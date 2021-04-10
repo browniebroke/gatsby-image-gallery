@@ -164,4 +164,25 @@ describe('Gallery component', () => {
       expect(result).toMatchSnapshot()
     })
   })
+
+  describe('custom wrapper', () => {
+    const CustomWrapper: React.FC = ({ children }) => <div>{children}</div>
+
+    test('render with custom wrapper', () => {
+      const renderer = createRenderer()
+      renderer.render(
+        <Gallery
+          images={[
+            unifiedImageShapeMock('/images/image001.jpg'),
+            unifiedImageShapeMock('/images/image002.jpg'),
+            unifiedImageShapeMock('/images/image003.jpg'),
+          ]}
+          customWrapper={CustomWrapper}
+        />
+      )
+
+      const result = renderer.getRenderOutput()
+      expect(result).toMatchSnapshot()
+    })
+  })
 })
