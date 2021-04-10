@@ -5,7 +5,6 @@ import ImgWrapper from './img-wrapper'
 interface ImageColWrapperProps {
   colWidth: number
   mdColWidth: number
-  onClick: () => void
   gutter: string
 }
 
@@ -13,11 +12,10 @@ const ImageColWrapper: FC<ImageColWrapperProps> = ({
   children,
   colWidth,
   mdColWidth,
-  onClick,
   gutter,
 }) => {
   return (
-    <Col width={colWidth} md={mdColWidth} onClick={onClick}>
+    <Col width={colWidth} md={mdColWidth}>
       <ImgWrapper margin={gutter}>{children}</ImgWrapper>
     </Col>
   )
