@@ -166,7 +166,9 @@ describe('Gallery component', () => {
   })
 
   describe('custom wrapper', () => {
-    const CustomWrapper: React.FC = ({ children }) => <div>{children}</div>
+    const CustomWrapper: React.FC<{
+      onClick?: () => void
+    }> = ({ children, onClick }) => <div onClick={onClick}>{children}</div>
 
     test('render with custom wrapper', () => {
       const renderer = createRenderer()
