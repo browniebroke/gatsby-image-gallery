@@ -98,8 +98,10 @@ To customise the number of columns and the space between the images, you have se
 You may also inject your own image styles by passing a component as `customWrapper` prop. The given component will be passed a single `GatbsyImage` as `children` prop, that you should render inside your custom component:
 
 ```jsx
-const CustomWrapper = ({ children }) => (
-  <div className="my-custom-image-wraper">{children}</div>
+const CustomWrapper = ({ children, onClick }) => (
+  <div className="my-custom-image-wraper" onClick={onClick}>
+    {children}
+  </div>
 )
 
 const MyPage = ({ data }) => {
