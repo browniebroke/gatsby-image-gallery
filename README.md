@@ -64,7 +64,7 @@ export const pageQuery = graphql`
 export default MyPage
 ```
 
-### Details
+### The `images` prop
 
 The `images` prop is an array of objects with 2 required properties: `thumb` and `full` that should each be a `GatsbyImage` compatible object.
 
@@ -76,13 +76,41 @@ In addition, images may have the following properties:
 
 ### Passing options to Lightbox
 
-The `<Gallery>` component also accepts an object in the `lightboxOptions` props, which will be passed down directly [to `react-image-lightbox`](https://github.com/frontend-collective/react-image-lightbox).
+The `<Gallery>` component accepts an object in the `lightboxOptions` prop, which will be passed down directly [to `react-image-lightbox`](https://github.com/frontend-collective/react-image-lightbox).
 
 You can see the full list of options in [their documentation](https://github.com/frontend-collective/react-image-lightbox#options).
 
-### Passing onClose callback to Lightbox
+### Passing `onClose` callback to Lightbox
 
-The `<Gallery>` component also accepts a function in the `onClose` prop, which will be called when [`react-image-lightbox`](https://github.com/frontend-collective/react-image-lightbox) is closed by the user.
+The `<Gallery>` component accepts a function in the `onClose` prop, which will be called when [`react-image-lightbox`](https://github.com/frontend-collective/react-image-lightbox) is closed by the user.
+
+### Customise columns
+
+To customise the number of columns and the space between the images, you have several props:
+
+- `colWidth`: percentage of total width to use on small screens (1/3 by default).
+- `mdColWidth`: percentage of total width to use on medium and large screens (1/4 by default).
+- `gutter`: margin around each image (0.25rem by default).
+- `rowMargin`: horizontal margin on each side of the gallery (-15px by default)
+
+### Customise image styles
+
+You may also inject your own image styles by passing a component as `customWrapper` prop. The given component will be passed a single `GatbsyImage` as `children` prop, that you should render inside your custom component:
+
+```jsx
+const CustomWrapper = ({ children }) => (
+  <div className="my-custom-image-wraper">{children}</div>
+)
+
+const MyPage = ({ data }) => {
+  return (
+    <Gallery
+      //... Other props omited for clarity
+      customWrapper={CustomWrapper} // example of use
+    />
+  )
+}
+```
 
 ### Example
 
