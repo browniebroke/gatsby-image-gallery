@@ -24,7 +24,7 @@
     "styled-components": "5.2.3"
   },
   "devDependencies": {
-    "@types/react": "17.0.3",
+    "@types/react": "17.0.5",
     "@types/react-dom": "17.0.3",
     "@types/react-helmet": "6.1.1",
     "@types/styled-components": "5.1.9",
