@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import Row from './row'
 import ImageColWrapper from './image-col-wrapper'
 
-import LightboxCSS from 'react-image-lightbox/style.css'
+import * as LightboxCSS from 'react-image-lightbox/style.css'
 
 interface ImageProp {
   full: IGatsbyImageData
