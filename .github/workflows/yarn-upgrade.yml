@@ -27,7 +27,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.CPR_GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
           branch: update/yarn-upgrade
           title: Run yarn upgrade
           commit-message: 'chore(deps): run yarn upgrade'
