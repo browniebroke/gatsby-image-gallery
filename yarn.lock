@@ -7519,10 +7519,10 @@ gatsby-plugin-sharp@3.5.0:
     svgo "1.3.2"
     uuid "3.4.0"
 
-gatsby-plugin-styled-components@4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-4.5.0.tgz#37534c76ee8cf8a3e0ca1f58ba0466ee19a131ba"
-  integrity sha512-Z9H0v9TsI453QD7hO0YndwEv4UVY0aWsDsbqsHQ1uHyO3pYQJ3Bj5/IUpm1yivENrIkS+xxLOK70xeMY2vX5iQ==
+gatsby-plugin-styled-components@4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-4.6.0.tgz#2c538d70931e1882eb9e7a0420b98769e1c84ba9"
+  integrity sha512-2oQ3PRoiXZOvTzjD9ZkFYIIWkVYJFccOt/byTf9A5K18sQR6vS1oGehJv4xK51cBue+EuYRuX0F3+IoLCNNDAQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
