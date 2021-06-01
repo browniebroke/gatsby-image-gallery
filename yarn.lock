@@ -2004,25 +2004,25 @@
   dependencies:
     type-detect "4.0.8"
 
-"@size-limit/file@4.10.3":
-  version "4.10.3"
-  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-4.10.3.tgz#0d101a951a223e30efa43091ae32898dc5a88eaf"
-  integrity sha512-AB1Oz1g5U+QbxI8fJjhi58E/nOChG48QeyOFxoH2bJXh3pCBkYBTwFS22nOJObhfc/YAplu69E3vR2/ZaTr1lQ==
+"@size-limit/file@4.11.0":
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-4.11.0.tgz#d453ea543e4f4f1ba5e8b3bd517d1f27759b747d"
+  integrity sha512-GPQPcFHBa6U8Z7xEl42gB1RJxCDqUILL5/WzgWDC9Q9WujnKuZwq16+yoCxrvTQfbl4Ol+Z42M50FvvibFMy9w==
   dependencies:
     semver "7.3.5"
 
-"@size-limit/preset-small-lib@4.10.3":
-  version "4.10.3"
-  resolved "https://registry.yarnpkg.com/@size-limit/preset-small-lib/-/preset-small-lib-4.10.3.tgz#3cb9581abd661f4789c99cd1e19d99af9a4725b9"
-  integrity sha512-BXdrzudai3UwKHA2xjmjnWhoMYAYbi7y8EAROpm7hAnmZAB25ezhWuxR+RFN/FOSbFTZIsq/b56ZISW++jCzsQ==
+"@size-limit/preset-small-lib@4.11.0":
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/@size-limit/preset-small-lib/-/preset-small-lib-4.11.0.tgz#1519907d55bb681e88faeb0901912e9523e3db61"
+  integrity sha512-+McnY9jHr5hNm9PoUkInzRIn9aNNW2BVmHaACLN892bkfaHmQ6lAj4qe6czuypq8xHJl2IdIFGu+CEsyEC1baA==
   dependencies:
-    "@size-limit/file" "4.10.3"
-    "@size-limit/webpack" "4.10.3"
+    "@size-limit/file" "4.11.0"
+    "@size-limit/webpack" "4.11.0"
 
-"@size-limit/webpack@4.10.3":
-  version "4.10.3"
-  resolved "https://registry.yarnpkg.com/@size-limit/webpack/-/webpack-4.10.3.tgz#e18d6264435cacc46b39ae3c06b3a462ca6ed3a3"
-  integrity sha512-QOe7qPGGt4kYyZE/8bTliz7uV0QY7OFgkZo5K/Gr6nEpZlhME53s8FrDMKpNmbkR+2YqUGHSoN5IyRJpIVDpyg==
+"@size-limit/webpack@4.11.0":
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/@size-limit/webpack/-/webpack-4.11.0.tgz#ccc9e1e8418127e876ca659c27d605258b40ec7b"
+  integrity sha512-TzPESkF/sakw6qMadw+0X1yxOeTcttbm7qTDWvUf49mIoBlYa52Bu6BZUj3L6H7ZKhrieHLkyU7zqPyu7yPXjg==
   dependencies:
     css-loader "^5.2.5"
     escape-string-regexp "^4.0.0"
