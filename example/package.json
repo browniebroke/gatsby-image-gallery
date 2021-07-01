@@ -8,13 +8,13 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "babel-plugin-styled-components": "1.12.0",
+    "babel-plugin-styled-components": "1.13.1",
     "gatsby": "3.9.0-next.1",
     "gatsby-plugin-image": "1.8.0",
     "gatsby-plugin-manifest": "3.9.0-next.1",
     "gatsby-plugin-react-helmet": "4.9.0-next.0",
     "gatsby-plugin-sharp": "3.9.0-next.1",
-    "gatsby-plugin-styled-components": "4.7.1",
+    "gatsby-plugin-styled-components": "4.8.0",
     "gatsby-plugin-typescript": "3.9.0-next.0",
     "gatsby-source-filesystem": "3.9.0-next.0",
     "gatsby-transformer-sharp": "3.9.0-next.0",
