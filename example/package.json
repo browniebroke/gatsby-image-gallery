@@ -10,7 +10,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "1.12.0",
     "gatsby": "3.9.0-next.1",
-    "gatsby-plugin-image": "1.7.1",
+    "gatsby-plugin-image": "1.8.0",
     "gatsby-plugin-manifest": "3.9.0-next.1",
     "gatsby-plugin-react-helmet": "4.9.0-next.0",
     "gatsby-plugin-sharp": "3.9.0-next.1",
