@@ -18,7 +18,7 @@ jobs:
       - id: nvmrc
         uses: browniebroke/read-nvmrc-action@v1
 
-      - uses: actions/setup-node@v2.3.0
+      - uses: actions/setup-node@v2.4.0
         with:
           node-version: '${{ steps.nvmrc.outputs.node_version }}'
 
