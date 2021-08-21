@@ -1027,7 +1027,7 @@
     core-js-pure "^3.16.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.14.6", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.14.6", "@babel/runtime@^7.14.8", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.15.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.3.tgz#2e1c2880ca118e5b2f9988322bd8a7656a32502b"
   integrity sha512-OvwMLqNXkCXSz1kSm58sEsNuhqOx/fKpnUnKnFB5v8uDda5bLNEHNgKPvhDN6IU0LDcnHQ90LlJ0Q6jnyBSIBA==
@@ -7452,12 +7452,12 @@ gatsby-plugin-sharp@3.11.0:
     svgo "1.3.2"
     uuid "3.4.0"
 
-gatsby-plugin-styled-components@4.11.0:
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-4.11.0.tgz#ec06ffe0b1a0f091ed574fef57c7f8115f99b752"
-  integrity sha512-Y99KgpWfdigNWT1nTr/GQLqMsEFsmKcbJYf79ZgIMyRZgYS6LsB3p7hRVRwGpMNuKwiefJweFMtdeYt7l+wgVg==
+gatsby-plugin-styled-components@4.12.0:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-4.12.0.tgz#b41fa66d47b5deac1bbc7d7fd75a0cc679f22b0a"
+  integrity sha512-kGY/Qqnoizz0vA0GsZ75121ZWpqn3kfoo1+QU06X0JbYEp5RGku1uq9YjU+QWN/rK+DzTZJlTrQZeqERrbuMHQ==
   dependencies:
-    "@babel/runtime" "^7.14.6"
+    "@babel/runtime" "^7.14.8"
 
 gatsby-plugin-typescript@3.11.0, gatsby-plugin-typescript@^3.11.0:
   version "3.11.0"
