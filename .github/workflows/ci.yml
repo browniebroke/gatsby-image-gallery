@@ -19,8 +19,7 @@ jobs:
       - run: npm i -g npm@latest
       - run: npm i
       - run: npm run lint
-      - run: npm run lint
-        working-directory: ./gatsby-image-gallery
+      - run: npm run lint --workspace gatsby-image-gallery
 
   commitlint:
     runs-on: ubuntu-latest
@@ -49,10 +48,8 @@ jobs:
 
       - run: npm i -g npm@latest
       - run: npm i
-      - run: npm run build
-        working-directory: ./gatsby-image-gallery
-      - run: npm run test --ci --coverage --maxWorkers=2
-        working-directory: ./gatsby-image-gallery
+      - run: npm run build --workspace gatsby-image-gallery
+      - run: npm run test --ci --coverage --maxWorkers=2  --workspace gatsby-image-gallery
 
   publish:
     runs-on: ubuntu-latest
