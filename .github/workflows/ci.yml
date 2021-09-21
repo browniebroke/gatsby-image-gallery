@@ -14,7 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2.4.1
-
+        with:
+          node-version: 16
+      - run: npm i -g npm@latest
       - run: npm i
       - run: npm run lint
       - run: npm run lint
@@ -45,6 +47,7 @@ jobs:
         with:
           node-version: ${{ matrix.node_version }}
 
+      - run: npm i -g npm@latest
       - run: npm i
       - run: npm run build
         working-directory: ./gatsby-image-gallery
@@ -61,6 +64,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2.4.1
+        with:
+          node-version: 16
+      - run: npm i -g npm@latest
       - run: npm i
       - run: cp README.md gatsby-image-gallery/
       - name: Run Sematic release
