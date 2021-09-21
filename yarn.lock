@@ -2041,25 +2041,25 @@
   dependencies:
     type-detect "4.0.8"
 
-"@size-limit/file@5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-5.0.3.tgz#6b12240f4880e25736534542168ffd064a8e386f"
-  integrity sha512-tkxf5ntFdlZ1xHQAw4fYd+gIkH85S2D3Wb94upJhtOfPHwDsQoQycDFGQRwTgei07Eq5vA8Jj5f2mu/tAdoaXw==
+"@size-limit/file@5.0.4":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-5.0.4.tgz#d3bb30214218376db12c6fbc93498bcde1a65939"
+  integrity sha512-NXWk7fkI304TazIzG2d7co2X+XB52pHPr0CEXoj52Dx1olXcQqbx+6cg6im0FzhL91iCp1eAjhfeOq8h5D4B/Q==
   dependencies:
     semver "7.3.5"
 
-"@size-limit/preset-small-lib@5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@size-limit/preset-small-lib/-/preset-small-lib-5.0.3.tgz#c2ebf6851995de4f96b953d26720958deb132347"
-  integrity sha512-kQHU5s+DYHG2RIB8Bjm7qoxLpAt/HCr3zYS7d/1SUa1LTP44oxe3DaxBvs69Qg4+VplEh5LfEOOzzNZk3Tx4Ow==
+"@size-limit/preset-small-lib@5.0.4":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@size-limit/preset-small-lib/-/preset-small-lib-5.0.4.tgz#5eb19889df8cd9a78a48369dfe2cc9b7e2dc8da6"
+  integrity sha512-2DRnZUte+WThsE/Lzu3uR7RkmzK/tJcgl2rCIsrfDQ4Kn23uesXVD2y19nWHzpEc4H62bxS13SmkTi84o5mBiQ==
   dependencies:
-    "@size-limit/file" "5.0.3"
-    "@size-limit/webpack" "5.0.3"
+    "@size-limit/file" "5.0.4"
+    "@size-limit/webpack" "5.0.4"
 
-"@size-limit/webpack@5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@size-limit/webpack/-/webpack-5.0.3.tgz#d5d72ca9b0ac9f3642794aa8412c9fd7d553a4ce"
-  integrity sha512-G8UutozNS3jfG2AyKdeHsYeYJ0jXBfHdzzhVUi1zuv6B+HvCDExE0cnbnIAhLyGNp1uTY/miOHLyCKQsxold/g==
+"@size-limit/webpack@5.0.4":
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@size-limit/webpack/-/webpack-5.0.4.tgz#1d3d3d802064aa132b35fc4b55984ef694ff928b"
+  integrity sha512-wFJ90kwJ60AAZ3Ln4Egc6Tbpl7AcibGJKawHp41HpV2TeJT4IQOsgYXj/QOnVzz75+MKX/aZVa6OIlyWR7KORw==
   dependencies:
     css-loader "^5.2.6"
     escape-string-regexp "^4.0.0"
@@ -10265,6 +10265,11 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
   integrity sha512-8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==
 
+nanocolors@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.1.0.tgz#569dda9116e479aec5ddbbe0509487d6a535a063"
+  integrity sha512-DgrjtCFQJJscwd+koagmsLHPhU9/Z6CSQx3amCLKDZCwOkti0NTgghEDcqz1PEfK6RO9+NKeiETd+/B8HhGtxw==
+
 nanoid@^3.1.23, nanoid@^3.1.25:
   version "3.1.25"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.25.tgz#09ca32747c0e543f0e1814b7d3793477f9c8e152"
@@ -12931,18 +12936,18 @@ sisteransi@^1.0.5:
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-1.0.5.tgz#134d681297756437cc05ca01370d3a7a571075ed"
   integrity sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==
 
-size-limit@5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/size-limit/-/size-limit-5.0.3.tgz#de4d4e9366274bd7987673ae76d51af02f57089b"
-  integrity sha512-522c33FTs09sDCN3SUjtxF3Jg361O8Xm1Rh9MUuGGVwY7XGvroE/vL20+//qGltUprGzYQONBbzy9TTdOJWgbw==
+size-limit@5.0.4:
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/size-limit/-/size-limit-5.0.4.tgz#8223efa9dbf0e3dae2dc9c60b1558b5d2a0f820a"
+  integrity sha512-xAe8sZ7MZe48glBetVFG3DlfMNXIS2V/PQsy9RPj8PRBCvIg5ESLFZQxJnxf7jsp47sKBUO+XVvablL3S4szog==
   dependencies:
     bytes-iec "^3.1.1"
     chokidar "^3.5.2"
     ci-job-number "^1.2.2"
-    colorette "^1.3.0"
     globby "^11.0.4"
     lilconfig "^2.0.3"
     mico-spinner "^1.2.2"
+    nanocolors "^0.1.0"
 
 slash@^3.0.0:
   version "3.0.0"
