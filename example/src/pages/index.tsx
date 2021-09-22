@@ -11,9 +11,6 @@ interface ImageSharpEdge {
     childImageSharp: {
       thumb: IGatsbyImageData
       full: IGatsbyImageData
-      meta: {
-        originalName: string
-      }
     }
   }
 }
@@ -27,12 +24,10 @@ interface PageProps {
 }
 
 const IndexPage: React.FC<PageProps> = ({ data }) => {
-  const images = data.images.edges.map(({ node }) => ({
+  const images = data.images.edges.map(({ node }, index) => ({
     ...node.childImageSharp,
-    // Use original name as caption.
-    // The `originalName` is queried in a nested field,
-    // but the `Gallery` component expects `caption` at the top level.
-    caption: node.childImageSharp.meta.originalName,
+    // Generate name based on the index as caption.
+    caption: `Image ${index}`,
   }))
 
   // Override some of Lightbox options to localise labels in French
@@ -79,9 +74,6 @@ export const pageQuery = graphql`
               placeholder: BLURRED
             )
             full: gatsbyImageData(layout: FULL_WIDTH)
-            meta: fixed {
-              originalName
-            }
           }
         }
       }
