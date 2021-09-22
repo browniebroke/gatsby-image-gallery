@@ -23,8 +23,17 @@ Very basic gallery grid based on `gatsby-plugin-image` and `react-image-lightbox
 npm install --save @browniebroke/gatsby-image-gallery
 ```
 
-Note: this library is compatible with Gatbsy v3 and `gatsby-plugin-image` as of version 6.
-If you want to use it with Gastby v2 and the `gatsby-image` plugin, please stick to version 5 or earlier.
+## Compatibility
+
+Please check thw table below to choose the version of this library to use with your version of Gatsby:
+
+| Gatsby Image Gallery | Gatsby | Gatsby Plugin Image | Gatsby Image  |
+| -------------------- | ------ | ------------------- | ------------- |
+| v5                   | v2     | Not supported       | v3            |
+| v6                   | v3     | v1                  | Not supported |
+| v7                   | v4     | v2                  | Not supported |
+
+Only the latest version of Gatsby Image Gallery is supported.
 
 ## Usage
 

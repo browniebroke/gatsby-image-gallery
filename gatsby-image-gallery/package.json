@@ -14,7 +14,7 @@
     "src"
   ],
   "engines": {
-    "node": ">=12.13"
+    "node": ">=14.15"
   },
   "scripts": {
     "start": "tsdx watch",
@@ -27,7 +27,7 @@
     "analyze": "size-limit --why"
   },
   "peerDependencies": {
-    "gatsby-plugin-image": "^1.0",
+    "gatsby-plugin-image": "^2.0",
     "react": ">=16",
     "styled-components": ">= 5.0"
   },
@@ -42,7 +42,7 @@
     "@types/react-test-renderer": "17.0.1",
     "@types/styled-components": "5.1.15",
     "babel-jest": "27.2.5",
-    "gatsby-plugin-image": "1.14.1",
+    "gatsby-plugin-image": "^2.0.0-zz-next.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-test-renderer": "17.0.2",
