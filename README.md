@@ -25,7 +25,7 @@ npm install --save @browniebroke/gatsby-image-gallery
 
 ## Compatibility
 
-Please check thw table below to choose the version of this library to use with your version of Gatsby:
+Please check the table below to choose the version of this library to use with your version of Gatsby:
 
 | Gatsby Image Gallery | Gatsby | Gatsby Plugin Image | Gatsby Image  |
 | -------------------- | ------ | ------------------- | ------------- |
