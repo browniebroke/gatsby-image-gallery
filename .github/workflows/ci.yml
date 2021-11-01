@@ -19,7 +19,6 @@ jobs:
       - run: npm i -g npm@latest
       - run: npm i
       - run: npm run lint
-      - run: npm run lint --workspace gatsby-image-gallery
 
   commitlint:
     runs-on: ubuntu-latest
