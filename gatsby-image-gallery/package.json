@@ -17,12 +17,12 @@
     "node": ">=14.15"
   },
   "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test --passWithNoTests",
-    "watch": "tsdx test --watchAll",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build",
+    "start": "dts watch",
+    "build": "dts build",
+    "test": "dts test --passWithNoTests",
+    "watch": "dts test --watchAll",
+    "lint": "dts lint",
+    "prepare": "dts build",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
@@ -42,12 +42,12 @@
     "@types/react-test-renderer": "17.0.1",
     "@types/styled-components": "5.1.15",
     "babel-jest": "27.3.1",
+    "dts-cli": "0.19.4",
     "gatsby-plugin-image": "2.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-test-renderer": "17.0.2",
     "size-limit": "6.0.4",
-    "tsdx": "0.14.1",
     "tslib": "2.3.1",
     "typescript": "4.4.4",
     "typescript-plugin-css-modules": "3.4.0"
