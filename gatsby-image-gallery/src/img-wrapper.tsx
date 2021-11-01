@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
-interface ImgWrapper {
+interface ImgWrapperProps {
   margin: string
 }
 
-const ImgWrapper = styled.div<ImgWrapper>`
+const ImgWrapper = styled.div<ImgWrapperProps>`
   margin: ${(props) => props.margin};
 `
 
