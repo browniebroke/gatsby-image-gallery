@@ -23,3 +23,6 @@ yarn-error.log*
 
 .cache
 public
+
+# Local Netlify folder
+.netlify

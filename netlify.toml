@@ -1,4 +1,4 @@
 [build]
   publish = "example/public"
-  command = "yarn workspace example build"
-  environment = { GATSBY_CPU_COUNT = "1" }
+  command = "npm run build --workspace example"
+  environment = { GATSBY_CPU_COUNT = "1", NPM_VERSION = "8" }

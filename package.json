@@ -1,5 +1,8 @@
 {
   "private": true,
+  "engines": {
+    "npm": ">=7"
+  },
   "workspaces": [
     "gatsby-image-gallery",
     "example"

@@ -14,11 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2.4.1
-
-      - run: yarn
-      - run: yarn lint
-      - run: yarn lint
-        working-directory: ./gatsby-image-gallery
+        with:
+          node-version: 16
+      - run: npm i -g npm@latest
+      - run: npm i
+      - run: npm run lint
 
   commitlint:
     runs-on: ubuntu-latest
@@ -45,11 +45,10 @@ jobs:
         with:
           node-version: ${{ matrix.node_version }}
 
-      - run: yarn
-      - run: yarn build
-        working-directory: ./gatsby-image-gallery
-      - run: yarn test --ci --coverage --maxWorkers=2
-        working-directory: ./gatsby-image-gallery
+      - run: npm i -g npm@latest
+      - run: npm i
+      - run: npm run build --workspace gatsby-image-gallery
+      - run: npm run test --ci --coverage --maxWorkers=2  --workspace gatsby-image-gallery
 
   publish:
     runs-on: ubuntu-latest
@@ -61,7 +60,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2.4.1
-      - run: yarn
+        with:
+          node-version: 16
+      - run: npm i -g npm@latest
+      - run: npm i
       - run: cp README.md gatsby-image-gallery/
       - name: Run Sematic release
         working-directory: ./gatsby-image-gallery
