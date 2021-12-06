@@ -15,8 +15,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          cache: "npm"
-          node-version-file: ".nvmrc"
+          cache: 'npm'
+          node-version-file: '.nvmrc'
       - run: npm i -g npm@latest
       - run: npm i
       - run: npm run lint
@@ -44,7 +44,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          cache: "npm"
+          cache: 'npm'
           node-version: ${{ matrix.node_version }}
 
       - run: npm i -g npm@latest
@@ -63,8 +63,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          cache: "npm"
-          node-version-file: ".nvmrc"
+          cache: 'npm'
+          node-version-file: '.nvmrc'
       - run: npm i -g npm@latest
       - run: npm i
       - run: cp README.md gatsby-image-gallery/
