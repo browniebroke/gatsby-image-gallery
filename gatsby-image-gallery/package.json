@@ -41,7 +41,7 @@
     "@types/react": "17.0.38",
     "@types/react-dom": "17.0.11",
     "@types/react-test-renderer": "17.0.1",
-    "@types/styled-components": "5.1.19",
+    "@types/styled-components": "5.1.20",
     "babel-jest": "27.4.6",
     "dts-cli": "1.1.5",
     "gatsby-plugin-image": "2.5.0",
