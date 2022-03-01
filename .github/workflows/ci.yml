@@ -52,12 +52,33 @@ jobs:
       - run: npm run build --workspace gatsby-image-gallery
       - run: npm run test --ci --coverage --maxWorkers=2  --workspace gatsby-image-gallery
 
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install dependencies
+        run: npm i
+      - name: Install Playwright
+        run: npx playwright install --with-deps
+      - name: Run your tests
+        run: npm test --workspace gatsby-image-gallery
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: playwright-results
+          path: test-results
+
   publish:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' }}
     needs:
       - lint
       - test
+      - e2e
 
     steps:
       - uses: actions/checkout@v3

@@ -5,7 +5,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "test": "npx playwright test"
   },
   "dependencies": {
     "babel-plugin-styled-components": "2.0.6",
@@ -24,6 +25,7 @@
     "styled-components": "5.3.3"
   },
   "devDependencies": {
+    "@playwright/test": "^1.19.2",
     "@types/react": "17.0.39",
     "@types/react-dom": "17.0.12",
     "@types/react-helmet": "6.1.5",
