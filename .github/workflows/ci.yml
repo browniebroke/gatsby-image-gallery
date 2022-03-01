@@ -64,13 +64,13 @@ jobs:
       - name: Install Playwright
         run: npx playwright install --with-deps
       - name: Run your tests
-        run: npm run e2e --workspace gatsby-image-gallery
-      - name: Upload test results
-        if: always()
-        uses: actions/upload-artifact@v2
-        with:
-          name: playwright-results
-          path: test-results
+        run: npm test --workspace example
+  #      - name: Upload test results
+  #        if: always()
+  #        uses: actions/upload-artifact@v2
+  #        with:
+  #          name: playwright-results
+  #          path: test-results
 
   publish:
     runs-on: ubuntu-latest
