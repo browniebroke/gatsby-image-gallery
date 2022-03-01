@@ -6,7 +6,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
-    "test": "npx playwright test"
+    "e2e": "npx playwright test"
   },
   "dependencies": {
     "babel-plugin-styled-components": "2.0.6",
