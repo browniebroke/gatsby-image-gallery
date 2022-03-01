@@ -63,14 +63,17 @@ jobs:
         run: npm i
       - name: Install Playwright
         run: npx playwright install --with-deps
+      - name: Build site
+        run: npm --workspace example run build
+      - name: Serve build
+        run: npm --workspace example run serve & wait-on http://localhost:9000
       - name: Run your tests
-        run: npm test --workspace example
-  #      - name: Upload test results
-  #        if: always()
-  #        uses: actions/upload-artifact@v2
-  #        with:
-  #          name: playwright-results
-  #          path: test-results
+        run: npm --workspace example test
+      - name: Upload test results
+        uses: actions/upload-artifact@v2
+        with:
+          name: playwright-results
+          path: test-results
 
   publish:
     runs-on: ubuntu-latest

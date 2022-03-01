@@ -48,7 +48,7 @@ const IndexPage: React.FC<PageProps> = ({ data }) => {
   return (
     <Layout>
       <SEO title="Example" />
-      <h1>Gatsby image gallery demo</h1>
+      <h2>Gatsby image gallery demo</h2>
       <p>A very simple page to demo the gallery component.</p>
       <Gallery
         images={images}
