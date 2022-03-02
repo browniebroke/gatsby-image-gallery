@@ -69,6 +69,7 @@ jobs:
           npm --workspace example run serve-wait
           npm --workspace example test
       - name: Upload test results
+        if: always()
         uses: actions/upload-artifact@v2
         with:
           name: playwright-results
