@@ -6,6 +6,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
+    "serve-wait": "gatsby serve & wait-on http://localhost:9000",
     "test": "npx playwright test"
   },
   "dependencies": {
