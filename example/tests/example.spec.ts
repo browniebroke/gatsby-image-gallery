@@ -46,6 +46,8 @@ test('Test main functionality', async ({ page }) => {
 
 test('Visual compare homepage', async ({ page }) => {
   await page.goto(BASE_URL)
+  // Wait for lazy loading to complete
+  await page.waitForTimeout(1000)
   expect(await page.screenshot()).toMatchSnapshot('homepage.png', {
     threshold: 0.5,
   })
