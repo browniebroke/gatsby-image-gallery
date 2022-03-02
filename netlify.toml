@@ -1,4 +1,7 @@
 [build]
   publish = "example/public"
   command = "npm run build --workspace example"
-  environment = { GATSBY_CPU_COUNT = "1", NPM_VERSION = "8" }
+  environment = { GATSBY_CPU_COUNT = "1", GATSBY_CONCURRENT_DOWNLOAD = "15" }
+
+[[plugins]]
+  package = "@netlify/plugin-gatsby"
