@@ -86,7 +86,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-      - run: npm i -g npm@latest
       - run: npm i
       - run: cp README.md gatsby-image-gallery/
       - name: Run Sematic release
