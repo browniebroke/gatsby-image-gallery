@@ -73,7 +73,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: playwright-results
-          path: test-results
+          path: example/test-results
 
   publish:
     runs-on: ubuntu-latest
