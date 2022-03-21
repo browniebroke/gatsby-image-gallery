@@ -27,7 +27,7 @@
     "styled-components": "5.3.3"
   },
   "devDependencies": {
-    "@playwright/test": "1.19.2",
+    "@playwright/test": "1.20.0",
     "@types/react": "17.0.40",
     "@types/react-dom": "17.0.13",
     "@types/react-helmet": "6.1.5",
