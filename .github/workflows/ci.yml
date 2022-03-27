@@ -52,6 +52,30 @@ jobs:
       - run: npm run build --workspace gatsby-image-gallery
       - run: npm run test --ci --coverage --maxWorkers=2  --workspace gatsby-image-gallery
 
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          cache: 'npm'
+          node-version-file: '.nvmrc'
+      - run: npm i
+      - run: npm run build --workspace example
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v1.2
+        with:
+          publish-dir: 'example/public'
+          production-deploy: ${{ github.event_name == 'push' && github.ref_name == 'main' }}
+          production-branch: main
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          netlify-config-path: ./netlify.toml
+          alias: deploy-preview-${{ github.event.number }}
+          enable-commit-comment: false
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: 7b425983-6d24-4fa4-b4a4-50a9df5d44c6
+
   e2e:
     runs-on: ubuntu-latest
     steps:
