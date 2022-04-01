@@ -1,0 +1,12 @@
+name: Upgrader
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 21 13 * *'
+
+jobs:
+  upgrade:
+    uses: browniebroke/github-actions/.github/workflows/npm-upgrade.yml@v1
+    secrets:
+      gh_pat: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
