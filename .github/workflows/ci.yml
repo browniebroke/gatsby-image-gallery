@@ -117,9 +117,8 @@ jobs:
           if [[ "$(npm --version | cut -f1-2 -d '.')" == "8.5" ]]
           then 
             npm i -g npm@8.6
-          else 
-            npm --version
           fi
+      - run: npm --version
       - run: npm i
       - run: cp README.md gatsby-image-gallery/
       - name: Run Sematic release
