@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "2.0.7",
-    "gatsby": "4.11.2",
+    "gatsby": "4.11.3",
     "gatsby-plugin-image": "2.11.1",
     "gatsby-plugin-manifest": "4.11.1",
     "gatsby-plugin-netlify": "4.2.0",
