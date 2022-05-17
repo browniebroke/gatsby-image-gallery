@@ -17,6 +17,9 @@ test('Test main functionality', async ({ page }) => {
 
   // Click picture img >> nth=0
   await page.locator('picture img').first().click()
+  // Wait for animation to complete
+  await page.waitForTimeout(1000)
+
   let caption = page.locator('.ril__captionContent')
   await expect(caption).toHaveText('Image 0')
 
