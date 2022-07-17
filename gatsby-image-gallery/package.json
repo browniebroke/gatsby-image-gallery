@@ -49,7 +49,7 @@
     "react-dom": "18.2.0",
     "react-test-renderer": "18.2.0",
     "size-limit": "7.0.8",
-    "ts-jest": "28.0.6",
+    "ts-jest": "28.0.7",
     "tslib": "2.4.0",
     "typescript": "4.7.4",
     "typescript-plugin-css-modules": "3.4.0"
