@@ -11,7 +11,7 @@ on:
         default: '0'
 
 jobs:
-  example:
+  hacktoberfest: 
     runs-on: ubuntu-latest
 
     steps:
