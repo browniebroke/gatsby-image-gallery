@@ -63,7 +63,7 @@ export const pageQuery = graphql`
   query ImagesForGallery {
     images: allFile(
       filter: { relativeDirectory: { eq: "gallery" } }
-      sort: { fields: name }
+      sort: { name: ASC }
     ) {
       edges {
         node {
