@@ -16,7 +16,7 @@
     "gatsby-plugin-manifest": "5.1.0",
     "gatsby-plugin-react-helmet": "6.1.0",
     "gatsby-plugin-sharp": "5.1.0",
-    "gatsby-plugin-styled-components": "6.1.0",
+    "gatsby-plugin-styled-components": "6.2.0",
     "gatsby-plugin-typescript": "5.1.0",
     "gatsby-source-filesystem": "5.1.0",
     "gatsby-transformer-sharp": "5.1.0",
