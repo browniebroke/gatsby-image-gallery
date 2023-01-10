@@ -1,2 +1,3 @@
 tasks:
-  - init: npm install
+  - init: nvm i
+    command: npm i
