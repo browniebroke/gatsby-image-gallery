@@ -12,8 +12,8 @@ interface ImageProp {
   full: IGatsbyImageData
   thumb: IGatsbyImageData
   thumbAlt?: string
-  title?: string
-  caption?: string
+  title?: React.ReactNode
+  caption?: React.ReactNode
 }
 
 interface GalleryProps {
