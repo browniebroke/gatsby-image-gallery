@@ -10,9 +10,6 @@
   <a href="https://github.com/browniebroke/gatsby-image-gallery/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="Released under the MIT license." />
   </a>
-  <a href="https://lgtm.com/projects/g/browniebroke/gatsby-image-gallery/alerts/">
-    <img src="https://img.shields.io/lgtm/alerts/github/browniebroke/gatsby-image-gallery?logo=lgtm&logoColor=white&style=flat-square" alt="Total alerts">
-  </a>
 </p>
 
 Very basic gallery grid based on `gatsby-plugin-image` and `react-image-lightbox`, styling powered by `styled-components`.
