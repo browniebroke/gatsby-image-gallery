@@ -10,7 +10,7 @@
     "test": "npx playwright test"
   },
   "dependencies": {
-    "babel-plugin-styled-components": "2.0.7",
+    "babel-plugin-styled-components": "2.1.1",
     "gatsby": "5.8.1",
     "gatsby-plugin-image": "3.8.0",
     "gatsby-plugin-manifest": "5.8.0",
