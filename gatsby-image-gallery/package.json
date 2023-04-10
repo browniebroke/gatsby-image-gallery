@@ -52,7 +52,7 @@
     "ts-jest": "29.1.0",
     "tslib": "2.5.0",
     "typescript": "5.0.4",
-    "typescript-plugin-css-modules": "5.0.0"
+    "typescript-plugin-css-modules": "5.0.1"
   },
   "size-limit": [
     {
