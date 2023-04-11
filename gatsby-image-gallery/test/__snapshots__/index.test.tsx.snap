@@ -15,16 +15,16 @@ exports[`Gallery component Unified image prop that it renders image prop when al
         alt="001"
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image001.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image001.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image001.jpg",
                   "srcSet": "/thumb/images/image001.jpg",
                   "type": "JPG",
@@ -47,16 +47,16 @@ exports[`Gallery component Unified image prop that it renders image prop when al
         alt="002"
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image002.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image002.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image002.jpg",
                   "srcSet": "/thumb/images/image002.jpg",
                   "type": "JPG",
@@ -79,16 +79,16 @@ exports[`Gallery component Unified image prop that it renders image prop when al
         alt="003"
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image003.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image003.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image003.jpg",
                   "srcSet": "/thumb/images/image003.jpg",
                   "type": "JPG",
@@ -111,16 +111,16 @@ exports[`Gallery component Unified image prop that it renders image prop when al
         alt="004"
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image004.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image004.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image004.jpg",
                   "srcSet": "/thumb/images/image004.jpg",
                   "type": "JPG",
@@ -143,16 +143,16 @@ exports[`Gallery component Unified image prop that it renders image prop when al
         alt="005"
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image005.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image005.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image005.jpg",
                   "srcSet": "/thumb/images/image005.jpg",
                   "type": "JPG",
@@ -184,16 +184,16 @@ exports[`Gallery component Unified image prop that it renders image prop when no
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image001.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image001.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image001.jpg",
                   "srcSet": "/thumb/images/image001.jpg",
                   "type": "JPG",
@@ -216,16 +216,16 @@ exports[`Gallery component Unified image prop that it renders image prop when no
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image002.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image002.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image002.jpg",
                   "srcSet": "/thumb/images/image002.jpg",
                   "type": "JPG",
@@ -248,16 +248,16 @@ exports[`Gallery component Unified image prop that it renders image prop when no
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image003.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image003.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image003.jpg",
                   "srcSet": "/thumb/images/image003.jpg",
                   "type": "JPG",
@@ -280,16 +280,16 @@ exports[`Gallery component Unified image prop that it renders image prop when no
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image004.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image004.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image004.jpg",
                   "srcSet": "/thumb/images/image004.jpg",
                   "type": "JPG",
@@ -312,16 +312,16 @@ exports[`Gallery component Unified image prop that it renders image prop when no
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image005.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image005.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image005.jpg",
                   "srcSet": "/thumb/images/image005.jpg",
                   "type": "JPG",
@@ -353,16 +353,16 @@ exports[`Gallery component Unified image prop that it renders image prop when on
         alt="001"
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image001.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image001.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image001.jpg",
                   "srcSet": "/thumb/images/image001.jpg",
                   "type": "JPG",
@@ -385,16 +385,16 @@ exports[`Gallery component Unified image prop that it renders image prop when on
         alt="002"
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image002.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image002.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image002.jpg",
                   "srcSet": "/thumb/images/image002.jpg",
                   "type": "JPG",
@@ -417,16 +417,16 @@ exports[`Gallery component Unified image prop that it renders image prop when on
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image003.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image003.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image003.jpg",
                   "srcSet": "/thumb/images/image003.jpg",
                   "type": "JPG",
@@ -449,16 +449,16 @@ exports[`Gallery component Unified image prop that it renders image prop when on
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image004.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image004.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image004.jpg",
                   "srcSet": "/thumb/images/image004.jpg",
                   "type": "JPG",
@@ -481,16 +481,16 @@ exports[`Gallery component Unified image prop that it renders image prop when on
         alt="005"
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image005.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image005.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image005.jpg",
                   "srcSet": "/thumb/images/image005.jpg",
                   "type": "JPG",
@@ -522,16 +522,16 @@ exports[`Gallery component custom wrapper render with custom wrapper 1`] = `
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image001.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image001.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image001.jpg",
                   "srcSet": "/thumb/images/image001.jpg",
                   "type": "JPG",
@@ -554,16 +554,16 @@ exports[`Gallery component custom wrapper render with custom wrapper 1`] = `
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image002.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image002.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image002.jpg",
                   "srcSet": "/thumb/images/image002.jpg",
                   "type": "JPG",
@@ -586,16 +586,16 @@ exports[`Gallery component custom wrapper render with custom wrapper 1`] = `
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image003.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image003.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image003.jpg",
                   "srcSet": "/thumb/images/image003.jpg",
                   "type": "JPG",
@@ -627,16 +627,16 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image001.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image001.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image001.jpg",
                   "srcSet": "/thumb/images/image001.jpg",
                   "type": "JPG",
@@ -659,16 +659,16 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image002.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image002.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image002.jpg",
                   "srcSet": "/thumb/images/image002.jpg",
                   "type": "JPG",
@@ -691,16 +691,16 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image003.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image003.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image003.jpg",
                   "srcSet": "/thumb/images/image003.jpg",
                   "type": "JPG",
@@ -732,16 +732,16 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image001.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image001.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image001.jpg",
                   "srcSet": "/thumb/images/image001.jpg",
                   "type": "JPG",
@@ -764,16 +764,16 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image002.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image002.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image002.jpg",
                   "srcSet": "/thumb/images/image002.jpg",
                   "type": "JPG",
@@ -796,16 +796,16 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image003.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image003.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image003.jpg",
                   "srcSet": "/thumb/images/image003.jpg",
                   "type": "JPG",
@@ -837,16 +837,16 @@ exports[`Gallery component rowMargin prop that the rowMargin prop is accepted 1`
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image001.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image001.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image001.jpg",
                   "srcSet": "/thumb/images/image001.jpg",
                   "type": "JPG",
@@ -869,16 +869,16 @@ exports[`Gallery component rowMargin prop that the rowMargin prop is accepted 1`
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image002.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image002.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image002.jpg",
                   "srcSet": "/thumb/images/image002.jpg",
                   "type": "JPG",
@@ -901,16 +901,16 @@ exports[`Gallery component rowMargin prop that the rowMargin prop is accepted 1`
         alt=""
         className=""
         image={
-          Object {
+          {
             "backgroundColor": "red",
             "height": 100,
-            "images": Object {
+            "images": {
               "alt": "/thumb/images/image003.jpg",
-              "fallback": Object {
+              "fallback": {
                 "src": "/thumb/images/image003.jpg",
               },
-              "sources": Array [
-                Object {
+              "sources": [
+                {
                   "media": "/thumb/images/image003.jpg",
                   "srcSet": "/thumb/images/image003.jpg",
                   "type": "JPG",
