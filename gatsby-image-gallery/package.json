@@ -14,7 +14,7 @@
     "src"
   ],
   "engines": {
-    "node": ">=14.15"
+    "node": ">=16.15"
   },
   "scripts": {
     "start": "dts watch",
