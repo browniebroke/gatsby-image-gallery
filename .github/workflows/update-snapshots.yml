@@ -1,0 +1,25 @@
+name: Update snapshots
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          cache: npm
+          node-version-file: .nvmrc
+
+      - run: npm i -g npm@latest
+      - run: npm i
+      - run: npm run test -u  --workspace gatsby-image-gallery
+
+      - name: Commit & push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "test: update snapshots"
+          git push
