@@ -20,6 +20,7 @@
     "start": "dts watch",
     "build": "dts build",
     "test": "dts test --passWithNoTests",
+    "test:update": "dts test -u --passWithNoTests",
     "watch": "dts test --watchAll",
     "lint": "dts lint",
     "prepare": "dts build",

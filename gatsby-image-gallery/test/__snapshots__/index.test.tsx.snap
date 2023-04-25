@@ -11,7 +11,7 @@ exports[`Gallery component Unified image prop that it renders image prop when al
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt="001"
         className=""
         image={
@@ -43,7 +43,7 @@ exports[`Gallery component Unified image prop that it renders image prop when al
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt="002"
         className=""
         image={
@@ -75,7 +75,7 @@ exports[`Gallery component Unified image prop that it renders image prop when al
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt="003"
         className=""
         image={
@@ -107,7 +107,7 @@ exports[`Gallery component Unified image prop that it renders image prop when al
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt="004"
         className=""
         image={
@@ -139,7 +139,7 @@ exports[`Gallery component Unified image prop that it renders image prop when al
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt="005"
         className=""
         image={
@@ -180,7 +180,7 @@ exports[`Gallery component Unified image prop that it renders image prop when no
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -212,7 +212,7 @@ exports[`Gallery component Unified image prop that it renders image prop when no
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -244,7 +244,7 @@ exports[`Gallery component Unified image prop that it renders image prop when no
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -276,7 +276,7 @@ exports[`Gallery component Unified image prop that it renders image prop when no
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -308,7 +308,7 @@ exports[`Gallery component Unified image prop that it renders image prop when no
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -349,7 +349,7 @@ exports[`Gallery component Unified image prop that it renders image prop when on
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt="001"
         className=""
         image={
@@ -381,7 +381,7 @@ exports[`Gallery component Unified image prop that it renders image prop when on
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt="002"
         className=""
         image={
@@ -413,7 +413,7 @@ exports[`Gallery component Unified image prop that it renders image prop when on
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -445,7 +445,7 @@ exports[`Gallery component Unified image prop that it renders image prop when on
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -477,7 +477,7 @@ exports[`Gallery component Unified image prop that it renders image prop when on
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt="005"
         className=""
         image={
@@ -518,7 +518,7 @@ exports[`Gallery component custom wrapper render with custom wrapper 1`] = `
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -550,7 +550,7 @@ exports[`Gallery component custom wrapper render with custom wrapper 1`] = `
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -582,7 +582,7 @@ exports[`Gallery component custom wrapper render with custom wrapper 1`] = `
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -623,7 +623,7 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -655,7 +655,7 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -687,7 +687,7 @@ exports[`Gallery component lightboxOptions props that the Lightbox options are a
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -728,7 +728,7 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -760,7 +760,7 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -792,7 +792,7 @@ exports[`Gallery component onClose prop onClose prop is accepted 1`] = `
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -833,7 +833,7 @@ exports[`Gallery component rowMargin prop that the rowMargin prop is accepted 1`
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -865,7 +865,7 @@ exports[`Gallery component rowMargin prop that the rowMargin prop is accepted 1`
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
@@ -897,7 +897,7 @@ exports[`Gallery component rowMargin prop that the rowMargin prop is accepted 1`
       mdColWidth={25}
       onClick={[Function]}
     >
-      <B
+      <U
         alt=""
         className=""
         image={
