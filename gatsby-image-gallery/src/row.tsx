@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-interface RowProps {
+export interface RowProps {
   margin: number
 }
 
