@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-interface ImgWrapperProps {
+export interface ImgWrapperProps {
   margin: string
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 import Col from './column'
 import ImgWrapper from './img-wrapper'
 
-interface ImageColWrapperProps {
+export interface ImageColWrapperProps {
   children?: React.ReactNode
   colWidth: number
   mdColWidth: number

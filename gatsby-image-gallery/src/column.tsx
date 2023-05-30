@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-interface ColProps {
+export interface ColProps {
   md: number
   width: number
 }

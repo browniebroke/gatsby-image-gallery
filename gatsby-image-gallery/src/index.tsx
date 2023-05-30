@@ -8,7 +8,7 @@ import ImageColWrapper from './image-col-wrapper'
 
 import * as LightboxCSS from 'react-image-lightbox/style.css'
 
-interface ImageProp {
+export interface ImageProp {
   full: IGatsbyImageData
   thumb: IGatsbyImageData
   thumbAlt?: string
@@ -16,7 +16,7 @@ interface ImageProp {
   caption?: React.ReactNode
 }
 
-interface GalleryProps {
+export interface GalleryProps {
   images: ImageProp[]
   colWidth?: number
   mdColWidth?: number
