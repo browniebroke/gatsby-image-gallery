@@ -27,8 +27,8 @@
   },
   "devDependencies": {
     "@playwright/test": "1.35.0",
-    "@types/react": "18.2.9",
-    "@types/react-dom": "18.2.4",
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5",
     "@types/react-helmet": "6.1.6",
     "@types/styled-components": "5.1.26",
     "typescript": "5.1.3",
