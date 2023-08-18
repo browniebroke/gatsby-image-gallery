@@ -63,7 +63,7 @@ jobs:
       - run: npm i
       - run: npm run build --workspace example
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v2.0
+        uses: nwtgck/actions-netlify@v2.1
         with:
           publish-dir: 'example/public'
           production-deploy: ${{ github.event_name == 'push' && github.ref_name == 'main' }}
