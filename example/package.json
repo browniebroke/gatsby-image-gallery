@@ -31,7 +31,7 @@
     "@types/react-dom": "18.2.7",
     "@types/react-helmet": "6.1.6",
     "@types/styled-components": "5.1.26",
-    "typescript": "5.1.6",
+    "typescript": "5.2.2",
     "wait-on": "7.0.1"
   }
 }
