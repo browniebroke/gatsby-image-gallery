@@ -28,7 +28,7 @@
     "analyze": "size-limit --why"
   },
   "peerDependencies": {
-    "gatsby-plugin-image": "^2.0 || ^3.0.0",
+    "gatsby-plugin-image": "^3.0.0",
     "react": ">=16",
     "styled-components": ">= 5.0"
   },
