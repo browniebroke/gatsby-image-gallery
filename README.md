@@ -29,6 +29,7 @@ Please check the table below to choose the version of this library to use depend
 | v5                   | v2     | Not supported       | v3            |
 | v6                   | v3     | v1                  | Not supported |
 | v7                   | v4-v5  | v2-v3               | Not supported |
+| v8                   | v5     | v3                  | Not supported |
 
 Only the latest major version of Gatsby Image Gallery is supported.
 
