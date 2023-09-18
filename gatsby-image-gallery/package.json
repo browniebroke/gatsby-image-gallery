@@ -39,9 +39,9 @@
   "devDependencies": {
     "@size-limit/preset-small-lib": "9.0.0",
     "@types/jest": "29.5.5",
-    "@types/react": "18.2.21",
+    "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
-    "@types/react-test-renderer": "18.0.1",
+    "@types/react-test-renderer": "18.0.2",
     "@types/styled-components": "5.1.27",
     "babel-jest": "29.7.0",
     "dts-cli": "2.0.3",
