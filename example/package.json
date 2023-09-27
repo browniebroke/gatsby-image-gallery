@@ -28,8 +28,8 @@
   "devDependencies": {
     "@playwright/test": "1.38.1",
     "@types/react": "18.2.23",
-    "@types/react-dom": "18.2.7",
-    "@types/react-helmet": "6.1.6",
+    "@types/react-dom": "18.2.8",
+    "@types/react-helmet": "6.1.7",
     "@types/styled-components": "5.1.28",
     "typescript": "5.2.2",
     "wait-on": "7.0.1"
