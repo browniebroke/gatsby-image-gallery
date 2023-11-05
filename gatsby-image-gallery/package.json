@@ -39,7 +39,7 @@
   "devDependencies": {
     "@size-limit/preset-small-lib": "10.0.2",
     "@types/jest": "29.5.7",
-    "@types/react": "18.2.34",
+    "@types/react": "18.2.35",
     "@types/react-dom": "18.2.14",
     "@types/react-test-renderer": "18.0.5",
     "@types/styled-components": "5.1.29",
