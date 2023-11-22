@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "2.1.4",
-    "gatsby": "5.12.10",
+    "gatsby": "5.12.11",
     "gatsby-plugin-image": "3.12.3",
     "gatsby-plugin-manifest": "5.12.3",
     "gatsby-plugin-react-helmet": "6.12.0",
