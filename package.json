@@ -8,7 +8,7 @@
     "example"
   ],
   "devDependencies": {
-    "prettier": "3.2.1"
+    "prettier": "3.2.2"
   },
   "scripts": {
     "format": "prettier --write .",
