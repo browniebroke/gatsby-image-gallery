@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "2.1.4",
-    "gatsby": "5.13.3",
+    "gatsby": "5.13.4",
     "gatsby-plugin-image": "3.13.1",
     "gatsby-plugin-manifest": "5.13.1",
     "gatsby-plugin-react-helmet": "6.13.1",
@@ -31,7 +31,7 @@
     "@types/react-dom": "18.2.24",
     "@types/react-helmet": "6.1.11",
     "@types/styled-components": "5.1.34",
-    "typescript": "5.4.4",
+    "typescript": "5.4.5",
     "wait-on": "7.2.0"
   }
 }
