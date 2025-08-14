@@ -1,4 +1,4 @@
-> [!WARNING] 
+> [!WARNING]
 > This package is not maintained any more and will be archived. The main upstream dependency [react-image-lightbox](https://github.com/frontend-collective/react-image-lightbox) is no longer maintained and the development of Gatsby has considerably slowed down.
 > [react-photoswipe-gallery](https://www.npmjs.com/package/react-photoswipe-gallery) is a better-maintained and more feature-rich alternative that works with any Ract-based framework (not just Gatsby)
 
