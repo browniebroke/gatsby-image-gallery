@@ -95,7 +95,7 @@ jobs:
           npm --workspace example test
       - name: Upload test results
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: playwright-results
           path: example/test-results
