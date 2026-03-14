@@ -37,8 +37,9 @@ jobs:
       fail-fast: false
       matrix:
         node_version:
-          - 18
           - 20
+          - 22
+          - 24
 
     steps:
       - uses: actions/checkout@v6
@@ -115,7 +116,7 @@ jobs:
           node-version-file: '.nvmrc'
       - run: |
           if [[ "$(npm --version | cut -f1-2 -d '.')" == "8.5" ]]
-          then 
+          then
             npm i -g npm@8.6
           fi
       - run: npm --version
