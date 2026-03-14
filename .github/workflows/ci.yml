@@ -18,7 +18,7 @@ jobs:
           cache: 'npm'
           node-version-file: '.nvmrc'
       - run: npm --version
-      - run: npm i
+      - run: npm ci
       - run: npm run lint
 
   commitlint:
@@ -49,7 +49,7 @@ jobs:
           node-version: ${{ matrix.node_version }}
 
       - run: npm --version
-      - run: npm i
+      - run: npm ci
       - run: npm run build --workspace gatsby-image-gallery
       - run: npm run test --ci --coverage --maxWorkers=2  --workspace gatsby-image-gallery
 
@@ -61,7 +61,7 @@ jobs:
         with:
           cache: 'npm'
           node-version-file: '.nvmrc'
-      - run: npm i
+      - run: npm ci
       - run: npm run build --workspace example
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v3.0
@@ -86,7 +86,7 @@ jobs:
         with:
           node-version: 24
       - name: Install dependencies
-        run: npm i
+        run: npm ci
       - name: Install Playwright
         run: npx playwright install --with-deps
       - name: Build site, serve & run test
@@ -114,13 +114,8 @@ jobs:
         with:
           cache: 'npm'
           node-version-file: '.nvmrc'
-      - run: |
-          if [[ "$(npm --version | cut -f1-2 -d '.')" == "8.5" ]]
-          then
-            npm i -g npm@8.6
-          fi
       - run: npm --version
-      - run: npm i
+      - run: npm ci
       - run: cp README.md gatsby-image-gallery/
       - name: Run Sematic release
         working-directory: ./gatsby-image-gallery
